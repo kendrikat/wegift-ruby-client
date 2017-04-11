@@ -20,13 +20,13 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.1'
 
-  spec.add_dependency 'faraday', '>= 0.9.2'
-  spec.add_dependency 'json'
+  spec.add_dependency 'faraday', '~> 0.9', '>= 0.9.2'
+  spec.add_dependency 'json', '~> 1.7', '>= 1.7.7'
 
   spec.add_development_dependency 'bundler', '~> 1.14'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
-  spec.add_development_dependency 'vcr'
-  spec.add_development_dependency 'webmock'
-  spec.add_development_dependency 'dotenv'
+  spec.add_development_dependency 'vcr', '~> 3.0', '>= 3.0.3'
+  spec.add_development_dependency 'webmock', '~> 2.3', '>= 2.3.2'
+  spec.add_development_dependency 'dotenv', '~> 2.2', '>= 2.2.0'
 end

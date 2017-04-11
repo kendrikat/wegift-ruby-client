@@ -20,3 +20,6 @@
 
 # vars for testing
 .env
+
+# gems
+wegift-ruby-client-*.gem
