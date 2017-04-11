@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'wegift/ruby/client/version'
+require 'wegift/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'wegift-ruby-client'
-  spec.version       = Wegift::Ruby::Client::VERSION
+  spec.version       = Wegift::VERSION
   spec.authors       = ['Klaas Endrikat']
   spec.email         = ['klaas.endrikat@googlemail.com']
 
@@ -28,4 +28,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'vcr'
   spec.add_development_dependency 'webmock'
+  spec.add_development_dependency 'dotenv'
 end

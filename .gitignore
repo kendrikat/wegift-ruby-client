@@ -13,3 +13,10 @@
 
 # idea/rubymine
 *.iml
+
+# rvm
+.ruby-gemset
+.ruby-version
+
+# vars for testing
+.env

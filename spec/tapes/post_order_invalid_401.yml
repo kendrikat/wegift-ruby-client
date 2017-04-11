@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://sandbox.wegift.io/api/b2b-sync/v1/order-digital-card
+    body:
+      encoding: UTF-8
+      string: '{"product_code":"tTV","delivery":"direct","amount":"0","currency_code":"GBP","external_ref":null}'
+    headers:
+      User-Agent:
+      - Faraday v0.12.0.1
+      Authorization:
+      - Basic REDACTED==
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 11 Apr 2017 11:35:57 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '139'
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: "{\n  \"error_code\": \"SE003\", \n  \"error_details\": \"Invalid amount
+        \\\"0\\\" - amount must be positive\", \n  \"error_string\": \"Field has invalid
+        value\", \n  \"status\": \"ERROR\"\n}\n"
+    http_version: 
+  recorded_at: Tue, 11 Apr 2017 11:35:56 GMT
+recorded_with: VCR 3.0.3
