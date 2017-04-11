@@ -1,4 +1,5 @@
 require 'bundler/setup'
+require 'dotenv/load'
 require 'wegift/client'
 require 'webmock/rspec'
 require 'vcr'

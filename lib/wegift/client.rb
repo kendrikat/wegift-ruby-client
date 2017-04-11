@@ -1,5 +1,4 @@
 # encoding: utf-8
-require 'dotenv/load'
 require 'faraday'
 
 module Wegift
