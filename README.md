@@ -27,9 +27,10 @@ Simple example for ordering a Digital Card
 # a simple client 
 client = Wegift::Client.new(
       :api_host => 'http://sandbox.wegift.io',
-      :api_path => '/api/b2b-sync/v1/auth'
+      :api_path => '/api/b2b-sync/v1/auth',
       :api_key => ENV['AUTH_NAME'],
-      :api_secret => ENV['AUTH_PASS']
+      :api_secret => ENV['AUTH_PASS'],
+      :proxy => ENV['PROXY']
 )
 
 # and a simple request

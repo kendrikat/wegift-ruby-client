@@ -14,8 +14,13 @@ module Wegift
       @api_key = options[:api_key].to_s
       @api_secret = options[:api_secret]
 
-      @connection = Faraday.new(:url => @api_host)
-      @connection.basic_auth(@api_key, @api_secret)
+      @connection = Faraday.new(:url => @api_host) do |c|
+        c.basic_auth(@api_key, @api_secret)
+        c.adapter Faraday.default_adapter
+        c.options[:proxy] = {
+            :uri => URI(options[:proxy])
+        } unless options[:proxy].blank?
+      end
     end
 
     # KISS since we have only one call!
