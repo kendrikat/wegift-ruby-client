@@ -1,6 +1,6 @@
 # WeGift Ruby Client
 
-A simple client for [WeGift.io][wegift] B2B Synchronous API (Document Version 1.2). 
+A simple client for [WeGift.io][wegift] B2B Synchronous API (Document Version 1.4). 
 
 ## Installation
 
@@ -27,25 +27,25 @@ Simple example for ordering a Digital Card
 # a simple client 
 client = Wegift::Client.new(
       :api_host => 'http://sandbox.wegift.io',
-      :api_path => '/api/b2b-sync/v1/auth',
+      :api_path => '/api/b2b-sync/v1',
       :api_key => ENV['AUTH_NAME'],
       :api_secret => ENV['AUTH_PASS'],
       :proxy => ENV['PROXY']
 )
 
-# and a simple request
-order = Wegift::Order.new(
-        :product_code => 'tTV',
+# with all available products
+products = client.products
+
+# post a simple order
+order = client.order(
+        :product_code => products.first.code,
         :delivery => 'direct',
         :amount => '42.00',
         :currency_code => 'USD',
         :external_ref => '123'
 )
 
-# executes the POST (TODO: shared/singleton client?)
-order.post(client) 
-
-# and returns
+# which returns
 if order.is_successful?
 
   # some nice data
@@ -55,8 +55,6 @@ if order.is_successful?
   
 end
 ```
-
-_See official docs for Product Codes (http://sandbox.wegift.io/product-codes)_
 
 ## Development
 
@@ -73,13 +71,14 @@ rspec
 
 It will load all tapes found in `spec/tapes`, we are using [VCR][vcr].
 
-Optional - If you want/need to remaster all the recordings, you will need a sandbox account. 
+To remaster all recordings, you will need a sandbox account. 
 Add an `.env` file to your root:
 
 ```bash
 # .env
 AUTH_NAME='sandbox_username'
 AUTH_PASS='sandbox_password'
+PROXY='proxy_uri'
 ```
 
 Start the VCR with `rspec` - this should add all Tapes to `spec/tapes`.

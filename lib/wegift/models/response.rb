@@ -1,4 +1,7 @@
+require_relative 'initializable'
+
 class Wegift::Response
+  include Initializable
 
   STATUS = {:success => 'SUCCESS', :error => 'ERROR'}
 

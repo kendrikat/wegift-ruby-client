@@ -1,0 +1,1066 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api-sandbox.wegift.io/api/b2b-sync/v1/products
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic REDACTED==
+      User-Agent:
+      - Faraday v0.12.0.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 17 Oct 2017 11:17:37 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '19726'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - must-revalidate, no-store, no-cache, private
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: "{\n  \"products\": [\n    {\n      \"availability\": \"realtime\",
+        \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/ABO/ABO-card.png\",
+        \n      \"code\": \"ABO-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Amongst the hustle and bustle of city
+        life, All Bar One offers the perfect location to meet up with friends, and
+        unwind from work.\\u00a0 Whether you want to catch up over cocktails, share
+        a bottle of our lovingly chosen wine, or enjoy an excellent meal out, you\\u2019ll
+        find something to suit you in All Bar One.\", \n      \"expiry_date_policy\":
+        \"12 Months\", \n      \"maximum_value\": \"250.00\", \n      \"minimum_value\":
+        \"5.00\", \n      \"name\": \"All Bar One\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/ABO-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/AMZ-GB/AMZ-GB-card.png\",
+        \n      \"code\": \"AMZ-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Amazon.com, Inc. provides online retail
+        shopping services. It provides services to four primary customer sets: consumers,
+        sellers, enterprises, and content creators. The company also provides other
+        marketing and promotional services, such as online advertising and co-branded
+        credit card agreements. It serves consumers through its retail websites with
+        a focus on selection, price, and convenience. It designs its websites to enable
+        its products to be sold by the company and by third parties across dozens
+        of product categories. The company also serves developers and enterprises
+        of all sizes through Amazon Web Services, which provides access to technology
+        infrastructure that enables virtually any type of business. The company operates
+        through three segments: North America, International, and Amazon Web Services.
+        The North America segment includes retail sales of consumer products and subscriptions
+        through North America-focused websites such as www.amazon.com and www.amazon.ca.
+        The International segment includes retail sales of consumer products and subscriptions
+        through internationally-focused websites. The Amazon Web Services segment
+        includes global sales of compute, storage, database, and other AWS service
+        offerings for start-ups, enterprises, government agencies, and academic institutions.\",
+        \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\": \"5000.00\",
+        \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Amazon.co.uk\", \n
+        \     \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/AMZ-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/AMZ/AMZ-card.png\",
+        \n      \"code\": \"AMZ-DE\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Amazon.com, Inc. bietet Online-Shopping-Dienstleistungen.
+        Es bietet Dienstleistungen f\\u00fcr vier prim\\u00e4re Kundenmengen: Verbraucher,
+        Verk\\u00e4ufer, Unternehmen und Content-Ersteller. Das Unternehmen bietet
+        auch andere Marketing-und Promotion-Dienstleistungen, wie Online-Werbung und
+        Co-Branded-Kreditkarten-Vereinbarungen. Es dient Verbrauchern durch seine
+        Einzelhandelswebsites mit einem Fokus auf Auswahl, Preis und Bequemlichkeit.
+        Es entwirft seine Webseiten, um seine Produkte von der Firma und von Dritten
+        \\u00fcber Dutzende von Produktkategorien zu verkaufen. Das Unternehmen bedient
+        auch Entwickler und Unternehmen aller Gr\\u00f6\\u00dfen \\u00fcber Amazon
+        Web Services, die Zugang zu Technologie-Infrastruktur bietet, die praktisch
+        jede Art von Gesch\\u00e4ft erm\\u00f6glicht. Das Unternehmen betreibt drei
+        Segmente: Nordamerika, International und Amazon Web Services. Das Segment
+        Nordamerika umfasst Einzelhandelsums\\u00e4tze von Konsumg\\u00fctern und
+        Abonnements \\u00fcber Nordamerika-fokussierte Webseiten wie www.amazon.com
+        und www.amazon.ca. Das Segment International umfasst Einzelhandelsums\\u00e4tze
+        von Konsumg\\u00fctern und Abonnements \\u00fcber international ausgerichtete
+        Webseiten. Das Segment \\\"Amazon Web Services\\\" umfasst den weltweiten
+        Vertrieb von Compute-, Storage-, Datenbank- und anderen AWS-Serviceangeboten
+        f\\u00fcr Start-ups, Unternehmen, Beh\\u00f6rden und akademische Institutionen.\",
+        \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\": \"5000.00\",
+        \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Amazon.de\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/AMZ-DE.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/AMZ/AMZ-card.png\",
+        \n      \"code\": \"AMZ-ES\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Amazon.com, Inc. ofrece servicios de
+        compras al por menor en l\\u00ednea. Ofrece servicios a cuatro grupos de clientes
+        principales: consumidores, vendedores, empresas y creadores de contenido.
+        La compa\\u00f1\\u00eda tambi\\u00e9n ofrece otros servicios de marketing
+        y promoci\\u00f3n, tales como publicidad en l\\u00ednea y acuerdos de tarjeta
+        de cr\\u00e9dito con marca compartida. Sirve a los consumidores a trav\\u00e9s
+        de sus sitios web minoristas con un enfoque en la selecci\\u00f3n, precio
+        y conveniencia. Dise\\u00f1a sus sitios web para permitir que sus productos
+        sean vendidos por la compa\\u00f1\\u00eda y por terceros a trav\\u00e9s de
+        decenas de categor\\u00edas de productos. La compa\\u00f1\\u00eda tambi\\u00e9n
+        presta servicios a desarrolladores y empresas de todos los tama\\u00f1os a
+        trav\\u00e9s de Amazon Web Services, que proporciona acceso a infraestructura
+        tecnol\\u00f3gica que permite virtualmente cualquier tipo de negocio. La compa\\u00f1\\u00eda
+        opera a trav\\u00e9s de tres segmentos: Am\\u00e9rica del Norte, Internacional
+        y Amazon Web Services. El segmento de Norteam\\u00e9rica incluye ventas minoristas
+        de productos de consumo y suscripciones a trav\\u00e9s de sitios web orientados
+        a Norteam\\u00e9rica tales como www.amazon.com y www.amazon.ca. El segmento
+        internacional incluye ventas al por menor de productos de consumo y suscripciones
+        a trav\\u00e9s de sitios web de inter\\u00e9s internacional. El segmento de
+        Servicios Web de Amazon incluye ventas globales de computaci\\u00f3n, almacenamiento,
+        bases de datos y otras ofertas de servicios AWS para empresas emergentes,
+        empresas, agencias gubernamentales e instituciones acad\\u00e9micas.\", \n
+        \     \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\": \"5000.00\",
+        \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Amazon.es\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/AMZ-ES.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/AMZ/AMZ-card.png\",
+        \n      \"code\": \"AMZ-FR\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Amazon.com, Inc. fournit des services
+        de vente au d\\u00e9tail en ligne. Il fournit des services \\u00e0 quatre
+        ensembles principaux de clients: consommateurs, vendeurs, entreprises et cr\\u00e9ateurs
+        de contenu. La soci\\u00e9t\\u00e9 fournit \\u00e9galement d'autres services
+        de marketing et de promotion tels que la publicit\\u00e9 en ligne et les contrats
+        de carte de cr\\u00e9dit co-brand\\u00e9s. Il sert les consommateurs \\u00e0
+        travers ses sites de vente au d\\u00e9tail en mettant l'accent sur la s\\u00e9lection,
+        le prix et la commodit\\u00e9. Il con\\u00e7oit ses sites Web pour permettre
+        \\u00e0 ses produits d'\\u00eatre vendus par la soci\\u00e9t\\u00e9 et par
+        des tiers dans des dizaines de cat\\u00e9gories de produits. L'entreprise
+        dessert \\u00e9galement des d\\u00e9veloppeurs et des entreprises de toutes
+        tailles via Amazon Web Services, qui permet d'acc\\u00e9der \\u00e0 une infrastructure
+        technologique qui permet \\u00e0 pratiquement n'importe quel type d'entreprise.
+        La soci\\u00e9t\\u00e9 op\\u00e8re dans trois segments: Am\\u00e9rique du
+        Nord, International et Amazon Web Services. Le segment Am\\u00e9rique du Nord
+        comprend les ventes au d\\u00e9tail de produits de consommation et les abonnements
+        par le biais de sites Web ax\\u00e9s sur l'Am\\u00e9rique du Nord tels que
+        www.amazon.com et www.amazon.ca. Le segment international comprend les ventes
+        au d\\u00e9tail de produits de consommation et les abonnements \\u00e0 travers
+        des sites Internet ax\\u00e9s sur le monde. Le segment des services Web Amazon
+        comprend des ventes globales de services de calcul, de stockage, de base de
+        donn\\u00e9es et d'autres services de AWS pour les entreprises en d\\u00e9marrage,
+        les entreprises, les organismes gouvernementaux et les \\u00e9tablissements
+        universitaires.\", \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\":
+        \"5000.00\", \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Amazon.fr\",
+        \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/AMZ-FR.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/AMZ/AMZ-card.png\",
+        \n      \"code\": \"AMZ-IT\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Amazon.com, Inc. fornisce servizi di
+        vendita al dettaglio online. Fornisce servizi a quattro gruppi di clienti
+        primari: consumatori, venditori, imprese e creatori di contenuti. L'azienda
+        fornisce anche altri servizi di marketing e promozioni, come ad esempio la
+        pubblicit\\u00e0 online e gli accordi con carta di credito con marchi di fabbrica.
+        Serve i consumatori attraverso i propri siti web di vendita al dettaglio,
+        con particolare attenzione alla selezione, al prezzo e alla convenienza. Disegna
+        i propri siti web per consentire ai suoi prodotti di essere venduti dalla
+        societ\\u00e0 e da terzi in decine di categorie di prodotti. L'azienda offre
+        anche sviluppatori e imprese di tutte le dimensioni attraverso Amazon Web
+        Services, che fornisce l'accesso a infrastrutture tecnologiche che consentono
+        praticamente qualsiasi tipo di attivit\\u00e0. La societ\\u00e0 opera attraverso
+        tre segmenti: Nord America, International e Amazon Web Services. Il segmento
+        dell'America settentrionale comprende vendite al dettaglio di prodotti di
+        consumo e sottoscrizioni attraverso siti web concentrati in Nord America,
+        come www.amazon.com e www.amazon.ca. Il segmento internazionale comprende
+        vendite al dettaglio di prodotti di consumo e abbonamenti tramite siti web
+        orientati a livello internazionale. Il segmento Amazon Services Web include
+        vendite globali di calcolo, archiviazione, database e altre offerte di servizi
+        AWS per start-up, imprese, agenzie governative e istituzioni accademiche.\",
+        \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\": \"5000.00\",
+        \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Amazon.it\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/AMZ-IT.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/AMZ/AMZ-card.png\",
+        \n      \"code\": \"AMZ-NL\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Amazon.com, Inc. biedt online retail-diensten
+        aan. Het biedt diensten aan vier primaire klantensets: consumenten, verkopers,
+        bedrijven en content creators. Het bedrijf biedt ook andere marketing- en
+        promotionele diensten, zoals online reclame en co-branded credit card overeenkomsten.
+        Het serveert de consument via haar retail websites met een focus op selectie,
+        prijs en gemak. Het ontwerpt zijn websites om haar producten te laten verkopen
+        door het bedrijf en door derden over tientallen productcategorie\\u00ebn.
+        Het bedrijf serveert ook ontwikkelaars en bedrijven van alle maten via Amazon
+        Web Services, die toegang biedt tot technologie-infrastructuur die vrijwel
+        elk type bedrijf mogelijk maakt. Het bedrijf is actief in drie segmenten:
+        Noord-Amerika, Internationaal en Amazon Web Services. Het segment Noord-Amerika
+        omvat de verkoop van consumentenproducten en abonnementen via websites in
+        Noord-Amerika, zoals www.amazon.com en www.amazon.ca. Het internationale segment
+        omvat de verkoop van consumentenproducten en abonnementen via internationaal
+        gerichte websites. Het Amazon Web Services-segment omvat wereldwijde verkoop
+        van reken-, opslag-, database- en andere AWS-serviceaanbiedingen voor startende
+        ondernemingen, bedrijven, overheidsinstellingen en academische instellingen.\",
+        \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\": \"5000.00\",
+        \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Amazon.nl\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/AMZ-NL.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/AGOS/AGOS-card.png\",
+        \n      \"code\": \"AGOS-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"50,000 products, 1 eGift Card\\n\\nThe
+        new Argos eGift Card is the perfect way to get your hands on shiny new stuff.
+        Fast.\\n\\nDelivered to you by email, you can spend your eGift Card online
+        at argos.co.uk. Letting you shop from your sofa. Or the\\npub. Or anywhere
+        you like really. We don't mind. Or you can use it in any of our 840 stores.
+        Perfect if you fancy a bit of\\nfresh air and a stroll. Either way, just enjoy
+        spending it.\\n\\nWith over 50,000 products to choose from at Argos, you've
+        got some decisions to make. We have all the latest must have\\nitems. From
+        tech to toys, furniture to jewellery, there\\u2018s bound to be a great gift
+        for you.\\n\\nWant it today? With Argos Fast Track Delivery available on many
+        items, Argos can deliver to your door the same day! Just\\ncheck for the Fast
+        Track badge on your selected product at argos.co.uk.\\n\\nSelect Argos eGift
+        Card. Go Argos.\", \n      \"expiry_date_policy\": \"12 Months\", \n      \"maximum_value\":
+        \"100.00\", \n      \"minimum_value\": \"5.00\", \n      \"name\": \"Argos\",
+        \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/AGOS-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/BLKW/BLKW-card.png\",
+        \n      \"code\": \"BLKW-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Online bookshop with over 9 million titles
+        available. Popular with schools, students, professionals and book-lovers alike.
+        Fast dispatch, carefully packaged, worldwide delivery.\", \n      \"expiry_date_policy\":
+        \"24 Months\", \n      \"maximum_value\": \"1000.00\", \n      \"minimum_value\":
+        \"10.00\", \n      \"name\": \"Blackwells\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/BLKW-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/BAW/BAW-card.png\",
+        \n      \"code\": \"BAW-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Fresh flowers, with free delivery throughout
+        the UK, either through the letterbox or as traditional hand-tied bouquets.\",
+        \n      \"expiry_date_policy\": \"12 months\", \n      \"maximum_value\":
+        \"5000.00\", \n      \"minimum_value\": \"1.00\", \n      \"name\": \"Bloom
+        & Wild\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/BAW-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/BOL/BOL-card.png\",
+        \n      \"code\": \"BOL-NL\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Bol.com is de toonaangevende webshop
+        in Nederland voor boeken, speelgoed en elektronica. Bol.com is een plaats
+        waar verkopers hun artikelen kunnen aanbieden, waar filialen de juiste tools
+        krijgen om meer te verkopen via hun website en een handelskanaal waar adverteerders
+        succesvolle en relevante mediaruimte kunnen kopen.\", \n      \"expiry_date_policy\":
+        \"2 Years\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Bol.com\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/BOL-NL.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/BRNS/BRNS-card.png\",
+        \n      \"code\": \"BRNS-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Since opening our first Browns in 1973,
+        we\\u2019ve been providing delicious food and refreshing drinks, in beautiful
+        surroundings with superb service.\\u00a0 Our menus are carefully created using
+        exceptional ingredients and our chefs are chosen for their talent, passion
+        and flair. We believe that every occasion should be exceptional, whether you\\u2019re
+        joining us for a coffee, brunch with friends, dinner with the family or a
+        big celebration.\\u00a0 Join us for a bit of fizz and a lot of sparkle \\u2013
+        you could try one of our famous cocktails, all shaken and stirred with equal
+        measures of skill and enthusiasm.\", \n      \"expiry_date_policy\": \"12
+        Months\", \n      \"maximum_value\": \"250.00\", \n      \"minimum_value\":
+        \"5.00\", \n      \"name\": \"Browns\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/BRNS-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/NERO/NERO-card.png\",
+        \n      \"code\": \"NERO-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Use your Caff\\u00e8 Nero eGift Card
+        across the UK to buy their award winning traditional Italian coffees, handmade
+        drinks or selection of\\u00a0sandwiches and cakes.\", \n      \"expiry_date_policy\":
+        \"18 Months\", \n      \"maximum_value\": \"100.00\", \n      \"minimum_value\":
+        \"5.00\", \n      \"name\": \"Caff\\u00e8 Nero\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/NERO-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/CHAMP/CHAMP-card.png\",
+        \n      \"code\": \"CHAMP-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Indulge in the gift of Champneys.\\nStarting
+        out \\u2013 some 91 years ago \\u2013  we now stand as the go-to spa with
+        four health spa resorts, one hotel and spa and six city spas located throughout
+        Great Britain. As the UK\\u2019s original health resort, few can lay claim
+        to the traditions inherent in our very being. Robed and relaxed, we create
+        moments of calm; it\\u2019s what we do best. So why not treat yourself to
+        something special from our carefully selected spa experiences or product range.
+        Find out more at Champneys.com\", \n      \"expiry_date_policy\": \"12 months
+        for date of issue\", \n      \"maximum_value\": \"1000.00\", \n      \"minimum_value\":
+        \"25.00\", \n      \"name\": \"Champneys\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/CHAMP-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/CINE/CINE-card.png\",
+        \n      \"code\": \"CINE-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Cineworld is the UK\\u2019s number 1
+        cinema chain. With our cinemas across the UK showing a wide range of films
+        \\u2013 from big budget blockbusters to the best British indies \\u2013 there\\u2019s
+        always something to thrill, chill or delight film fans of all ages at Cineworld.\",
+        \n      \"expiry_date_policy\": \"12 months from last card activity\", \n
+        \     \"maximum_value\": \"20.00\", \n      \"minimum_value\": \"10.00\",
+        \n      \"name\": \"Cineworld\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/CINE-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/CCVY/CCVY-card.png\",
+        \n      \"code\": \"CCVY-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"At Crown Carveries we do our traditional
+        roast dinner proud, with a great choice of tender, slow-cooked joints every
+        day of the week. We also serve up cracking pub-food classics with unlimited
+        veg and sides, so whatever you fancy, you won't go hungry.\", \n      \"expiry_date_policy\":
+        \"12 Months\", \n      \"maximum_value\": \"250.00\", \n      \"minimum_value\":
+        \"5.00\", \n      \"name\": \"Crown Carveries\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/CCVY-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/DIX/DIX-card.png\",
+        \n      \"code\": \"DIX-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"<p>To stay on the ball with modern technology,
+        Currys PC World is all you need! With appliances big and small, for the home
+        and to take with you on your daily adventures, treat someone to a Currys gift
+        card and you\\u2019ll be putting them in touch with the new age!</p>\\n\\n<p>Always
+        wowing the public with its grand array of laptops and desktops, now you can
+        go further with your hobby or work when you tune in to innovative notebook
+        designs, tablets and more. With a PC World gift card, your family member or
+        friend could make a real investment. For the home - shop sturdy kitchen goods
+        like fridge freezers, or small appliances such as toasters, kettles and more
+        too - Currys PC World really has a fully stacked catalogue. Proudly presenting
+        the best in entertainment products as well - find outstanding TV sets, gaming
+        goods, audio equipment and more - everyone can find their joy at Currys PC
+        World.</p>\", \n      \"expiry_date_policy\": \"24 months from last use\",
+        \n      \"maximum_value\": \"2500.00\", \n      \"minimum_value\": \"1.00\",
+        \n      \"name\": \"Currys PC World\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/DIX-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/DEB/DEB-card.png\",
+        \n      \"code\": \"DEB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"<p>\\n\\t\\t\\tDebenhams is a leading
+        international, multi-channel brand with a proud British heritage\\n\\t\\t\\twhich
+        trades out of over 240 stores across 27 countries. Debenhams gives its customers\\n\\t\\t\\taround
+        the world a unique, differentiated and exclusive mix of own brands,\\n\\t\\t\\tinternational
+        brands and concessions.\\n\\t\\t</p>\", \n      \"expiry_date_policy\": \"2
+        Years\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Debenhams\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/DEB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/DBJ/DBJ-card.png\",
+        \n      \"code\": \"DBJ-NL\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"De Bijenkorf is het toonaangevende warenhuis
+        dat met passie voor de klant ieder bezoek tot een belevenis maakt. Met de
+        Bijenkorf Cadeaucard kun je jouw gewenste cadeau kiezen uit het ruime assortiment
+        van de Bijenkorf. Bezoek een van onze filialen of deBijenkorf.nl en laat je
+        verleiden in een wereld van inspiratie.\\n\\n- De Cadeaucard is onbeperkt
+        geldig en op elk moment inwisselbaar tegen Bijenkorf-artikelen\\n- De Cadeaucard
+        blijft waardevol, ook restantbedragen blijven onbeperkt geldig\\n- De Cadeaucard
+        is te gebruiken in onze filialen en webshop van de Bijenkorf\", \n      \"expiry_date_policy\":
+        \"None\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"5.00\", \n      \"name\": \"de Bijenkorf\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/DBJ-NL.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/DECA/DECA-card.png\",
+        \n      \"code\": \"DECA-BE\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"La devise d\\u00e9cathlon de rendre
+        le sport accessible pour les nombreux, n'est pas seulement un \\u00e9nonc\\u00e9
+        de mission, notre soci\\u00e9t\\u00e9 de sport fran\\u00e7aise Decathlon,
+        c'est un mode de vie. La soci\\u00e9t\\u00e9 a \\u00e9t\\u00e9 fond\\u00e9e
+        en 1976 et offre 70 sports sous un m\\u00eame toit. Peu importe l'\\u00e2ge,
+        le pouvoir de d\\u00e9penser ou les capacit\\u00e9s sportives, tout le monde
+        peut trouver le bon produit pour le transport de la montagne \\u00e0 une planche
+        de surf. Avec ses 20 marques propres, la soci\\u00e9t\\u00e9 compte plus de
+        35 000 produits diff\\u00e9rents vendus dans plus de 1000 magasins de d\\u00e9tail
+        dans 30 pays. Tout cela \\u00e0 bas prix et de haute qualit\\u00e9. Ceci est
+        possible car la cha\\u00eene d'approvisionnement de Decathlon comprend la
+        cr\\u00e9ation de produits, la recherche et le d\\u00e9veloppement, la logistique
+        et bien s\\u00fbr la vente au d\\u00e9tail.\", \n      \"expiry_date_policy\":
+        \"2 Years\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Decathlon BE\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/DECA-BE.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/DECA/DECA-card.png\",
+        \n      \"code\": \"DECA-DE\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Das Motto des Zehnkampfes, das Sport
+        f\\u00fcr die vielen zug\\u00e4nglich zu machen, ist nicht nur ein Leitbild,
+        unser franz\\u00f6sisches Sportunternehmen Decathlon, ein Lebensstil. Das
+        Unternehmen wurde 1976 gegr\\u00fcndet und bietet 70 Sportarten unter einem
+        Dach. Egal in welchem \\u200b\\u200bAlter, Macht oder Sportverm\\u00f6gen,
+        jeder kann das richtige Produkt f\\u00fcr sie von einem Mountainbike zu einem
+        Surfbrett finden. Mit den 20 eigenen Marken allein hat das Unternehmen mehr
+        als 35 000 verschiedene Produkte, die von mehr als 1000 Einzelhandelsgesch\\u00e4ften
+        in 30 L\\u00e4ndern verkauft werden. Das alles mit einem niedrigen Preis und
+        hoher Qualit\\u00e4t. Dies ist m\\u00f6glich, da die Lieferkette von Decathlon
+        Produktentwicklung, Forschung und Entwicklung, Logistik und nat\\u00fcrlich
+        Einzelhandel umfasst.\", \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\":
+        \"5000.00\", \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Decathlon
+        DE\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/DECA-DE.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/DECA/DECA-card.png\",
+        \n      \"code\": \"DECA-ES\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"El lema de Decathlon de hacer que el
+        deporte sea accesible para muchos, no es s\\u00f3lo una declaraci\\u00f3n
+        de misi\\u00f3n de nuestra empresa deportiva francesa Decathlon, es un modo
+        de vida. La empresa fue fundada en 1976 y ofrece 70 deportes bajo un mismo
+        techo. No importa qu\\u00e9 edad, poder adquisitivo o capacidad deportiva,
+        todo el mundo puede encontrar el producto adecuado para ellos desde una bicicleta
+        de monta\\u00f1a a una tabla de surf. Con sus 20 marcas propias, la compa\\u00f1\\u00eda
+        tiene m\\u00e1s de 35 000 productos diferentes vendidos por m\\u00e1s de 1000
+        tiendas minoristas en 30 pa\\u00edses. Todo eso con un precio bajo y alta
+        calidad. Esto es posible ya que la cadena de suministro de Decathlon incluye
+        la creaci\\u00f3n de productos, la investigaci\\u00f3n y el desarrollo, la
+        log\\u00edstica y, por supuesto, la venta minorista.\", \n      \"expiry_date_policy\":
+        \"2 Years\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Decathlon ES\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/DECA-ES.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/DECA/DECA-card.png\",
+        \n      \"code\": \"DECA-FR\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"La devise d\\u00e9cathlon de rendre
+        le sport accessible pour les nombreux, n'est pas seulement un \\u00e9nonc\\u00e9
+        de mission, notre soci\\u00e9t\\u00e9 de sport fran\\u00e7aise Decathlon,
+        c'est un mode de vie. La soci\\u00e9t\\u00e9 a \\u00e9t\\u00e9 fond\\u00e9e
+        en 1976 et offre 70 sports sous un m\\u00eame toit. Peu importe l'\\u00e2ge,
+        le pouvoir de d\\u00e9penser ou les capacit\\u00e9s sportives, tout le monde
+        peut trouver le bon produit pour le transport de la montagne \\u00e0 une planche
+        de surf. Avec ses 20 marques propres, la soci\\u00e9t\\u00e9 compte plus de
+        35 000 produits diff\\u00e9rents vendus dans plus de 1000 magasins de d\\u00e9tail
+        dans 30 pays. Tout cela \\u00e0 bas prix et de haute qualit\\u00e9. Ceci est
+        possible car la cha\\u00eene d'approvisionnement de Decathlon comprend la
+        cr\\u00e9ation de produits, la recherche et le d\\u00e9veloppement, la logistique
+        et bien s\\u00fbr la vente au d\\u00e9tail.\", \n      \"expiry_date_policy\":
+        \"2 Years\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Decathlon FR\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/DECA-FR.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/DECA/DECA-card.png\",
+        \n      \"code\": \"DECA-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Decathlon\\u2018s motto of making sport
+        accessible for the many, is not just a mission statement, of our French sports
+        company Decathlon, its a way of life. The company was founded in 1976 and
+        offers 70 sports under one roof. No matter what age, spending power or sports
+        ability, everyone can find the right product for them from a mountain bike
+        to a surfboard. With its 20 own brands alone the company has more than 35
+        000 different products sold by more than 1000 retail stores in 30 countries.
+        All that with a low price and high quality. This is possible as Decathlon\\u2019s
+        supply chain includes product creation, research and development, logistics
+        and of course retail.\", \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\":
+        \"5000.00\", \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Decathlon
+        GB\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/DECA-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/DECA/DECA-card.png\",
+        \n      \"code\": \"DECA-IT\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Il motto di Decathlon per rendere lo
+        sport accessibile per i molti, non \\u00e8 solo una dichiarazione di missione,
+        della nostra societ\\u00e0 sportiva francese Decathlon, il suo modo di vivere.
+        L'azienda \\u00e8 stata fondata nel 1976 e offre 70 sport sotto un tetto.
+        Non importa quale sia l'et\\u00e0, la spesa o l'abilit\\u00e0 sportiva, ognuno
+        pu\\u00f2 trovare il prodotto giusto per loro da una mountain bike a una tavola
+        da surf. Con le sue 20 marche proprie, la societ\\u00e0 ha pi\\u00f9 di 35.000
+        diversi prodotti venduti da pi\\u00f9 di 1000 negozi di vendita in 30 paesi.
+        Tutto ci\\u00f2 con un prezzo basso e un'alta qualit\\u00e0. Ci\\u00f2 \\u00e8
+        possibile in quanto la catena di approvvigionamento di Decathlon comprende
+        la creazione di prodotti, la ricerca e lo sviluppo, la logistica e naturalmente
+        la vendita al dettaglio.\", \n      \"expiry_date_policy\": \"2 Years\", \n
+        \     \"maximum_value\": \"5000.00\", \n      \"minimum_value\": \"0.01\",
+        \n      \"name\": \"Decathlon IT\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/DECA-IT.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/DECA/DECA-card.png\",
+        \n      \"code\": \"DECA-NL\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Decathlon's motto om sport voor de vele
+        toegankelijk te maken is niet alleen een missie, van ons Franse sportbedrijf
+        Decathlon, het is een manier van leven. Het bedrijf werd opgericht in 1976
+        en biedt 70 sporten onder \\u00e9\\u00e9n dak. Ongeacht welke leeftijd, macht
+        of sport, kunnen iedereen het juiste product voor hen vinden van een mountainbike
+        naar een surfplank. Met zijn 20 eigen merken heeft het bedrijf meer dan 35.000
+        verschillende producten verkocht door meer dan 1000 winkels in 30 landen.
+        Al dat met een lage prijs en hoge kwaliteit. Dit is mogelijk omdat Decathlon's
+        supply chain product creatie, onderzoek en ontwikkeling, logistiek en natuurlijk
+        retail omvat.\", \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\":
+        \"5000.00\", \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Decathlon
+        NL\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/DECA-NL.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/DECA/DECA-card.png\",
+        \n      \"code\": \"DECA-PL\", \n      \"currency_code\": \"PLN\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Decathlon motto o tym, aby sport by\\u0142
+        dost\\u0119pny dla wielu os\\u00f3b, to nie tylko misja, nasze francuskie
+        przedsi\\u0119biorstwo sportowe Decathlon, jego spos\\u00f3b \\u017cycia.
+        Firma zosta\\u0142a za\\u0142o\\u017cona w 1976 roku i oferuje 70 sport\\u00f3w
+        pod jednym dachem. Niezale\\u017cnie od wieku, zdolno\\u015bci do uprawiania
+        sportu lub sportu, ka\\u017cdy mo\\u017ce znale\\u017a\\u0107 odpowiedni produkt
+        dla rowerzysty i deski surfingowej. W swojej 20 w\\u0142asnych markach firma
+        posiada ponad 35 000 r\\u00f3\\u017cnych produkt\\u00f3w sprzedawanych przez
+        ponad 1000 sklep\\u00f3w detalicznych w 30 krajach. Wszystko to z nisk\\u0105
+        cen\\u0105 i wysok\\u0105 jako\\u015bci\\u0105. Jest to mo\\u017cliwe, poniewa\\u017c
+        \\u0142a\\u0144cuch dostaw firmy Decathlon obejmuje tworzenie produkt\\u00f3w,
+        badania i rozw\\u00f3j, logistyk\\u0119 i oczywi\\u015bcie handel detaliczny.\",
+        \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\": \"5000.00\",
+        \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Decathlon PL\", \n
+        \     \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/DECA-PL.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/EINS/EINS-card.png\",
+        \n      \"code\": \"EINS-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Looking for a comfortable local that
+        serves real ale and traditional pub-food? You\\u2019ll feel right at home
+        at your local Ember Inn \\u2013 especially with its roaring log-fire and award-winning
+        cask ales on tap.\", \n      \"expiry_date_policy\": \"12 Months\", \n      \"maximum_value\":
+        \"250.00\", \n      \"minimum_value\": \"5.00\", \n      \"name\": \"Ember
+        Inns\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/EINS-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/ERJO/ERJO-card.png\",
+        \n      \"code\": \"ERJO-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Give the perfect gift for that special
+        someone. The Ernest Jones eGift Card is available and can be used in any UK
+        store or online at <a href=\\\"http://www.ernestjones.co.uk\\\">http://www.ernestjones.co.uk</a>.\",
+        \n      \"expiry_date_policy\": \"24 months of non consecutive use (use includes
+        a balance enquiry)\", \n      \"maximum_value\": \"2500.00\", \n      \"minimum_value\":
+        \"5.00\", \n      \"name\": \"Ernest Jones\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/ERJO-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/EVANS/EVANS-card.png\",
+        \n      \"code\": \"EVANS-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"With cycling becoming increasingly popular
+        as a mode of transport and leisure pursuit Evans Cycles B2B gift cards can
+        help employees and customers join the cycling revolution and get fitter, healthier
+        and happier.\\n\\nEvans Cycles are the UK\\u2019s largest quality cycle retailer
+        and have over 90 years experience serving cyclists. You will find a great
+        range of quality products from all the best brands, supported by friendly
+        expert advice, complete after sales support and competitive prices.\", \n
+        \     \"expiry_date_policy\": \"24 months from date of issue or last use\",
+        \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\": \"5.00\",
+        \n      \"name\": \"Evans Cycles\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/EVANS-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/tFV1/tFV1-card.png\",
+        \n      \"code\": \"tFV1\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"<p>\\n\\t\\t\\tFV-One is the latest and
+        greatest fake voucher! You will never have to think to\\n\\t\\t\\tyourself
+        \\\"Is my FV-One voucher accepted here?\\\" because it isn't accepted anywhere!\\n\\t\\t</p>\\n\\t\\t<p>\\n\\t\\t\\tNow
+        available in Germany as well as the UK.\\n\\t\\t</p>\", \n      \"expiry_date_policy\":
+        \"1 Year\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"FV-One\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/tFV1.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/tFVS/tFVS-card.png\",
+        \n      \"code\": \"tFVS\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"<p>\\n\\t\\t\\tFV-Stocked is the latest
+        and greatest fake voucher! You will never have to think to\\n\\t\\t\\tyourself
+        \\\"Is my FV-Stocked voucher accepted here?\\\" because it isn't accepted
+        anywhere!\\n\\t\\t</p>\\n\\t\\t<p>\\n\\t\\t\\tNow available in Germany as
+        well as the UK.\\n\\t\\t</p>\", \n      \"expiry_date_policy\": \"1 Year\",
+        \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\": \"0.01\",
+        \n      \"name\": \"FV-Stocked\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/tFVS.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/GHC/GHC-card.png\",
+        \n      \"code\": \"GHC-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"The Global Hotel Card Powered by EAN
+        Hotels (Expedia Affiliate Network) is the premier worldwide Hotel Gift Card.
+        Whether for your own use or as a gift, choose from over 250,000 hotels worldwide
+        including all the hotel major brands, resorts, destinations, boutique hotels,
+        Bed and Breakfast choices and more. And prices at www.GlobalHotelCard.com
+        are the most competitive online!\\n\\nThere are no date restrictions, fees
+        or expiration dates. You may combine up to four gift cards per reservation.
+        Simply apply the value of your gift card toward full or partial payment of
+        the hotel reservation. The balance may be paid with a major credit card.\",
+        \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\": \"500.00\",
+        \n      \"minimum_value\": \"50.00\", \n      \"name\": \"Global Hotel Card
+        GB\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/GHC-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/GBPC/GBPC-card.png\",
+        \n      \"code\": \"GBPC\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"<p>\\n\\t\\t\\t<strong>Great British
+        Pub</strong>\\u00a0is\\u00a0the\\u00a0leading pub gift card that can be redeemed\\n\\t\\t\\tagainst
+        food, drink or accommodation in over 3000 locations nationwide. Including
+        brands\\n\\t\\t\\tsuch as Chef &amp; Brewer, Loch Fyne, Flaming Grill, Hungry
+        Horse and many others. The\\n\\t\\t\\t<strong>Great British Pub</strong>\\u00a0card
+        is also available to purchase as a digital code,\\n\\t\\t\\tits flexible and\\n\\t\\t\\toffers
+        a vast choice of food, drink or dining opportunities. Perfect for celebrating\\n\\t\\t\\tthose
+        special times with family, catching-up with friends or meeting with colleagues.\\n\\t\\t</p>\\n\\n\\t\\t<p>\\n\\t\\t\\tFor
+        more information visit\\n\\t\\t\\t<a href=\\\"http://www.greatbritishpubcard.co.uk/\\\"
+        target=\\\"_blank\\\">www.greatbritishpubcard.co.uk</a>.\\n\\t\\t</p>\", \n
+        \     \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\": \"250.00\",
+        \n      \"minimum_value\": \"5.00\", \n      \"name\": \"Great British Pub
+        Card\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/GBPC.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/HAL/HAL-card.png\",
+        \n      \"code\": \"HAL-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Halfords Gift Cards are a flexible present,
+        which allow the recipient to choose whatever they want from our wide range
+        of products in-store\\nWhether there's a birthday coming up or Christmas is
+        around the corner, Halfords gift cards are perfect for any occasion!\", \n
+        \     \"expiry_date_policy\": \"24 months from non consecutive use\", \n      \"maximum_value\":
+        \"250.00\", \n      \"minimum_value\": \"1.00\", \n      \"name\": \"Halfords\",
+        \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/HAL-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/HARV/HARV-card.png\",
+        \n      \"code\": \"HARV-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Families have been gathering around the
+        table to enjoy our famous grills and salads since 1983. For real food that's
+        fresh, fun and full of flavour, bring your bunch to Harvester. We'll make
+        sure we bring the best produce to your table \\u2013 from our Red Tractor
+        farm-assured chicken and free-range eggs to our 28-day British or Irish steak
+        and sustainably caught cod.\", \n      \"expiry_date_policy\": \"12 Months\",
+        \n      \"maximum_value\": \"250.00\", \n      \"minimum_value\": \"5.00\",
+        \n      \"name\": \"Harvester\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/HARV-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/HVS/HVS-card.png\",
+        \n      \"code\": \"HVS-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Hotel Voucher Shop Gift Cards can be
+        used at 150,000 hotels, in 5,000 destinations Worldwide. With a huge choice
+        of leading hotel brands to choose from including Hilton, Marriott and Holiday
+        Inn, you can stay where you want when you want.\", \n      \"expiry_date_policy\":
+        \"12 Months\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"10.00\", \n      \"name\": \"Hotel Voucher Shop\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/HVS-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/HOF/HOF-card.png\",
+        \n      \"code\": \"HOF\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"<p>\\n\\t\\t\\tHouse of Fraser is a
+        British department store group with over 60 stores across the\\n\\t\\t\\tUnited
+        Kingdom and Ireland.\\n\\t\\t</p>\", \n      \"expiry_date_policy\": \"2 Years\",
+        \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\": \"0.01\",
+        \n      \"name\": \"House of Fraser\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/HOF.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/HSAM/HSAM-card.png\",
+        \n      \"code\": \"HSAM-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Give the perfect gift for that special
+        someone. The H.Samuel eGift Card is available and can be used in any UK store
+        or online at <a href=\\\"http://www.hsamuel.co.uk\\\">http://www.hsamuel.co.uk</a>.\",
+        \n      \"expiry_date_policy\": \"24 months of non consecutive use (use includes
+        a balance enquiry)\", \n      \"maximum_value\": \"2500.00\", \n      \"minimum_value\":
+        \"5.00\", \n      \"name\": \"H. Samuel\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/HSAM-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/ITN/ITN-card.png\",
+        \n      \"code\": \"ITN-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"<p>\\n\\t\\t\\tLoaded with entertaining
+        possibilities, give the gift of an Itunes Gift Card. Perfect for anyone\\n
+        \           who enjoys apps, games, music, movies, TV shows, books and more.
+        Redeemable on the\\n            App Store, the iTunes Store, the iBooks Store,
+        and the Mac App Store. Recipients can access\\n            their content on
+        a Mac or PC, iPhone, iPad, iPod, and Apple TV.\\n\\t\\t</p>\", \n      \"expiry_date_policy\":
+        \"2 Years\", \n      \"maximum_value\": \"500.00\", \n      \"minimum_value\":
+        \"5.00\", \n      \"name\": \"iTunes\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/ITN-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/JLS/JLS-card.png\",
+        \n      \"code\": \"JLS-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"The johnlewis.com digital voucher is
+        for redemption online with our first class online business stocking more than
+        200,000 lines .It is consistently ranked as one of the top online shopping
+        destinations in the UK. John Lewis, regularly voted the UK\\u2019s favourite
+        retailer, began trading in 1864 with the opening of our first shop in London\\u2019s
+        Oxford Street. Since then, and through the efforts of our 30,000 Partners
+        (staff), we have succeeded in becoming the largest multi-channel retailer
+        in the UK.\", \n      \"expiry_date_policy\": \"None\", \n      \"maximum_value\":
+        \"250.00\", \n      \"minimum_value\": \"0.01\", \n      \"name\": \"John
+        Lewis\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/JLS-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/LTHW/LTHW-card.png\",
+        \n      \"code\": \"LTHW-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Wine always makes a lovely gift! And
+        who better to choose from than Laithwaite\\u2019s,\\u00a0the UK's no.1 home
+        delivery wine merchant.\\u00a0Ever since\\u00a0founder Tony Laithwaite drove
+        a van to Bordeaux in 1969, this family-owned firm have been\\u00a0going direct
+        to\\u00a0find those\\u00a0delicious gems you won\\u2019t find on the big retailers\\u2019
+        shelves. Over nearly 50 years, they\\u2019ve\\u00a0built up an award-winning
+        range of\\u00a01,400 different wines, beers, spirits and Champagne. Every
+        bottle comes with a 100%\\u00a0money back guarantee \\u2013 and their\\u00a0customer
+        service is second to none, with higher scores than any other wine merchant,
+        even beating Amazon and John Lewis too.\", \n      \"expiry_date_policy\":
+        \"18 Months\", \n      \"maximum_value\": \"500.00\", \n      \"minimum_value\":
+        \"10.00\", \n      \"name\": \"Laithwaite's\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/LTHW-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/MAS/MAS-card.png\",
+        \n      \"code\": \"MAS-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Whether you fancy delicious food for
+        your weekly shop, some new stylish clothes or something special for the home,
+        you can guarantee you will get high quality and great value products at M&amp;S.
+        As one of the UK\\u2019s favourite retailers with 700 stores nationwide, quality,
+        innovation and choice are at the forefront of everything we do.\", \n      \"expiry_date_policy\":
+        \"24 months\", \n      \"maximum_value\": \"1000.00\", \n      \"minimum_value\":
+        \"1.00\", \n      \"name\": \"Marks and Spencer\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/MAS-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/MAC/MAC-card.png\",
+        \n      \"code\": \"MAC-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Few things come close to the joy of steak
+        and chips \\u2013 cooked simply with tender, loving care. Which is exactly
+        how we like to do things at Miller & Carter Steakhouse. Rest assured that
+        our chefs treat our carefully sourced 30-day aged British beef with the respect
+        it deserves. The open kitchens in many of our steakhouses are testimony to
+        that. Whatever your preferred cut \\u2013 ribeye, fillet, sirloin or perhaps
+        a chateaubriand between two \\u2013 it'll be as flavoursome and tender as
+        our master butcher intended. Our cellar is brimming with elegant wines to
+        match your meal, with a good selection of reds, whites, ros\\u00e9s and champagnes
+        available by the glass or bottle. And on the bar you'll find a selection of
+        quality draught and bottled beers, cocktails and other tipples.\", \n      \"expiry_date_policy\":
+        \"12 Months\", \n      \"maximum_value\": \"250.00\", \n      \"minimum_value\":
+        \"5.00\", \n      \"name\": \"Miller and Carter\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/MAC-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/MAB/MAB-card.png\",
+        \n      \"code\": \"MAB-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Made for spending at some of Britain's
+        best-loved restaurants, pubs, bars and hotels, the Dining Out Card turns eating,
+        drinking and even sleeping into the perfect gift. Whether you're looking to
+        treat someone at a cosy country inn or a smart city bistro, they'll find that
+        great food, drinks and service are always on the menu.\\u00a0 With over 1700
+        venues to choose from the Dining Out Card is accepted at stylish city favourites
+        like Miller & Carter, Nicholson's, Browns and All Bar One, characterful hidden
+        gems just waiting to be discovered plus a whole host of family\\u2013friendly
+        brands like Harvester and Toby Carvery.\\u00a0 Visit\\u00a0www.mbdiningout.co.uk\\u00a0to
+        find your nearest venues.\", \n      \"expiry_date_policy\": \"2 Years\",
+        \n      \"maximum_value\": \"250.00\", \n      \"minimum_value\": \"5.00\",
+        \n      \"name\": \"Mitchells & Butlers\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/MAB-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/tMCL/tMCL-card.png\",
+        \n      \"code\": \"tMCL\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"<p>\\n\\t\\t\\tAfter the success of FV-One,
+        FakeVoucher&reg;&trade;&copy; is back with the latest\\n\\t\\t\\tand greatest
+        e-code product: MonoCurl.  This exciting new product is just as awesome\\n\\t\\t\\tas
+        FV-One, with the added excitement of only working some of the time!\\n\\t\\t</p>\",
+        \n      \"expiry_date_policy\": \"1 Year\", \n      \"maximum_value\": \"5000.00\",
+        \n      \"minimum_value\": \"0.01\", \n      \"name\": \"MonoCurl\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/tMCL.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/NLK/NLK-card.png\",
+        \n      \"code\": \"NLK\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"<p>\\n\\t\\t\\tNew Look is all about
+        delivering fashion excitement, newness and value. We translate\\n\\t\\t\\tthe
+        latest trends from the catwalk, celebrities, and the streets as fast as we
+        can,\\n\\t\\t\\tproviding our customers with fashion that is always bang on
+        trend. From jeans to\\n\\t\\t\\tevening dresses, shoes to shoulder bags, New
+        Look understands fashion. Our clothing\\n\\t\\t\\tand footwear collections
+        are regularly award winning and we and are proud to be among\\n\\t\\t\\tthe
+        top womenswear and accessories retailers in the UK. New Look isn't just for
+        the\\n\\t\\t\\tgirls either - we have a fantastic menswear collection as well!
+        With everything under\\n\\t\\t\\tone roof, we pride ourselves on providing
+        a truly unique offer of up to the minute\\n\\t\\t\\tfashion for all shapes
+        and sizes!\\n\\t\\t</p>\", \n      \"expiry_date_policy\": \"2 Years\", \n
+        \     \"maximum_value\": \"5000.00\", \n      \"minimum_value\": \"0.01\",
+        \n      \"name\": \"New Look GB\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/NLK.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/NICS/NICS-card.png\",
+        \n      \"code\": \"NICS-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Since the Nicholson brothers opened their
+        first pub in 1873, Nicholson's pubs have continued to offer warm and inviting
+        hospitality, proudly delivering quality food and drink, to create the typical
+        British pub atmosphere. Whether you're in search of pubs that offer the very
+        best in British real ales, or looking to enjoy restaurant style service in
+        one of our destination dining rooms, the Nicholson's collection of pubs are
+        a perfect setting for every occasion.\", \n      \"expiry_date_policy\": \"12
+        Months\", \n      \"maximum_value\": \"250.00\", \n      \"minimum_value\":
+        \"5.00\", \n      \"name\": \"Nicholsons\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/NICS-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/PX/PX-card.png\",
+        \n      \"code\": \"PX-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"<p>\\n\\t\\t\\tInspired by a love of
+        real Italian pizza, PizzaExpress has been pioneering delicious handmade pizza
+        since 1965. With over 460 sites throughout the UK we offer a fantastic menu,
+        an array of special dishes on offer all year round all set in our stylish,
+        iconic surrounding.\\n\\t\\t</p>\", \n      \"expiry_date_policy\": \"2 Years\",
+        \n      \"maximum_value\": \"500.00\", \n      \"minimum_value\": \"5.00\",
+        \n      \"name\": \"Pizza Express\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/PX-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/RLD/RLD-card.png\",
+        \n      \"code\": \"RLD-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"We're making average or unwanted presents
+        a distant memory with our gift vouchers, which let the lucky recipient choose
+        the experience that suits them best.\\nGive the perfect gift for an upcoming
+        anniversary, birthday, wedding or special occasion. Our experience gift vouchers
+        are tailored to suit every age, location and interest, so all the hard work
+        is done for you!\", \n      \"expiry_date_policy\": \"6 months\", \n      \"maximum_value\":
+        \"1000.00\", \n      \"minimum_value\": \"20.00\", \n      \"name\": \"Red
+        Letter Days\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/RLD-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/SIZP/SIZP-card.png\",
+        \n      \"code\": \"SIZP-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Welcome to Sizzling pubs, where good
+        food and drink, great value and a generous serving of sizzle are always on
+        the menu.\", \n      \"expiry_date_policy\": \"12 Months\", \n      \"maximum_value\":
+        \"250.00\", \n      \"minimum_value\": \"5.00\", \n      \"name\": \"Sizzling
+        Pubs\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/SIZP-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/SWAR/SWAR-card.png\",
+        \n      \"code\": \"SWAR-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Founded in 1895 in Austria, Swarovski
+        designs, creates and markets high-quality crystal product collections such
+        as jewellery, accessories, decorative items for the home, ornaments and figurines.
+        Swarovski has a global reach and showcases its sparkling crystal products
+        via a network of own boutiques and retail partners, as well as the Swarovski
+        website and Online Shops.\", \n      \"expiry_date_policy\": \"10 years\",
+        \n      \"maximum_value\": \"500.00\", \n      \"minimum_value\": \"25.00\",
+        \n      \"name\": \"Swarovski\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/SWAR-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/TESC/TESC-card.png\",
+        \n      \"code\": \"TESC-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Whatever the reason, whether it's a birthday
+        gift or a little thank you, a Tesco Gift Card allows that certain person to
+        choose whatever they would really like from thousands of perfect presents
+        both in store and online.\\n\\nThe Tesco Gift Card the perfect gift for any
+        occasion; Birthdays, Anniversaries, Mother's Day, Fathers Day, New Home, Teacher
+        Thank-You, Congratulations, or just because...\", \n      \"expiry_date_policy\":
+        \"60 months from purchase or last use\", \n      \"maximum_value\": \"100.00\",
+        \n      \"minimum_value\": \"1.00\", \n      \"name\": \"Tesco\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/TESC-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/tTV/tTV-card.png\",
+        \n      \"code\": \"tTV\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"<p>\\n\\t\\t\\tThis is a test voucher
+        - using the WeGift Test Voucher Simulator.\\n\\t\\t</p>\", \n      \"expiry_date_policy\":
+        \"1 Year\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Test Voucher\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/tTV.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/tTV2/tTV2-card.png\",
+        \n      \"code\": \"tTV2\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"<p>\\n\\t\\t\\tThis is a test voucher
+        - using the WeGift Test Voucher Simulator.\\n\\t\\t</p>\", \n      \"expiry_date_policy\":
+        \"2 Years\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Test Voucher 2\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/tTV2.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/TENT/TENT-card.png\",
+        \n      \"code\": \"TENT-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"With more than 35 year\\u2019s experience
+        selling toys to\\nmillions of families throughout the UK, there\\u2019s not
+        much\\nThe Entertainer don\\u2019t know about what Children want!\\nThe Entertainer
+        are experts in what kids love and their\\nwinning combination of fair prices,
+        great special offers\\nand excellent customer service means they\\u2019re
+        a favourite\\nwith Mum\\u2019s and Dad\\u2019s too.\", \n      \"expiry_date_policy\":
+        \"24 months\", \n      \"maximum_value\": \"300.00\", \n      \"minimum_value\":
+        \"5.00\", \n      \"name\": \"The Entertainer\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/TENT-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/TWC/TWC-card.png\",
+        \n      \"code\": \"TWC-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Over 22 Years ago, Chrissie Rucker had
+        a vision: to\\ncreate a company that specialised in stylish, white homewares,\\ncombining
+        the highest quality with affordable prices. She\\nenvisioned creating a seamless
+        shopping experience across\\nevery channel, from beautiful stores to online,
+        making\\ncustomers feel wonderfully welcome at every touchpoint.\\nWhat started
+        as a range of white essentials for the linen\\ncupboard - plump duvets, crisp
+        sheets and fluffy towels - has\\ngradually grown into the ultimate luxury
+        lifestyle destination\\nfor your home, wardrobe, and little ones. From waking
+        up in\\ncrisp white sheets to the feel of whisper-soft cashmere against\\nyour
+        skin, we believe in using the very best you can afford,\\nevery single day,
+        seeking pleasure in the simplest of moments.\", \n      \"expiry_date_policy\":
+        \"12 months\", \n      \"maximum_value\": \"500.00\", \n      \"minimum_value\":
+        \"5.00\", \n      \"name\": \"The White Company\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/TWC-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/TKM/TKM-card.png\",
+        \n      \"code\": \"TKM-BE\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"En tant que leader mondial de la billetterie
+        et du marketing, Ticketmaster relie le monde aux divertissements en direct.
+        Ticketmaster fonctionne actuellement dans 20 pays dans le monde entier, offrant
+        des ventes de billets, des services de revente de billets, du marketing et
+        de la distribution via www.ticketmaster.com, l'un des plus grands sites de
+        commerce \\u00e9lectronique sur Internet et les cha\\u00eenes Internet et
+        mobiles priv\\u00e9es, environ 6 700 points de vente ind\\u00e9pendants Et
+        19 centres d'appels dans le monde entier. Cr\\u00e9\\u00e9e en 1976, Ticketmaster
+        a servi plus de 10 000 clients dans le monde entier en 2007 dans de multiples
+        cat\\u00e9gories d'\\u00e9v\\u00e9nements en direct, offrant des services
+        de billetterie exclusifs pour les ar\\u00e8nes, les stades, les amphith\\u00e9\\u00e2tres,
+        les clubs de musique, les promoteurs de concerts, les franchises sportives
+        professionnelles et les ligues, les \\u00e9quipes sportives des coll\\u00e8ges,
+        les lieux de spectacles , Des mus\\u00e9es et des th\\u00e9\\u00e2tres. Les
+        canaux de distribution et la base de clients de Ticketmaster lui fournissent
+        une \\u00e9chelle importante. En 2005, 2006 et 2007, les marques et les entreprises
+        de Ticketmaster ont vendu environ 118 millions, 127 millions et 141 millions
+        de billets, respectivement, qui ont \\u00e9t\\u00e9 \\u00e9valu\\u00e9s \\u00e0
+        plus de 6,2 milliards de dollars, 7,0 milliards de dollars et 8,3 milliards
+        de dollars, respectivement. Ticketmaster s'attend \\u00e0 ce que le nombre
+        et la valeur des billets qu'elle vend se poursuivent.\", \n      \"expiry_date_policy\":
+        \"2 Years\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Ticketmaster BE\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/TKM-BE.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/TKM/TKM-card.png\",
+        \n      \"code\": \"TKM-DE\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Als weltweit f\\u00fchrender Live-Entertainment-Ticketing
+        und Marketing-Unternehmen verbindet Ticketmaster die Welt mit Live-Entertainment.
+        Ticketmaster ist derzeit in 20 L\\u00e4ndern weltweit t\\u00e4tig und bietet
+        Ticketverkauf, Ticketverkaufsservice, Marketing und Vertrieb \\u00fcber www.ticketmaster.com,
+        eine der gr\\u00f6\\u00dften E-Commerce-Websites im Internet und verwandte
+        propriet\\u00e4re Internet- und Mobilfunkkan\\u00e4le, rund 6.700 unabh\\u00e4ngige
+        Verkaufsstellen Und 19 Call Center weltweit. Die 1976 gegr\\u00fcndete Ticketmaster
+        betreute 2007 mehr als 10.000 Kunden weltweit \\u00fcber mehrere Live-Event-Kategorien
+        und stellte exklusive Ticketing-Services f\\u00fcr f\\u00fchrende Arenen,
+        Stadien, Amphitheater, Musikclubs, Konzertveranstalter, Profi-Sport-Franchise
+        und Ligen, College-Sport-Teams, darstellende Kunstveranstaltungen zur Verf\\u00fcgung
+        , Museen und Theater. Die Vertriebskan\\u00e4le von Ticketmaster und die Kundenbasis
+        bieten ihm einen erheblichen Umfang. In den Jahren 2005, 2006 und 2007 verkauften
+        Ticketmaster-Marken und Unternehmen rund 118 Millionen, 127 Millionen bzw.
+        141 Millionen Tickets, die mit \\u00fcber 6,2 Milliarden US-Dollar, 7,0 Milliarden
+        US-Dollar und 8,3 Milliarden US-Dollar bewertet wurden. Ticketmaster erwartet
+        die Anzahl und den Wert der Tickets, die es verkauft, um weiter zu steigen.\",
+        \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\": \"5000.00\",
+        \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Ticketmaster DE\",
+        \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/TKM-DE.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/TKM/TKM-card.png\",
+        \n      \"code\": \"TKM-FR\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"En tant que leader mondial de la billetterie
+        et du marketing, Ticketmaster relie le monde aux divertissements en direct.
+        Ticketmaster fonctionne actuellement dans 20 pays dans le monde entier, offrant
+        des ventes de billets, des services de revente de billets, du marketing et
+        de la distribution via www.ticketmaster.com, l'un des plus grands sites de
+        commerce \\u00e9lectronique sur Internet et les cha\\u00eenes Internet et
+        mobiles priv\\u00e9es, environ 6 700 points de vente ind\\u00e9pendants Et
+        19 centres d'appels dans le monde entier. Cr\\u00e9\\u00e9e en 1976, Ticketmaster
+        a servi plus de 10 000 clients dans le monde entier en 2007 dans de multiples
+        cat\\u00e9gories d'\\u00e9v\\u00e9nements en direct, offrant des services
+        de billetterie exclusifs pour les ar\\u00e8nes, les stades, les amphith\\u00e9\\u00e2tres,
+        les clubs de musique, les promoteurs de concerts, les franchises sportives
+        professionnelles et les ligues, les \\u00e9quipes sportives des coll\\u00e8ges,
+        les lieux de spectacles , Des mus\\u00e9es et des th\\u00e9\\u00e2tres. Les
+        canaux de distribution et la base de clients de Ticketmaster lui fournissent
+        une \\u00e9chelle importante. En 2005, 2006 et 2007, les marques et les entreprises
+        de Ticketmaster ont vendu environ 118 millions, 127 millions et 141 millions
+        de billets, respectivement, qui ont \\u00e9t\\u00e9 \\u00e9valu\\u00e9s \\u00e0
+        plus de 6,2 milliards de dollars, 7,0 milliards de dollars et 8,3 milliards
+        de dollars, respectivement. Ticketmaster s'attend \\u00e0 ce que le nombre
+        et la valeur des billets qu'elle vend se poursuivent.\", \n      \"expiry_date_policy\":
+        \"2 Years\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Ticketmaster FR\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/TKM-FR.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/TKM/TKM-card.png\",
+        \n      \"code\": \"TKM\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"<p>\\n\\t\\t\\tTicketmaster: All your
+        entertainment needs under one virtual roof with tickets for\\n\\t\\t\\ttheatre,
+        concerts, sport, family events, clubs and more.\\n\\t\\t</p>\", \n      \"expiry_date_policy\":
+        \"2 Years\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Ticketmaster GB\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/TKM.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/TKM-NL/TKM-NL-card.png\",
+        \n      \"code\": \"TKM-NL\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"De Gift Card is een veelzijdig cadeau,
+        geschikt voor iedereen die van muziek houdt of graag naar live evenementen,
+        beurzen of tentoonstellingen gaat. De Gift Card kan eenvoudig online ingewisseld
+        worden voor een van de vele evenementen op Ticketmaster.nl! Op de Ticketmaster
+        Gift Card zet je een saldo naar keuze, met een maximum van \\u20ac300. De
+        Ticketmaster Gift Card is alleen online te besteden op Ticketmaster.nl.\",
+        \n      \"expiry_date_policy\": \"12 months\", \n      \"maximum_value\":
+        \"300.00\", \n      \"minimum_value\": \"10.00\", \n      \"name\": \"Ticketmaster
+        NL\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/TKM-NL.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/TCVY/TCVY-card.png\",
+        \n      \"code\": \"TCVY-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Here at Toby, we believe there's only
+        one way to do our beloved Great British roast - and that's properly.\", \n
+        \     \"expiry_date_policy\": \"12 Months\", \n      \"maximum_value\": \"250.00\",
+        \n      \"minimum_value\": \"5.00\", \n      \"name\": \"Toby Carvery\", \n
+        \     \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/TCVY-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/UBER/UBER-card.png\",
+        \n      \"code\": \"UBER-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Gift Uber rides to the people you care
+        about, or add value to your Uber account.\\n\\nThe Uber app connects you to
+        a reliable ride in minutes. From low-cost to premium, every option feels like
+        an upgrade to the everyday. And payment is automatic\\u2014no cash, no card,
+        no hassle.\", \n      \"expiry_date_policy\": \"None\", \n      \"maximum_value\":
+        \"150.00\", \n      \"minimum_value\": \"15.00\", \n      \"name\": \"Uber\",
+        \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/UBER-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/VINS/VINS-card.png\",
+        \n      \"code\": \"VINS-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"When you're exploring the great British
+        countryside, you're never far from a bright and welcoming country pub and
+        dining. To enjoy a fabulous meal with glorious scenery and rural charm, take
+        your pick from nearly 200 Vintage Inns. Discover new beers and imaginative
+        foods, or linger over a lazy lunch or an endless evening with friends. With
+        grassy gardens outside and roaring log fires inside, this is the place to
+        share the best of the season. Some even have cosy B&B rooms.\", \n      \"expiry_date_policy\":
+        \"12 Months\", \n      \"maximum_value\": \"250.00\", \n      \"minimum_value\":
+        \"5.00\", \n      \"name\": \"Vintage Inns\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/VINS-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/tVXL/tVXL-card.png\",
+        \n      \"code\": \"tVXL\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"<p>\\n\\t\\t\\tI can't think of an absurd
+        and witty description for this voucher code.\\n\\t\\t</p>\", \n      \"expiry_date_policy\":
+        \"1 Year\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Vooxle\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/tVXL.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/ZAL/ZAL-card.png\",
+        \n      \"code\": \"ZAL-BE\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Zalando, l\\u2019une des plus grandes
+        boutiques en ligne de mode en Europe ! Son catalogue propose aussi bien des
+        v\\u00eatements et chaussures tendance que des accessoires en vogue et des
+        articles de sport fonctionnels. Avec plus de 1.200 marques tous les incontournables
+        et nouveaut\\u00e9s habillent tous les styles ! Rendez-vous sur zalando.be
+        pour recevoir le meilleur de la mode chez vous!\", \n      \"expiry_date_policy\":
+        \"None\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Zalando BE\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/ZAL-BE.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/ZAL/ZAL-card.png\",
+        \n      \"code\": \"ZAL-DE\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Zalando \\u2013 das ist Deutschlands
+        gr\\u00f6\\u00dfter Online-Shop! Hier bekommen Sie nicht nur traumhafte Schuhe
+        und Mode, sondern auch coole Accessoires und funktionale Sport-Styles. Wer
+        auf der Suche nach den neuesten Must-Haves ist, findet bei Zalando genau das
+        Passende f\\u00fcr sich. Hier warten Highlights aus \\u00fcber 1.500 Marken
+        darauf, entdeckt zu werden. Jetzt auf <zalando.de> vorbeischauen und sich
+        das Shopping-Gl\\u00fcck nach Hause holen.\", \n      \"expiry_date_policy\":
+        \"None\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Zalando DE\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/ZAL-DE.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/ZAL/ZAL-card.png\",
+        \n      \"code\": \"ZAL-DK\", \n      \"currency_code\": \"DKK\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Zalando er en af Europas f\\u00f8rende
+        online forhandlere af sko og modet\\u00f8j til damer, herrer og b\\u00f8rn.\\nVi
+        tilbyder vores kunder en bekvem shoppeoplevelse med et omfattende udvalg med
+        alt inden for mode, uanset om det er sko, t\\u00f8j og accessories. Levering
+        og retur er gratis.\\nVores sortiment byder p\\u00e5 1.500 internationale
+        m\\u00e6rker, s\\u00e5 du kan finde lige din stil blandt s\\u00e6sonens must-haves.
+        Shop nu p\\u00e5 zalando.dk.\", \n      \"expiry_date_policy\": \"None\",
+        \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\": \"0.01\",
+        \n      \"name\": \"Zalando DK\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/ZAL-DK.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/ZAL/ZAL-card.png\",
+        \n      \"code\": \"ZAL-ES\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Zalando es la tienda online m\\u00e1s
+        grande de Alemania. Aqu\\u00ed, no solo encontrar\\u00e1s las \\u00faltimas
+        tendencias en ropa y zapatos, sino tambi\\u00e9n los complementos m\\u00e1s
+        trendy de la temporada y los estilos deportivos m\\u00e1s c\\u00f3modos y
+        funcionales. En Zalando podr\\u00e1s descubrir nuevos looks cada semana y,
+        con sus m\\u00e1s de 1500 marcas, conseguir\\u00e1s esa prenda que tanto buscabas.
+        \\u00a1Visita zalando.es para recibir lo mejor de la moda en tu casa!\", \n
+        \     \"expiry_date_policy\": \"None\", \n      \"maximum_value\": \"5000.00\",
+        \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Zalando ES\", \n
+        \     \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/ZAL-ES.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/ZAL/ZAL-card.png\",
+        \n      \"code\": \"ZAL-FR\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Zalando, l\\u2019une des plus grandes
+        boutiques en ligne de mode en Europe ! Son catalogue propose aussi bien des
+        v\\u00eatements et chaussures tendance que des accessoires en vogue et des
+        articles de sport fonctionnels. Avec plus de 1500 marques et 100 000 produits,
+        tous les incontournables et nouveaut\\u00e9s habillent tous les styles ! Rendez-vous
+        sur <zalando.fr> pour recevoir le meilleur de la mode chez vous !\", \n      \"expiry_date_policy\":
+        \"None\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Zalando FR\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/ZAL-FR.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/ZAL/ZAL-card.png\",
+        \n      \"code\": \"ZAL-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"From High Street to High End, Zalando
+        has all your favourite brands in one place. Find the latest styles and freshest
+        fashion insight on Zalando.co.uk. Browse Zalando\\u2019s assortment of over
+        1,500 brands and check out the News and Style section for trend guides, outfit
+        inspiration, street style and more. With free delivery and returns, finding
+        what you\\u2019re looking for couldn\\u2019t be easier.\", \n      \"expiry_date_policy\":
+        \"None\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Zalando GB\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/ZAL-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/ZAL/ZAL-card.png\",
+        \n      \"code\": \"ZAL-IT\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Zalando \\u00e8 il pi\\u00f9 grande
+        shop online in Italia, non solo per scarpe e abbigliamento fashion, ma anche
+        per accessori di tendenza e stile sportivo funzionale. Per chi cerca gli ultimi
+        must-have della stagione, Zalando \\u00e8 l\\u2019ideale! Le novit\\u00e0
+        di pi\\u00f9 di 1500 brand aspettano solo di essere scoperte, cosa aspetti?
+        Visita zalando.it e scopri la gioia e la comodit\\u00e0 dello shopping da
+        casa.\", \n      \"expiry_date_policy\": \"None\", \n      \"maximum_value\":
+        \"5000.00\", \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Zalando
+        IT\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/ZAL-IT.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/ZAL/ZAL-card.png\",
+        \n      \"code\": \"ZAL-NL\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Zalando \\u2013 dat is de grootste Europese
+        online shop. Hier vind je naast trendy schoenen en de nieuwste mode ook coole
+        accessoires en functionele sport styles. Ben je op zoek naar de nieuwste must-haves,
+        dan ben je bij Zalando aan het juiste adres. Highlights van meer dan 1.500
+        merken willen door jou ontdekt worden. Neem vlug een kijkje op zalando.nl!\",
+        \n      \"expiry_date_policy\": \"None\", \n      \"maximum_value\": \"5000.00\",
+        \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Zalando NL\", \n
+        \     \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/ZAL-NL.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/ZAL/ZAL-card.png\",
+        \n      \"code\": \"ZAL-PL\", \n      \"currency_code\": \"PLN\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Zalando to \\u015bwiat mody online,
+        w kt\\u00f3rym mo\\u017cesz kupi\\u0107 nie tylko obuwie i odzie\\u017c marze\\u0144,
+        lecz r\\u00f3wnie\\u017c modne dodatki i funkcjonaln\\u0105 odzie\\u017c sportow\\u0105.
+        Szukasz najmodniejszych ubra\\u0144? Znajdziesz je na Zalando. Najmodniejsza
+        odzie\\u017c i dodatki ponad 1500 marek czekaj\\u0105 na Ciebie. Ju\\u017c
+        teraz odwied\\u017a stron\\u0119 zalando.pl i kupuj nie wychodz\\u0105c z
+        domu.\", \n      \"expiry_date_policy\": \"None\", \n      \"maximum_value\":
+        \"5000.00\", \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Zalando
+        PL\", \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/ZAL-PL.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/ZAL/ZAL-card.png\",
+        \n      \"code\": \"ZAL-SE\", \n      \"currency_code\": \"SEK\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"Zalando \\u00e4r Sveriges st\\u00f6rsta
+        modebutik p\\u00e5 n\\u00e4tet! H\\u00e4r finns inte bara fantastiska kl\\u00e4der
+        och skor utan ocks\\u00e5 coola accessoarer och funktionellt sportswear.\\n
+        \\u00c4r du p\\u00e5 jakt efter de senaste nyckelplaggen hittar du enkelt
+        precis det du s\\u00f6ker p\\u00e5 Zalando.\\nHos oss v\\u00e4ntar h\\u00f6jdpunkter
+        fr\\u00e5n \\u00f6ver 1000 varum\\u00e4rken p\\u00e5 att uppt\\u00e4ckas.
+        Titta in p\\u00e5 zalando.se och best\\u00e4ll shoppinglyckan redan idag.\",
+        \n      \"expiry_date_policy\": \"None\", \n      \"maximum_value\": \"5000.00\",
+        \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Zalando SE\", \n
+        \     \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/ZAL-SE.pdf\"\n
+        \   }\n  ]\n}\n"
+    http_version: 
+  recorded_at: Tue, 17 Oct 2017 11:17:36 GMT
+recorded_with: VCR 3.0.3

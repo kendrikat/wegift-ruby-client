@@ -2,15 +2,15 @@
 http_interactions:
 - request:
     method: post
-    uri: http://sandbox.wegift.io/api/b2b-sync/v1/order-digital-card
+    uri: https://api-sandbox.wegift.io/api/b2b-sync/v1/order-digital-card
     body:
       encoding: UTF-8
-      string: '{"product_code":"tTV","delivery":"direct","amount":"1","currency_code":"GBP","external_ref":null}'
+      string: '{"product_code":"AMZ-GB","currency_code":"GBP","amount":10,"delivery_method":"direct","delivery_format":"raw","notification_email":null,"delivery_email":null,"external_ref":"1508239091"}'
     headers:
-      User-Agent:
-      - Faraday v0.12.0.1
       Authorization:
       - Basic REDACTED==
+      User-Agent:
+      - Faraday v0.12.0.1
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -25,22 +25,24 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 11 Apr 2017 11:35:58 GMT
+      - Tue, 17 Oct 2017 11:18:17 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '176'
+      - '170'
       Connection:
       - keep-alive
+      Cache-Control:
+      - must-revalidate, no-store, no-cache, private
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: "{\n  \"e_code\": {\n    \"code\": \"B7268MqgucEIL3797H\", \n    \"error_code\":
-        null, \n    \"error_string\": null, \n    \"expiry_date\": \"2019-04-12\",
-        \n    \"pin\": \"2149\", \n    \"status\": \"SUCCESS\"\n  }, \n  \"error_code\":
+      string: "{\n  \"e_code\": {\n    \"code\": \"5X4K-ZLN9NW-TGC9\", \n    \"error_code\":
+        null, \n    \"error_string\": null, \n    \"expiry_date\": \"2027-10-17\",
+        \n    \"pin\": null, \n    \"status\": \"SUCCESS\"\n  }, \n  \"error_code\":
         null, \n  \"error_details\": null, \n  \"error_string\": null, \n  \"order_id\":
-        21467, \n  \"status\": \"SUCCESS\"\n}\n"
+        22343, \n  \"status\": \"SUCCESS\"\n}\n"
     http_version: 
-  recorded_at: Tue, 11 Apr 2017 11:35:57 GMT
+  recorded_at: Tue, 17 Oct 2017 11:18:16 GMT
 recorded_with: VCR 3.0.3

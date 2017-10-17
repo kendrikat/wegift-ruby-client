@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api-sandbox.wegift.io/api/b2b-sync/v1/products/ABO-GB
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic REDACTED==
+      User-Agent:
+      - Faraday v0.12.0.1
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Tue, 17 Oct 2017 11:17:43 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '447'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - must-revalidate, no-store, no-cache, private
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: "{\n  \"availability\": \"realtime\", \n  \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/ABO/ABO-card.png\",
+        \n  \"code\": \"ABO-GB\", \n  \"currency_code\": \"GBP\", \n  \"denomination_type\":
+        \"open\", \n  \"description\": \"Amongst the hustle and bustle of city life,
+        All Bar One offers the perfect location to meet up with friends, and unwind
+        from work.\\u00a0 Whether you want to catch up over cocktails, share a bottle
+        of our lovingly chosen wine, or enjoy an excellent meal out, you\\u2019ll
+        find something to suit you in All Bar One.\", \n  \"expiry_date_policy\":
+        \"12 Months\", \n  \"maximum_value\": \"250.00\", \n  \"minimum_value\": \"5.00\",
+        \n  \"name\": \"All Bar One\", \n  \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/ABO-GB.pdf\"\n}\n"
+    http_version: 
+  recorded_at: Tue, 17 Oct 2017 11:17:42 GMT
+recorded_with: VCR 3.0.3

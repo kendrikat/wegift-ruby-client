@@ -8,6 +8,13 @@ def set_wegift_client
   Wegift::Client.new(
       :api_key      => ENV['AUTH_NAME'],
       :api_secret   => ENV['AUTH_PASS'],
+      :proxy        => ENV['PROXY'],
+      :test_mode    => true
+  )
+end
+
+def set_wegift_client_unauthed
+  Wegift::Client.new(
       :test_mode    => true
   )
 end

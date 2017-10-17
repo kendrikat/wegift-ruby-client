@@ -4,28 +4,32 @@ class Wegift::Order < Wegift::Response
 
   PATH = '/order-digital-card'
 
-  DELIVERY_TYPE = {:direct => 'direct', :email => 'email'}
+  DELIVERY_METHODS = {:direct => 'direct', :email => 'email'}
+  DELIVERY_FORMATS = {:code => 'raw', :url => 'url-instant'}
 
   # request/payload
-  attr_accessor :product_code, :delivery, :amount, :currency_code, :external_ref
+  attr_accessor :product_code, :currency_code, :amount, :delivery_method, :delivery_format,
+                :notification_email, :delivery_email, :external_ref
 
   # response/success
   attr_accessor :code, :expiry_date, :pin
 
-  def initialize(options = {})
-    @product_code = options[:product_code]
-    @delivery = options[:delivery].eql?(DELIVERY_TYPE[:email]) ? options[:delivery] : DELIVERY_TYPE[:direct]
-    @amount = options[:amount]
-    @currency_code = options[:currency_code]
-    @external_ref = options[:external_ref]
+  def initialize(params = {})
+    super(params)
+    # default/fallback: 'direct'/'raw'
+    @delivery_method = params[:delivery_method] || DELIVERY_METHODS[:direct]
+    @delivery_format = params[:delivery_format] || DELIVERY_FORMATS[:code]
   end
 
   def payload
     {
         :product_code => @product_code,
-        :delivery => @delivery,
-        :amount => @amount,
         :currency_code => @currency_code,
+        :amount => @amount,
+        :delivery_method => @delivery_method,
+        :delivery_format => delivery_format,
+        :notification_email => @notification_email,
+        :delivery_email => @delivery_email,
         :external_ref => @external_ref,
     }
   end
@@ -33,7 +37,7 @@ class Wegift::Order < Wegift::Response
   # Order Digital Card
   # POST /api/b2b-sync/v1/order-digital-card
   def post(ctx)
-    response = ctx.post(PATH, self.payload)
+    response = ctx.request(:post, PATH, self.payload)
     self.parse(JSON.parse(response.body))
   end
 

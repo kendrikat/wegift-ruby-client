@@ -1,3 +1,4 @@
 module Wegift
-  VERSION = '0.1.1'
+  # api-version.lib-build
+  VERSION = '1.4.0'
 end

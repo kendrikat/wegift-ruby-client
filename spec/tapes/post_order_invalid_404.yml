@@ -2,15 +2,15 @@
 http_interactions:
 - request:
     method: post
-    uri: http://sandbox.wegift.io/api/b2b-sync/v1/order-digital-card
+    uri: https://api-sandbox.wegift.io/api/b2b-sync/v1/order-digital-card
     body:
       encoding: UTF-8
-      string: '{"product_code":"NOPE","delivery":"direct","amount":"3","currency_code":"4","external_ref":"5"}'
+      string: '{"product_code":"NOPE","currency_code":"5","amount":"4","delivery_method":"2","delivery_format":"3","notification_email":null,"delivery_email":null,"external_ref":"6"}'
     headers:
-      User-Agent:
-      - Faraday v0.12.0.1
       Authorization:
       - Basic REDACTED==
+      User-Agent:
+      - Faraday v0.12.0.1
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -25,20 +25,22 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 11 Apr 2017 11:35:57 GMT
+      - Tue, 17 Oct 2017 11:17:35 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '167'
+      - '155'
       Connection:
       - keep-alive
+      Cache-Control:
+      - must-revalidate, no-store, no-cache, private
       Vary:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: "{\n  \"error_code\": \"SE003\", \n  \"error_details\": \"Invalid product
-        \\\"NOPE\\\" - this product either doesn't exist or is not currently enabled\",
-        \n  \"error_string\": \"Field has invalid value\", \n  \"status\": \"ERROR\"\n}\n"
+      string: "{\n  \"error_code\": \"SE003\", \n  \"error_details\": \"Invalid delivery
+        method: \\\"2\\\". Valid values are: \\\"direct\\\", \\\"email\\\"\", \n  \"error_string\":
+        \"Field has invalid value\", \n  \"status\": \"ERROR\"\n}\n"
     http_version: 
-  recorded_at: Tue, 11 Apr 2017 11:35:56 GMT
+  recorded_at: Tue, 17 Oct 2017 11:17:35 GMT
 recorded_with: VCR 3.0.3
