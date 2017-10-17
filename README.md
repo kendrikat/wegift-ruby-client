@@ -39,10 +39,11 @@ products = client.products
 # post a simple order
 order = client.order(
         :product_code => products.first.code,
-        :delivery => 'direct',
-        :amount => '42.00',
         :currency_code => 'USD',
-        :external_ref => '123'
+        :amount => '42.00',
+        :delivery_method => 'direct', # default
+        :delivery_format => 'raw', # default        
+        :external_ref => '123' # optional
 )
 
 # which returns

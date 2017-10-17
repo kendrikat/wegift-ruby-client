@@ -1,5 +1,3 @@
-require_relative 'response'
-
 class Wegift::Product < Wegift::Response
 
   PATH = '/products'

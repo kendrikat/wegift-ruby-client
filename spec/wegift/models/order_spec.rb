@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'wegift/models/order'
 
 RSpec.describe Wegift::Order do
 
@@ -69,15 +68,13 @@ RSpec.describe Wegift::Order do
       VCR.use_cassette('get_product_catalogue_valid') do
         product = client.products[1]
 
-        order = set_order(product.code,
-                          nil,
-                          nil,
-                          10,
-                          product.currency_code,
-                          Time.now.to_i.to_s)
-
         VCR.use_cassette('post_order_valid') do
-          order.post(client)
+          order = client.order(
+              :product_code => product.code,
+              :currency_code => product.currency_code,
+              :amount => 10,
+              :external_ref => Time.now.to_i.to_s # optional
+          )
 
           expect(order.class).to eq(Wegift::Order)
           expect(order.is_successful?).to eq(true)

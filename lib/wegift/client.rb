@@ -1,6 +1,11 @@
 # encoding: utf-8
 require 'faraday'
 
+require_relative 'models/response'
+require_relative 'models/product'
+require_relative 'models/products'
+require_relative 'models/order'
+
 module Wegift
 
   class Client

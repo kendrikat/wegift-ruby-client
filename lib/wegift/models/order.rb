@@ -1,5 +1,3 @@
-require_relative 'response'
-
 class Wegift::Order < Wegift::Response
 
   PATH = '/order-digital-card'
@@ -27,7 +25,7 @@ class Wegift::Order < Wegift::Response
         :currency_code => @currency_code,
         :amount => @amount,
         :delivery_method => @delivery_method,
-        :delivery_format => delivery_format,
+        :delivery_format => @delivery_format,
         :notification_email => @notification_email,
         :delivery_email => @delivery_email,
         :external_ref => @external_ref,
@@ -73,6 +71,8 @@ class Wegift::Order < Wegift::Response
       @expiry_date = data['e_code']['expiry_date']
       @pin = data['e_code']['pin']
     end
+
+    self
   end
 
 end

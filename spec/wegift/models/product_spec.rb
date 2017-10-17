@@ -1,6 +1,4 @@
 require 'spec_helper'
-require 'wegift/models/product'
-require 'wegift/models/products'
 
 RSpec.describe Wegift::Product do
 
