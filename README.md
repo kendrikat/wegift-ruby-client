@@ -51,6 +51,7 @@ if order.is_successful?
 
   # some nice data
   order.code
+  order.order_id
   order.pin
   order.expiry_date
   

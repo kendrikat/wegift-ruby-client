@@ -59,6 +59,7 @@ RSpec.describe Wegift::Order do
         expect(order.is_successful?).to eq(false)
         expect(order.status).to eq(Wegift::Response::STATUS[:error])
         expect(order.error_string).to eq('Field has invalid value')
+        expect(order.order_id).to eq(nil)
       end
     end
 
@@ -83,6 +84,7 @@ RSpec.describe Wegift::Order do
           expect(order.amount).to eq(10)
 
           expect(order.code).not_to eq(nil)
+          expect(order.order_id).not_to eq(nil)
           #expect(order.pin).not_to eq(nil)
           expect(order.expiry_date).not_to eq(nil)
         end

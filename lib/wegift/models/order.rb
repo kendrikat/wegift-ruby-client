@@ -10,7 +10,7 @@ class Wegift::Order < Wegift::Response
                 :notification_email, :delivery_email, :external_ref
 
   # response/success
-  attr_accessor :code, :expiry_date, :pin
+  attr_accessor :code, :expiry_date, :pin, :order_id
 
   def initialize(params = {})
     super(params)
@@ -71,6 +71,8 @@ class Wegift::Order < Wegift::Response
       @expiry_date = data['e_code']['expiry_date']
       @pin = data['e_code']['pin']
     end
+
+    @order_id = data['order_id']
 
     self
   end
