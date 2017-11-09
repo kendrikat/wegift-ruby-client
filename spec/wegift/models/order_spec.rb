@@ -74,7 +74,9 @@ RSpec.describe Wegift::Order do
               :product_code => product.code,
               :currency_code => product.currency_code,
               :amount => 10,
-              :external_ref => Time.now.to_i.to_s # optional
+              :external_ref => Time.now.to_i.to_s, # optional
+              #:delivery_method => 'direct', # default
+              #:delivery_format => 'raw', # default
           )
 
           expect(order.class).to eq(Wegift::Order)
@@ -87,6 +89,35 @@ RSpec.describe Wegift::Order do
           expect(order.order_id).not_to eq(nil)
           #expect(order.pin).not_to eq(nil)
           expect(order.expiry_date).not_to eq(nil)
+        end
+
+      end
+
+    end
+
+    it 'should create an url' do
+      client = set_wegift_client
+
+      VCR.use_cassette('get_product_catalogue_valid') do
+        product = client.products[1]
+
+        VCR.use_cassette('post_order_for_url_valid') do
+          order = client.order(
+              :product_code => product.code,
+              :currency_code => product.currency_code,
+              :amount => 10,
+              :external_ref => Time.now.to_i.to_s, # optional
+              #:delivery_method => 'direct', # default
+              :delivery_format => 'url-instant',
+          )
+
+          expect(order.class).to eq(Wegift::Order)
+          expect(order.is_successful?).to eq(true)
+          expect(order.status).to eq(Wegift::Response::STATUS[:success])
+          expect(order.error_string).to eq(nil)
+          expect(order.amount).to eq(10)
+          expect(order.delivery_url).not_to eq(nil)
+          expect(order.order_id).not_to eq(nil)
         end
 
       end

@@ -54,6 +54,7 @@ if order.is_successful?
   order.order_id
   order.pin
   order.expiry_date
+  order.delivery_url
   
 end
 ```
