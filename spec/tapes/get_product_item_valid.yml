@@ -25,11 +25,11 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Tue, 17 Oct 2017 11:17:43 GMT
+      - Mon, 13 Nov 2017 09:47:46 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '447'
+      - '933'
       Connection:
       - keep-alive
       Cache-Control:
@@ -38,7 +38,8 @@ http_interactions:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: "{\n  \"availability\": \"realtime\", \n  \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/ABO/ABO-card.png\",
+      string: "{\n  \"availability\": \"realtime\", \n  \"available_denominations\":
+        null, \n  \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/ABO/ABO-card.png\",
         \n  \"code\": \"ABO-GB\", \n  \"currency_code\": \"GBP\", \n  \"denomination_type\":
         \"open\", \n  \"description\": \"Amongst the hustle and bustle of city life,
         All Bar One offers the perfect location to meet up with friends, and unwind
@@ -46,7 +47,23 @@ http_interactions:
         of our lovingly chosen wine, or enjoy an excellent meal out, you\\u2019ll
         find something to suit you in All Bar One.\", \n  \"expiry_date_policy\":
         \"12 Months\", \n  \"maximum_value\": \"250.00\", \n  \"minimum_value\": \"5.00\",
-        \n  \"name\": \"All Bar One\", \n  \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/ABO-GB.pdf\"\n}\n"
+        \n  \"name\": \"All Bar One\", \n  \"redeem_instructions_html\": null, \n
+        \ \"terms_and_conditions_html\": \"<ul>\\n<li>\\n<p>This card may not be exchanged
+        for cash.</p>\\n</li>\\n<li>\\n<p>This card is not a cheque guarantee, credit,
+        debit or charge card.</p>\\n</li>\\n<li>\\n<p>No change will be given but
+        the balance can be used for future purchases.</p>\\n</li>\\n<li>\\n<p>We will
+        not be held liable for lost or stolen cards - protect this as you would cash.</p>\\n</li>\\n<li>\\n<p>To
+        check the balance of your giftcard please visit <a href=\\\"https://www.mbdiningout.co.uk/gift-cards/\\\">www.mbdiningout.co.uk/gift-cards/</a></p>\\n</li>\\n<li>\\n<p>A
+        gift card is valid for 12 months from the date of purchase.</p>\\n</li>\\n<li>\\n<p>Gift
+        cards can be purchased with a minimum value of \\u00a35, up to a maximum of
+        \\u00a3250.</p>\\n</li>\\n<li>\\n<p>SMS and email gift cards should be treated
+        as cash. If deleted they will not be resent.</p>\\n</li>\\n<li>\\n<p>SMS gift
+        cards will be free to receive for the guest.</p>\\n</li>\\n<li>\\n<p>Email
+        gifts are valid either presented on a smart phone or printed out.</p>\\n</li>\\n<li>\\n<p>We
+        reserve the right to amend the terms and conditions.</p>\\n</li>\\n<li>\\n<p>Further
+        terms and conditions are available on request.</p>\\n</li>\\n</ul>\", \n  \"terms_and_conditions_pdf_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/ABO-GB.pdf\", \n  \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/ABO-GB.pdf\"\n}\n"
     http_version: 
-  recorded_at: Tue, 17 Oct 2017 11:17:42 GMT
+  recorded_at: Mon, 13 Nov 2017 09:47:46 GMT
 recorded_with: VCR 3.0.3

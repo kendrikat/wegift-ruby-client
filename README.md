@@ -36,9 +36,16 @@ client = Wegift::Client.new(
 # with all available products
 products = client.products
 
+# or just a single one
+product = client.products('PROD-ID')
+
+# and data
+product.description
+product.redeem_instructions_html
+
 # post a simple order
 order = client.order(
-        :product_code => products.first.code,
+        :product_code => product.code,
         :currency_code => 'USD',
         :amount => '42.00',
         :delivery_method => 'direct', # default

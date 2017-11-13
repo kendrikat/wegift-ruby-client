@@ -8,7 +8,11 @@ class Wegift::Product < Wegift::Response
   # response/success
   attr_accessor :code, :name, :description, :currency_code, :availability,
                 :denomination_type, :minimum_value, :maximum_value,
-                :card_image_url, :terms_and_conditions_url, :expiry_date_policy
+                :card_image_url, :expiry_date_policy,
+                :redeem_instructions_html,
+                :terms_and_conditions_html,
+                :terms_and_conditions_url,
+                :terms_and_conditions_pdf_url
 
   def initialize(params = {})
     super

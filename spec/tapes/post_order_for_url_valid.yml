@@ -5,7 +5,7 @@ http_interactions:
     uri: https://api-sandbox.wegift.io/api/b2b-sync/v1/order-digital-card
     body:
       encoding: UTF-8
-      string: '{"product_code":"AMZ-GB","currency_code":"GBP","amount":10,"delivery_method":"direct","delivery_format":"url-instant","notification_email":null,"delivery_email":null,"external_ref":"1510229887"}'
+      string: '{"product_code":"AMZ-GB","currency_code":"GBP","amount":10,"delivery_method":"direct","delivery_format":"url-instant","notification_email":null,"delivery_email":null,"external_ref":"1510566460"}'
     headers:
       Authorization:
       - Basic REDACTED==
@@ -25,7 +25,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 09 Nov 2017 12:18:11 GMT
+      - Mon, 13 Nov 2017 09:47:45 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -38,10 +38,10 @@ http_interactions:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: "{\n  \"e_code\": {\n    \"delivery_url\": \"https://gift-sandbox.wegift.io/public/gifts/instant/34dff083-8411-41e6-b022-1f2cba73f33d\",
+      string: "{\n  \"e_code\": {\n    \"delivery_url\": \"https://gift-sandbox.wegift.io/public/gifts/instant/93b313c7-26c6-458e-9c4c-7760c5ca2571\",
         \n    \"error_code\": null, \n    \"error_string\": null, \n    \"status\":
         \"SUCCESS\"\n  }, \n  \"error_code\": null, \n  \"error_details\": null, \n
-        \ \"error_string\": null, \n  \"order_id\": 22940, \n  \"status\": \"SUCCESS\"\n}\n"
+        \ \"error_string\": null, \n  \"order_id\": 23063, \n  \"status\": \"SUCCESS\"\n}\n"
     http_version: 
-  recorded_at: Thu, 09 Nov 2017 12:18:12 GMT
+  recorded_at: Mon, 13 Nov 2017 09:47:46 GMT
 recorded_with: VCR 3.0.3
