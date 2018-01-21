@@ -62,6 +62,19 @@ RSpec.describe Wegift::Product do
         end
       end
 
+      it 'should have usage type' do
+        client = set_wegift_client
+        VCR.use_cassette('get_product_item_valid_url_only') do
+          code = 'AGOS-GB'
+          product = client.product(code)
+
+          # this should exist, can be null, "url-only/url-recommended" (AGOS-GB / DECA-BE)
+          expect(product.e_code_usage_type).to eq('url-only')
+          # ...
+
+        end
+      end
+
     end
 
   end

@@ -5,12 +5,12 @@ http_interactions:
     uri: https://api-sandbox.wegift.io/api/b2b-sync/v1/order-digital-card
     body:
       encoding: UTF-8
-      string: '{"product_code":"AMZ-GB","currency_code":"GBP","amount":10,"delivery_method":"direct","delivery_format":"url-instant","notification_email":null,"delivery_email":null,"external_ref":"1510566460"}'
+      string: '{"product_code":"AMZ-GB","currency_code":"GBP","amount":10,"delivery_method":"direct","delivery_format":"url-instant","notification_email":null,"delivery_email":null,"external_ref":"1516538634"}'
     headers:
       Authorization:
       - Basic REDACTED==
       User-Agent:
-      - Faraday v0.12.0.1
+      - Faraday v0.14.0
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -25,11 +25,11 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 13 Nov 2017 09:47:45 GMT
+      - Sun, 21 Jan 2018 12:44:03 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '203'
+      - '232'
       Connection:
       - keep-alive
       Cache-Control:
@@ -38,10 +38,11 @@ http_interactions:
       - Accept-Encoding
     body:
       encoding: ASCII-8BIT
-      string: "{\n  \"e_code\": {\n    \"delivery_url\": \"https://gift-sandbox.wegift.io/public/gifts/instant/93b313c7-26c6-458e-9c4c-7760c5ca2571\",
-        \n    \"error_code\": null, \n    \"error_string\": null, \n    \"status\":
-        \"SUCCESS\"\n  }, \n  \"error_code\": null, \n  \"error_details\": null, \n
-        \ \"error_string\": null, \n  \"order_id\": 23063, \n  \"status\": \"SUCCESS\"\n}\n"
+      string: "{\n  \"e_code\": {\n    \"delivery_url\": \"https://gift-sandbox.wegift.io/public/gifts/instant/7cdafdb7-91a0-4770-81f3-d022b1227936\",
+        \n    \"error_code\": null, \n    \"error_string\": null, \n    \"expiry_date\":
+        \"2020-01-21\", \n    \"status\": \"SUCCESS\"\n  }, \n  \"error_code\": null,
+        \n  \"error_details\": null, \n  \"error_string\": null, \n  \"order_id\":
+        \"O-7KPPZ9QK\", \n  \"status\": \"SUCCESS\"\n}\n"
     http_version: 
-  recorded_at: Mon, 13 Nov 2017 09:47:46 GMT
+  recorded_at: Sun, 21 Jan 2018 12:44:03 GMT
 recorded_with: VCR 3.0.3

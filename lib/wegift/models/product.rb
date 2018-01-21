@@ -12,7 +12,8 @@ class Wegift::Product < Wegift::Response
                 :redeem_instructions_html,
                 :terms_and_conditions_html,
                 :terms_and_conditions_url,
-                :terms_and_conditions_pdf_url
+                :terms_and_conditions_pdf_url,
+                :e_code_usage_type
 
   def initialize(params = {})
     super

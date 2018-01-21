@@ -1,6 +1,6 @@
 # WeGift Ruby Client
 
-A simple client for [WeGift.io][wegift] B2B Synchronous API (Document Version 1.4). 
+A simple client for [WeGift.io][wegift] B2B Synchronous API (Document Version 1.7). 
 
 ## Installation
 
@@ -42,6 +42,8 @@ product = client.products('PROD-ID')
 # and data
 product.description
 product.redeem_instructions_html
+product.e_code_usage_type
+# ... etc
 
 # post a simple order
 order = client.order(
