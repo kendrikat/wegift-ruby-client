@@ -39,6 +39,9 @@ get_products = client.products
 if get_products.is_successful?
   # it provides a list of all vouchers
   vouchers = products.all
+else
+  # get_products.status => 403
+  # get_products.error_details => "Forbidden"
 end
 
 # or just a single one
