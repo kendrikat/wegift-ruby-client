@@ -43,13 +43,8 @@ module Wegift
     # global methods
 
     def products()
-      # initialize endpoint
       products = Wegift::Products.new()
-
-      # get catalogue with context / current connection
       products.get(self)
-
-      # TODO: shared error handling
     end
 
     def product(id = nil)

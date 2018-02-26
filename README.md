@@ -1,6 +1,6 @@
 # WeGift Ruby Client
 
-A simple client for [WeGift.io][wegift] B2B Synchronous API (Document Version 1.7). 
+A simple client for [WeGift.io][wegift] B2B Synchronous API (Document Version 1.7).
 
 ## Installation
 
@@ -24,7 +24,7 @@ $ gem install wegift-ruby-client
 
 Simple example for ordering a Digital Card
 ```ruby
-# a simple client 
+# a simple client
 client = Wegift::Client.new(
       :api_host => 'http://sandbox.wegift.io',
       :api_path => '/api/b2b-sync/v1',
@@ -34,7 +34,12 @@ client = Wegift::Client.new(
 )
 
 # with all available products
-products = client.products
+get_products = client.products
+
+if get_products.is_successful?
+  # it provides a list of all vouchers
+  vouchers = products.all
+end
 
 # or just a single one
 product = client.products('PROD-ID')
@@ -51,7 +56,7 @@ order = client.order(
         :currency_code => 'USD',
         :amount => '42.00',
         :delivery_method => 'direct', # default
-        :delivery_format => 'raw', # default        
+        :delivery_format => 'raw', # default
         :external_ref => '123' # optional
 )
 
@@ -64,7 +69,7 @@ if order.is_successful?
   order.pin
   order.expiry_date
   order.delivery_url
-  
+
 end
 ```
 
@@ -83,7 +88,7 @@ rspec
 
 It will load all tapes found in `spec/tapes`, we are using [VCR][vcr].
 
-To remaster all recordings, you will need a sandbox account. 
+To remaster all recordings, you will need a sandbox account.
 Add an `.env` file to your root:
 
 ```bash

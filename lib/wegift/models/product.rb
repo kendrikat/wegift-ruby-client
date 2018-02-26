@@ -27,12 +27,12 @@ class Wegift::Product < Wegift::Response
   # GET /api/b2b-sync/v1/products/ID
   def get(ctx)
     response = ctx.request(:get, path)
-    self.parse(JSON.parse(response.body))
+    self.parse(response)
   end
 
-  def parse(data)
-    super(data)
-    Wegift::Product.new(data)
+  def parse(response)
+    super(response)
+    Wegift::Product.new(@payload)
   end
 
 end

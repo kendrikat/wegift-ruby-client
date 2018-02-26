@@ -25,11 +25,11 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sun, 21 Jan 2018 12:43:45 GMT
+      - Mon, 26 Feb 2018 14:41:26 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '154752'
+      - '161036'
       Connection:
       - keep-alive
       Cache-Control:
@@ -65,6 +65,110 @@ http_interactions:
         terms and conditions are available on request.</p>\\n</li>\\n</ul>\", \n      \"terms_and_conditions_pdf_url\":
         \"https://gift-sandbox.wegift.io/public/terms/ABO-GB.pdf\", \n      \"terms_and_conditions_url\":
         \"https://gift-sandbox.wegift.io/public/terms/ABO-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"available_denominations\":
+        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/AMZ-AT/AMZ-AT-card.png\",
+        \n      \"code\": \"AMZ-AT\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Amazon.de Gutscheine k\\u00f6nnen auf
+        www.amazon.de und bestimmten Partner-Websites auf Millionen von Artikeln angerechnet
+        werden. Die riesige Auswahl von Amazon.de umfasst Produkte in den Sparten
+        B\\u00fccher, Elektronik, Musik, MP3-Downloads, Film und Fernsehen, Kleidung,
+        VideoGames, Software, Sport & Outdoors, Spielzeug, Baby, Computer und B\\u00fcro,
+        Haus und Garten, Schmuck, Sch\\u00f6nheitspflege, Baumarkt, B\\u00fcrobedarf,
+        Kamera und Foto, Tierbedarf und mehr. Amazon.de ist der Ort, wo Sie fast alles,
+        was Sie kaufen wollen, preisg\\u00fcnstig online finden und entdecken.\",
+        \n      \"e_code_usage_type\": null, \n      \"expiry_date_policy\": \"2 Years\",
+        \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\": \"0.01\",
+        \n      \"name\": \"Amazon.at\", \n      \"redeem_instructions_html\": \"<p>Einl\\u00f6sung\\nAmazon.de
+        Geschenkgutscheine und Geschenkkarten sind bis zum Ende des zehnten Jahres
+        nach Kauf des Gutscheins einl\\u00f6sbar (\\\"Ablaufdatum\\\").\\nRestguthaben
+        werden bis zum Ablaufdatum Ihrem Geschenkgutscheinkonto gutgeschrieben, danach
+        k\\u00f6nnen sie nicht mehr verwendet werden.\\nGeschenkgutscheine k\\u00f6nnen
+        nur auf www.amazon.de oder www.amazon.at (\\\"Zugelassene Websites\\\") f\\u00fcr
+        Produkte eingel\\u00f6st werden, welche f\\u00fcr den Erwerb durch Gutschein
+        zugelassen sind. Sie sind nicht auf anderen Amazon Websites z.B. bei Amazon.co.uk,
+        Amazon.fr, Amazon.it, Amazon.co.jp, Amazon.com, Amazon.ca oder Amazon.cn einl\\u00f6sbar.\\nGeschenkgutscheine
+        k\\u00f6nnen \\u00fcber das regul\\u00e4re Bestellformular (Einkaufswagen)
+        oder vor einer Bestellung \\u00fcber \\\"Mein Konto\\\" als Guthaben eingel\\u00f6st
+        werden. Um einen Geschenkgutschein im Rahmen des Amazon.de 1-Click\\u00ae-Service
+        nutzen zu k\\u00f6nnen, l\\u00f6sen Sie den Gutschein-Code zun\\u00e4chst
+        \\u00fcber \\\"Mein Konto\\\" unter \\\"Geschenkgutschein-Guthaben pr\\u00fcfen
+        und Geschenkgutscheine einl\\u00f6sen\\\" ein.\\nBei Musik-Download-Eink\\u00e4ufen
+        l\\u00f6sen Sie Geschenkgutscheine folgenderma\\u00dfen ein:</p>\\n<p>Gehen
+        Sie auf die Detailseite des gew\\u00fcnschten Titels.\\nKlicken Sie rechts
+        oben unterhalb der Schaltfl\\u00e4che \\\"Jetzt mit 1-Click\\u00ae kaufen\\\"
+        auf den Link \\\"Gutscheincode eingeben\\\".\\nF\\u00fcgen Sie unter \\\"Neuen
+        Gutscheincode eingeben\\\" den Code ein und klicken Sie auf \\\"Einl\\u00f6sen\\\".\\nSollte
+        der Wert des Gutscheins f\\u00fcr Ihre Bestellung nicht ausreichen, k\\u00f6nnen
+        Sie die Differenz mit einer anderen, von Amazon zugelassenen Zahlungsweise
+        oder durch die Eingabe weiterer Geschenkgutscheine auf derselben Seite begleichen.\\nBei
+        einer Bestellung kann mehr als ein Geschenkgutschein verwendet werden. Geschenkgutscheine
+        sind mit 1 Aktionsgutschein pro Bestellung kombinierbar.\\nUm Geschenkgutscheine
+        auf Ihrem Kundenkonto einzul\\u00f6sen oder ein bestehendes Guthaben einzusehen,
+        besuchen Sie bitte \\\"Mein Konto\\\" auf <a href=\\\"https://www.amazon.de\\\">https://www.amazon.de</a>.</p>\",
+        \n      \"terms_and_conditions_html\": \"<p>*Amazon.de Gutscheine (\\u201eGutscheine\\u201c),
+        die von [The Voucher Market Ltd.], einem zugelassenen Wiederverk\\u00e4ufer
+        von Amazon.de Gutscheinen, verkauft werden. Amazon.de Gutscheine (\\u201eGutscheine\\u201c)
+        sind f\\u00fcr den Kauf ausgew\\u00e4hlter Produkte auf Amazon.de und bestimmten
+        Partner-Webseiten einl\\u00f6sbar. Sie d\\u00fcrfen nicht weiterver\\u00e4u\\u00dfert
+        oder anderweitig gegen Entgelt an Dritte \\u00fcbertragen werden, eine Barauszahlung
+        ist ausgeschlossen. Aussteller der Gutscheine ist die Amazon EU S.\\u00e0
+        r.l. in Luxemburg. Weder diese, noch verbundene Unternehmen haften im Fall
+        von Verlust, Diebstahl, Besch\\u00e4digung oder Missbrauch eines Gutscheins.
+        Gutscheine k\\u00f6nnen auf www.amazon.de/einloesen eingel\\u00f6st werden.
+        Dort finden Sie auch die vollst\\u00e4ndigen Gesch\\u00e4ftsbedingungen. Alle
+        Amazon \\u00ae \\u2122 &amp; \\u00a9 -Produkte sind Eigentum der Amazon.com,
+        Inc. oder verbundener Unternehmen. Die Gutscheine sind bis zu dem angegeben
+        Ablaufdatum einl\\u00f6sbar. Es fallen keine Servicegeb\\u00fchren an.</p>\",
+        \n      \"terms_and_conditions_pdf_url\": \"https://gift-sandbox.wegift.io/public/terms/AMZ-AT.pdf\",
+        \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/AMZ-AT.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"available_denominations\":
+        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/AMZ/AMZ-card.png\",
+        \n      \"code\": \"AMZ-US\", \n      \"currency_code\": \"USD\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Amazon.com, Inc. provides online retail
+        shopping services. It provides services to four primary customer sets: consumers,
+        sellers, enterprises, and content creators. The company also\\nprovides other
+        marketing and promotional services, such as online advertising and co-branded
+        credit card agreements. It serves consumers through its retail websites with
+        a focus on\\nselection, price, and convenience. It designs its websites to
+        enable its products to be sold by the company and by third parties across
+        dozens of product categories. The company also\\nserves developers and enterprises
+        of all sizes through Amazon Web Services, which provides access to technology
+        infrastructure that enables virtually any type of business. The company\\noperates
+        through three segments: North America, International, and Amazon Web Services.\\n\\nThe
+        North America segment includes retail sales of consumer products and subscriptions
+        through\\nNorth America-focused websites such as www.amazon.com and www.amazon.ca.
+        The International segment includes retail sales of consumer products and subscriptions
+        through\\ninternationally-focused websites. The Amazon Web Services segment
+        includes global sales of compute, storage, database, and other AWS service
+        offerings for start-ups, enterprises,\\ngovernment agencies, and academic
+        institutions.\", \n      \"e_code_usage_type\": null, \n      \"expiry_date_policy\":
+        \"2 Years\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Amazon.com\", \n      \"redeem_instructions_html\":
+        \"<p>To redeem your gift card, follow these steps:</p>\\n<ol>\\n<li>Visit
+        <a href=\\\"https://www.amazon.com/redeem\\\">https://www.amazon.com/redeem</a></li>\\n<li>Enter
+        the claim code when prompted.</li>\\n<li>Gift card funds will be applied automatically
+        to eligible orders during the checkout process.</li>\\n<li>You must pay for
+        any remaining balance on your order with another payment method.</li>\\n</ol>\\n<p>Your
+        gift card claim code may also be entered when prompted during the checkout
+        process but you will not be able to redeem your gift card using the Amazon.com
+        1-Click\\u00ae service or downloadable e-books unless you first redeem the
+        gift card through Your Account.</p>\", \n      \"terms_and_conditions_html\":
+        \"<p>*Amazon.com Gift Cards (\\\"GCs\\\") sold by The Voucher Market Ltd t/a
+        WeGift, an authorised and independent reseller of Amazon.com Gift Cards.</p>\\n<p>GCs
+        may be redeemed on the Amazon.com website\\ntowards the purchase of eligible
+        products listed in our online catalogue and sold by Amazon.com or any other
+        seller selling through Amazon.com. GCs cannot be redeemed for purchases of\\ngift
+        cards or gift cards. Purchases are deducted from the GC balance. To redeem
+        or view a GC balance, visit \\\"Your Account\\\" on Amazon.com. Except as
+        required by law, GCs cannot be\\nreloaded, resold, transferred for value,
+        redeemed for cash or applied to any other account. Amazon is not responsible
+        if a GC is lost, stolen, destroyed or used without permission. See\\n<a href=\\\"https://www.amazon.com/gc-legal\\\">https://www.amazon.com/gc-legal</a>
+        for complete terms, restrictions and exceptions. For any other questions,
+        see <a href=\\\"https://www.amazon.com/gc\\\">https://www.amazon.com/gc</a>.
+        GCs are issued by Amazon EU S.\\u00e0 r.l. All Amazon \\u00ae, \\u2122 &amp;
+        \\u00a9\\nare IP of Amazon.com, Inc. or its affiliates.</p>\", \n      \"terms_and_conditions_pdf_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/AMZ-US.pdf\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/AMZ-US.pdf\"\n    }, \n    {\n
         \     \"availability\": \"realtime\", \n      \"available_denominations\":
         null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/AMZ-GB/AMZ-GB-card.png\",
         \n      \"code\": \"AMZ-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
@@ -173,16 +277,20 @@ http_interactions:
         empresas, agencias gubernamentales e instituciones acad\\u00e9micas.\", \n
         \     \"e_code_usage_type\": null, \n      \"expiry_date_policy\": \"2 Years\",
         \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\": \"0.01\",
-        \n      \"name\": \"Amazon.es\", \n      \"redeem_instructions_html\": \"<p>Per
-        utilizzare il tuo Buono Regalo, segui questa procedura:\\n1. Vai su www.amazon.it/gp/gc/\\n2.
-        Clicca su \\u201cAggiungi al mio Account\\u201d e inserisci il codice quando
-        richiesto.\\n3. Il credito del Buono Regalo sar\\u00e0 aggiunto automaticamente
-        agli ordini \\u201calla cassa\\u201d.\\n4. Il saldo del tuo ordine eccedente
-        l\\u2019importo del Buono Regalo va estinto con un\\u2019altra modalit\\u00e0
-        di pagamento.</p>\", \n      \"terms_and_conditions_html\": null, \n      \"terms_and_conditions_pdf_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/AMZ-ES.pdf\", \n      \"terms_and_conditions_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/AMZ-ES.pdf\"\n    }, \n    {\n
-        \     \"availability\": \"realtime\", \n      \"available_denominations\":
+        \n      \"name\": \"Amazon.es\", \n      \"redeem_instructions_html\": \"<ol>\\n<li>Localiza
+        el c\\u00f3digo de canje.</li>\\n<li>Accede a Mis pedidos.</li>\\n<li>Introduce
+        el c\\u00f3digo de canje y haz clic en Aplicar a Mi cuenta.</li>\\n</ol>\\n<p><strong>Nota:</strong>
+        Si el precio total de tu pedido es superior al saldo de tus cheques regalo,
+        puedes pagar la diferencia con una tarjeta de pago.</p>\\n<p>Si no quieres
+        usar el saldo de tus cheques regalo, puedes deselecionar la casilla correspondiente
+        durante el proceso de tramitaci\\u00f3n del pedido. Para ello, aseg\\u00farate
+        de que la opci\\u00f3n Utiliza tus EUR X.XX de saldo no est\\u00e1 marcada
+        en el momento de seleccionar un m\\u00e9todo de pago. Tambi\\u00e9n puedes
+        hacer clic en Cambiar en el apartado M\\u00e9todos de pago en la \\u00faltima
+        p\\u00e1gina del proceso de tramitaci\\u00f3n del pedido.</p>\", \n      \"terms_and_conditions_html\":
+        null, \n      \"terms_and_conditions_pdf_url\": \"https://gift-sandbox.wegift.io/public/terms/AMZ-ES.pdf\",
+        \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/AMZ-ES.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"available_denominations\":
         null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/AMZ-FR/AMZ-FR-card.png\",
         \n      \"code\": \"AMZ-FR\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
         \"open\", \n      \"description\": \"Amazon.com, Inc. fournit des services
@@ -244,14 +352,69 @@ http_interactions:
         \n      \"e_code_usage_type\": null, \n      \"expiry_date_policy\": \"2 Years\",
         \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\": \"0.01\",
         \n      \"name\": \"Amazon.it\", \n      \"redeem_instructions_html\": \"<p>Per
-        utilizzare il tuo Buono Regalo, segui questa procedura:\\n1. Vai su www.amazon.it/gp/gc/\\n2.
-        Clicca su \\u201cAggiungi al mio Account\\u201d e inserisci il codice quando
-        richiesto.\\n3. Il credito del Buono Regalo sar\\u00e0 aggiunto automaticamente
-        agli ordini \\u201calla cassa\\u201d.\\n4. Il saldo del tuo ordine eccedente
-        l\\u2019importo del Buono Regalo va estinto con un\\u2019altra modalit\\u00e0
-        di pagamento.</p>\", \n      \"terms_and_conditions_html\": null, \n      \"terms_and_conditions_pdf_url\":
+        utilizzare il tuo Buono Regalo, segui questa procedura:</p>\\n<ol>\\n<li>Vai
+        su <a href=\\\"https://www.amazon.it/gp/gc/\\\">www.amazon.it/gp/gc/</a></li>\\n<li>Clicca
+        su \\u201cAggiungi al mio Account\\u201d e inserisci il codice quando richiesto.</li>\\n<li>Il
+        credito del Buono Regalo sar\\u00e0 aggiunto automaticamente agli ordini \\u201calla
+        cassa\\u201d.</li>\\n<li>Il saldo del tuo ordine eccedente l\\u2019importo
+        del Buono Regalo va estinto con un\\u2019altra modalit\\u00e0 di pagamento.</li>\\n</ol>\",
+        \n      \"terms_and_conditions_html\": null, \n      \"terms_and_conditions_pdf_url\":
         \"https://gift-sandbox.wegift.io/public/terms/AMZ-IT.pdf\", \n      \"terms_and_conditions_url\":
         \"https://gift-sandbox.wegift.io/public/terms/AMZ-IT.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"available_denominations\":
+        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/AMZ-NL/AMZ-NL-card.png\",
+        \n      \"code\": \"AMZ-NL\", \n      \"currency_code\": \"EUR\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Amazon.de Tegoedbonnen kunnen op www.amazon.de
+        en op bepaalde partner-websites gebruikt worden voor korting op miljoenen
+        artikelen. De enorme selectie op Amazon.de omvat producten in de categorie\\u00ebn
+        boeken, elektronica, muziek, MP3-downloads, films en televisie, kleding, videogames,
+        software, sport & outdoors, speelgoed, baby-artikelen, computer en kantoor,
+        huis en tuin, sieraden, verzorgingsproducten, bouwmaterialen, kantoorartikelen,
+        camera en foto, dierenbenodigdheden enzovoort. Amazon.de is d\\u00e9 plek
+        waar u bijna alles wat u wilt kopen online en tegen een gunstige prijs kunt
+        vinden en ontdekken.\", \n      \"e_code_usage_type\": null, \n      \"expiry_date_policy\":
+        \"2 Years\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Amazon.nl\", \n      \"redeem_instructions_html\":
+        \"<p>aflossing\\nAmazon.de cadeaubonnen en cadeaubonnen tot het einde van
+        het tiende jaar aflosbaar na aankoop van de voucher ( \\\"Vervaldatum\\\").\\nResterende
+        tegoeden worden bijgeschreven op uw cadeaubon-account tot de vervaldatum,
+        waarna ze niet meer kunnen worden gebruikt.\\nCadeaubonnen kunnen worden ingewisseld
+        voor producten die zijn goedgekeurd voor aankoop door voucher alleen www.amazon.de
+        of www.amazon.at ( \\\"Toegestane sites\\\"). Ze staan \\u200b\\u200bniet
+        op andere Amazon-websites, bijvoorbeeld terugbetaalbaar bij Amazon.co.uk,
+        Amazon.fr, Amazon.it, Amazon.co.jp, Amazon.com, Amazon.ca of Amazon.cn.\\nCadeaubonnen
+        kunnen worden ingewisseld via het gewone bestelformulier (winkelwagentje)
+        of voor het plaatsen van een bestelling via \\\"Mijn account\\\" als een creditsaldo.
+        Voor het gebruik van 1-Click besteldienst een cadeaubon als onderdeel van
+        Amazon.de, draait u de coupon code in eerste instantie \\\"My Account\\\"
+        \\\"Check gift card saldo en inwisselen cadeaubonnen\\\" onder \\u00e9\\u00e9n.\\nVoor
+        aankopen van muziekdownloads kunt u cadeaubonnen als volgt inwisselen:</p>\\n<p>Ga
+        naar de detailpagina van de gewenste titel.\\nKlik op de link \\\"Voer kortingscode
+        in\\\" onder de knop \\\"Nu kopen met 1-Click\\u00ae\\\" in de rechterbovenhoek.\\nTyp
+        onder 'Nieuwe couponcode invoeren' de code en klik op 'Inwisselen'.\\nAls
+        de waarde van de voucher voor uw bestelling is niet genoeg is, kunt u het
+        verschil met een andere erkende Amazon betaling of door het invoeren van andere
+        cadeaubonnen aan dezelfde kant te betalen.\\nBij het bestellen kan meer dan
+        \\u00e9\\u00e9n cadeaubon worden gebruikt. Cadeaubonnen kunnen worden gecombineerd
+        met 1 promotiebon per bestelling.\\nOm cadeaubonnen op uw account te wisselen
+        of om een \\u200b\\u200bbestaand krediet te bekijken, kunt u terecht op \\\"My
+        Account\\\" <a href=\\\"https://www.amazon.de\\\">https://www.amazon.de</a>.</p>\",
+        \n      \"terms_and_conditions_html\": \"<p>*Amazon.de Tegoedbonnen (\\\"Tegoedbonnen\\\"),
+        die door [The Voucher Market Ltd],  een geautoriseerde reseller van Amazon.de
+        Tegoedbonnen, worden verkocht. Amazon.de Tegoedbonnen (\\\"Tegoedbonnen\\\")
+        kunnen ingewisseld worden voor de aankoop van geselecteerde producten op Amazon.de
+        en op bepaalde partner-websites. Ze mogen niet worden doorverkocht of tegen
+        betaling aan derden worden overgedragen, contante uitbetaling is uitgesloten.
+        De uitgever van de tegoedbonnen is Amazon EU S.\\u00e0.r.l. in Luxemburg.
+        Noch deze, noch hiermee geassocieerde bedrijven zijn aansprakelijk in geval
+        van verlies, diefstal, beschadiging of misbruik van een tegoedbon. Tegoedbonnen
+        kunnen op www.amazon.de/inwisselen worden ingewisseld. Daar vindt u ook de
+        volledige algemene voorwaarden. Alle Amazon \\u00ae \\u2122 &amp; \\u00a9
+        producten zijn eigendom van Amazon.com, Inc. of hun geassocieerde ondernemingen.
+        De tegoedbonnen kunnen worden ingewisseld tot aan de vermelde vervaldatum.
+        Er worden geen servicekosten in rekening gebracht.</p>\", \n      \"terms_and_conditions_pdf_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/AMZ-NL.pdf\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/AMZ-NL.pdf\"\n    }, \n    {\n
         \     \"availability\": \"stocked\", \n      \"available_denominations\":
         [\n        \"5.00\", \n        \"10.00\", \n        \"15.00\", \n        \"20.00\",
         \n        \"25.00\", \n        \"30.00\", \n        \"40.00\", \n        \"50.00\",
@@ -496,10 +659,104 @@ http_interactions:
         succesvolle en relevante mediaruimte kunnen kopen.\", \n      \"e_code_usage_type\":
         null, \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\":
         \"5000.00\", \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Bol.com\",
-        \n      \"redeem_instructions_html\": null, \n      \"terms_and_conditions_html\":
-        null, \n      \"terms_and_conditions_pdf_url\": \"https://gift-sandbox.wegift.io/public/terms/BOL-NL.pdf\",
-        \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/BOL-NL.pdf\"\n
-        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"available_denominations\":
+        \n      \"redeem_instructions_html\": \"<p>Het inwisselen van uw kortingscode
+        of (digitale) cadeaubon/kaart werkt als volgt:</p>\\n<p>Stap 1: kies een artikel
+        dat u wilt bestellen en klik op \\u2018In winkelwagentje\\u2019. Als u meerdere\\nartikelen
+        wilt bestellen, klikt u op \\u2018Verder winkelen\\u2019</p>\\n<p>Stap 2:
+        vervolgens klikt u op \\u2018Bestellen\\u2019</p>\\n<p>Stap 3: als u al klant
+        bent bij bol.com, vul dan uw inloggegevens in. Zo niet, maak dan een account\\naan</p>\\n<p>Stap
+        4: als nieuwe klant doorloopt u de stappen \\u2018Adresgegevens\\u2019 en
+        \\u2018Verzendwijze &amp; Cadeauservice\\u2019.\\nWanneer u al klant bent,
+        gaat u rechtstreeks naar \\u2018Gegevens\\ncontroleren\\u2019</p>\\n<p>Stap
+        5: controleer in het volgende scherm uw bestelling</p>\\n<p>Stap 6: kloppen
+        alle gegevens? Dan gaat u verder door op \\u2018Naar betalen\\u2019 te klikken</p>\\n<p>Stap
+        7: kies een betaalmethode</p>\\n<p>Stap 8: vul in het veld \\u2018Bol.com
+        cadeaubonnen, cadeaukaart en/of kortingscode gebruiken\\u2019 uw\\nkortings-
+        of cadeauboncode in en klik op \\u2018Toevoegen\\u2019</p>\\n<p>Stap 9: u
+        rondt de bestelling af door op \\u2018Bestelling versturen\\u2019 te klikken\\nDe
+        waarde van de code wordt direct verrekend met uw bestelling. Een eventuele
+        restwaarde kunt u bij\\neen volgende bestelling gebruiken. Deze blijft beschikbaar
+        in uw account. U hoeft de code niet\\nnogmaals in te voeren.</p>\", \n      \"terms_and_conditions_html\":
+        \"<p>In aanvulling op onze Algemene Verkoopvoorwaarden zijn deze cadeaubonvoorwaarden
+        van toepassing op door <a href=\\\"https://www.bol.com/\\\">bol.com</a> b.v.(\\\"<a
+        href=\\\"https://www.bol.com/\\\">bol.com</a>\\\") uitgegeven cadeaubonnen.
+        Door gebruik te maken van een <a href=\\\"https://www.bol.com/\\\">bol.com</a>
+        cadeaubon aanvaard je deze cadeaubonvoorwaarden en verbind je jezelf ertoe
+        deze na te leven.</p>\\n<ol>\\n<li>\\n<p>Deze voorwaarden zijn van toepassing
+        op alle door <a href=\\\"https://www.bol.com/\\\">bol.com</a> uitgegeven cadeaubonnen
+        (zowel elektronische als gedrukte cadeaubonnen, papierencadeaubonnen en als
+        cadeaukaarten) (hierna gezamenlijk: \\u201cCadeaubonnen\\u201d) die worden
+        verkocht door <a href=\\\"https://www.bol.com/\\\">bol.com</a> en door <a
+        href=\\\"https://www.bol.com/\\\">bol.com</a> aangewezen derde partijen.</p>\\n</li>\\n<li>\\n<p>Iedere
+        Cadeaubon is voorzien van een unieke code. Dit kan een nummercode en/of pincode
+        en/of tekstcode zijn. Iedere Cadeaubon wordt slechts \\u00e9\\u00e9n maal
+        verstrekt. Je dient de Cadeaubon (inclusief de code) zorgvuldig te bewaren.
+        In geval van diefstal (waaronder tevens begrepen het gebruik door onbevoegde
+        derden van de code) of verlies (waaronder tevens begrepen het (per ongeluk)
+        wissen van e-mails) vindt geen vergoeding plaats. Alleen originele Cadeaubonnen
+        en codes kunnen worden gebruikt en dienen op verzoek aan <a href=\\\"https://www.bol.com/\\\">bol.com</a>
+        te worden verstrekt. <a href=\\\"https://www.bol.com/\\\">bol.com</a> behoudt
+        zich het recht voor om een Cadeaubon uitsluitend te accepteren na ontvangst
+        van de originele Cadeaubon (in geval van elektronische cadeaubon de e-mail
+        die door bol.com of een door <a href=\\\"https://www.bol.com/\\\">bol.com</a>
+        aangewezen derde partij aan jou is verzonden en waarin de code is opgenomen)
+        en om in geval van oneigenlijk gebruik alsnog betaling in geld te verlangen.
+        Indien een Cadeaubon bij een derde partij is gekocht, dien je de kassabon
+        en het opwaardeerbewijs zorgvuldig te bewaren en op verzoek aan <a href=\\\"https://www.bol.com/\\\">bol.com</a>
+        te overleggen.</p>\\n</li>\\n<li>\\n<p>Om een Cadeaubon te gebruiken dien
+        je de door jou geselecteerde producten in het \\\"winkelwagentje\\\" te plaatsen.
+        Tijdens het betaalproces selecteer je vervolgens als betaalmethode \\\"cadeaubon\\\"
+        en vul je de exacte code in.</p>\\n</li>\\n<li>\\n<p>De aard, waarde, duur,
+        vervaldatum en/of eventueel toepasselijke overige specifieke gebruiksvoorwaarden
+        vind je op de Cadeaubonnen/of in de uiting (e-mail) waarin de code is opgenomen.
+        Iedere Cadeaubon is gedurende een bepaalde periode geldig. Na de vervaldatum
+        kan de Cadeaubon niet meer worden gebruikt.</p>\\n</li>\\n<li>\\n<p>Cadeaubonnen
+        uitgegeven door bol.com en/of door <a href=\\\"https://www.bol.com/\\\">bol.com</a>
+        aangewezen derde partijen zijn uitsluitend inwisselbaar terzake van aankopen
+        via <a href=\\\"https://www.bol.com/\\\">bol.com</a>.</p>\\n</li>\\n<li>\\n<p>Cadeaubonnen
+        kunnen niet voor openstaande bestellingen gebruikt worden.</p>\\n</li>\\n<li>\\n<p>Cadeaubonnen
+        of restwaarde ervan zijn niet inwisselbaar voor geld.</p>\\n</li>\\n<li>\\n<p>De
+        restwaarde van de Cadeaubon kan worden gebruikt voor volgende bestellingen.
+        Deze waarde is zichtbaar in het account van de gebruiker. De restwaarde is
+        niet overdraagbaar en kan uitsluitend worden gebruikt vanaf hetzelfde account
+        als waar het eerste gebruik van de Cadeaubon plaats heeft gevonden en gedurende
+        de geldigheidsduur van de Cadeaubon.</p>\\n</li>\\n<li>\\n<p>Van reeds gebruikte
+        Cadeaubonnen is alle informatie m.b.t. code, restwaarde en vervaldatum ook
+        beschikbaar via het accountoverzicht op de <a href=\\\"https://www.bol.com/\\\">bol.com</a>
+        website.</p>\\n</li>\\n<li>\\n<p>Indien het totaalbedrag van de bestelling
+        hoger is dan de waarde van de gebruikte Cadeaubon(nen), dient het verschil
+        betaald te worden met \\u00e9\\u00e9n van de overige betaalmethoden: acceptgiro,
+        creditcard, kortingscode, iDEAL of Maestro.</p>\\n</li>\\n<li>\\n<p>In geval
+        bol.com op basis van artikel 9.2 van de Algemene Verkoopvoorwaarden overgaat
+        tot restitutie van (een deel van) de factuurwaarde, zal in geval naast \\u00e9\\u00e9n
+        of meer Cadeaubon(nen) tevens betaling door middel van acceptgiro of creditcard
+        heeft plaatsgevonden, restitutie zoveel mogelijk plaatsvinden door verhoging
+        van het Cadeaubonsaldo in je account. Indien dit niet toereikend mocht zijn
+        zal terzake van het restant restitutie plaatsvinden door middel van terugbetaling
+        in geld van het (restant)bedrag dat door middel van een acceptgiro of creditcard
+        is betaald. In geval voor betaling uitsluitend gebruik is gemaakt van \\u00e9\\u00e9n
+        of meer Cadeaubonnen zal in deze gevallen restitutie plaatsvinden door verhoging
+        van het Cadeaubonsaldo.</p>\\n</li>\\n<li>\\n<p>Het is niet toegestaan Cadeaubonnen
+        of de werking daarvan te wijzigen, te vervalsen, te ondermijnen of anderszins
+        aan te tasten (waaronder begrepen hacking).</p>\\n</li>\\n<li>\\n<p>Iedere
+        (poging tot) fraude of andere niet toegestane handeling wordt geregistreerd
+        en leidt ertoe dat het gebruik van Cadeaubonnen wordt ontzegd.</p>\\n</li>\\n<li>\\n<p>Het
+        is niet toegestaan Cadeaubonnen op welke wijze ook te gebruiken voor commerci\\u00eble
+        doeleinden en/of andere doeleinden dan waarvoor deze zijn uitgegeven.</p>\\n</li>\\n<li>\\n<p>Deze
+        cadeaubonvoorwaarden kunnen van tijd tot tijd worden gewijzigd. Wij raden
+        je aan om de cadeaubonvoorwaarden telkens voor het gebruik van een Cadeaubon
+        te raadplegen. Blijf na ingaan van de wijzigingen Cadeaubonnen gebruiken,
+        dan aanvaard je daarmee de gewijzigde cadeaubonvoorwaarden.</p>\\n</li>\\n<li>\\n<p>Per
+        bestelling kun je een onbeperkt bedrag aan Cadeaubonnen of een combinatie
+        van maximaal 1\\u00a0kortingscode en een onbeperkt bedrag aan Cadeaubonnen
+        inwisselen.</p>\\n</li>\\n<li>\\n<p>Heb je vragen over of opmerkingen over
+        het gebruik van de Cadeaubonnen of problemen bij het inwisselen laat ons dit
+        dan zo spoedig mogelijk weten door contact op te nemen met onze klantenservice.
+        <a href=\\\"https://www.bol.com/\\\">bol.com</a> zal je e-mail dan zo spoedig
+        mogelijk behandelen.</p>\\n</li>\\n</ol>\", \n      \"terms_and_conditions_pdf_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/BOL-NL.pdf\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/BOL-NL.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"realtime\", \n      \"available_denominations\":
         null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/BON/BON-card.png\",
         \n      \"code\": \"BON-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
         \"open\", \n      \"description\": \"Bonmarch\\u00e9 is the UK's largest womenswear
@@ -564,8 +821,8 @@ http_interactions:
         \"https://gift-sandbox.wegift.io/public/terms/BRNS-GB.pdf\", \n      \"terms_and_conditions_url\":
         \"https://gift-sandbox.wegift.io/public/terms/BRNS-GB.pdf\"\n    }, \n    {\n
         \     \"availability\": \"realtime\", \n      \"available_denominations\":
-        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/BUT/BUT-card.png\",
-        \n      \"code\": \"BUT-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/BUTBI/BUTBI-card.png\",
+        \n      \"code\": \"BUTBI-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
         \"open\", \n      \"description\": \"As one of the most recognised brands
         in the UK holiday market Butlins offer short breaks all year-round at three
         great British seaside resorts. Butlins bring fun family holidays back into
@@ -607,8 +864,8 @@ http_interactions:
         and conditions of booking</li>\\n<li>Please note that once you\\u2019ve booked
         your holiday we will also provide the terms and conditions of booking with
         your holiday confirmation.</li>\\n</ul>\", \n      \"terms_and_conditions_pdf_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/BUT-GB.pdf\", \n      \"terms_and_conditions_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/BUT-GB.pdf\"\n    }, \n    {\n
+        \"https://gift-sandbox.wegift.io/public/terms/BUTBI-GB.pdf\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/BUTBI-GB.pdf\"\n    }, \n    {\n
         \     \"availability\": \"realtime\", \n      \"available_denominations\":
         null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/NERO/NERO-card.png\",
         \n      \"code\": \"NERO-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
@@ -933,7 +1190,7 @@ http_interactions:
         pleasure to brighten your day. We want to welcome people from all corners
         of the globe to The Home of Irresistible Coffee.\", \n      \"e_code_usage_type\":
         null, \n      \"expiry_date_policy\": \"12 months after last use\", \n      \"maximum_value\":
-        \"150.00\", \n      \"minimum_value\": \"5.00\", \n      \"name\": \"Costa\",
+        \"150.00\", \n      \"minimum_value\": \"1.00\", \n      \"name\": \"Costa\",
         \n      \"redeem_instructions_html\": \"<ol>\\n<li>Print out the page or take
         your phone with you to the Costa store.</li>\\n<li>Show the QR code to your
         barista for them to scan at the till.</li>\\n<li>They will confirm your balance
@@ -1102,6 +1359,54 @@ http_interactions:
         through a benefits scheme cannot be used in Dixons Tax Free.</li>\\n</ul>\",
         \n      \"terms_and_conditions_pdf_url\": \"https://gift-sandbox.wegift.io/public/terms/DIX-GB.pdf\",
         \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/DIX-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"available_denominations\":
+        [\n        \"5.00\", \n        \"10.00\", \n        \"20.00\", \n        \"25.00\",
+        \n        \"50.00\", \n        \"100.00\", \n        \"150.00\", \n        \"200.00\",
+        \n        \"250.00\", \n        \"500.00\"\n      ], \n      \"card_image_url\":
+        \"https://gift-sandbox.wegift.io/static/product_assets/DIX/DIX-card.png\",
+        \n      \"code\": \"DIX-IM-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"fixed\", \n      \"description\": \"<p>To stay on the ball with modern technology,
+        Currys PC World is all you need! With appliances big and small, for the home
+        and to take with you on your daily adventures, treat someone to a Currys gift
+        card and you\\u2019ll be putting them in touch with the new age!</p>\\n\\n<p>Always
+        wowing the public with its grand array of laptops and desktops, now you can
+        go further with your hobby or work when you tune in to innovative notebook
+        designs, tablets and more. With a PC World gift card, your family member or
+        friend could make a real investment. For the home - shop sturdy kitchen goods
+        like fridge freezers, or small appliances such as toasters, kettles and more
+        too - Currys PC World really has a fully stacked catalogue. Proudly presenting
+        the best in entertainment products as well - find outstanding TV sets, gaming
+        goods, audio equipment and more - everyone can find their joy at Currys PC
+        World.</p>\", \n      \"e_code_usage_type\": \"url-only\", \n      \"expiry_date_policy\":
+        \"24 months from last use\", \n      \"maximum_value\": \"2500.00\", \n      \"minimum_value\":
+        \"1.00\", \n      \"name\": \"Currys PC World Incentive and Motivation\",
+        \n      \"redeem_instructions_html\": \"<p><strong>Customer</strong></p>\\n<p>You
+        can use this card in any Currys PC World store or online at <a href=\\\"http://www.currys.co.uk\\\">currys.co.uk</a>
+        and <a href=\\\"http://www.pcworld.co.uk\\\">pcworld.co.uk</a>. To use this
+        card instore please print onto A4 paper or display on your Smartphone.</p>\\n<p>For
+        online use enter your card number and PIN on the payment page.</p>\\n<p><strong>Colleague</strong></p>\\n<p>Please
+        process as a gift card, by scanning the barcode displayed above. When the
+        transaction is complete return this card to the customer. Full processing
+        instructions are detailed on Compass.</p>\", \n      \"terms_and_conditions_html\":
+        \"<p>This card can be used as full or part payment in Currys, Currys Digital,
+        Dixons Tax Free* and PC World stores in the UK.</p>\\n<p>The amount of credit
+        added or deducted and the card's balance will be shown on the till receipt
+        for in store redemptions. No change or refund will be given. Any remaining
+        balance can be used against future purchases.</p>\\n<p>You can check the balance
+        here or call 0800 897 163. Alternatively, present your card in store where
+        a member of the store team can check your balance for you.</p>\\n<p>Upon 2
+        years non-use, the card will expire and any balance will be deducted.</p>\\n<p>Protect
+        the card and treat it as cash. No liability is accepted for lost or stolen
+        cards or any credit amounts on this card.</p>\\n<p>Transactions may only take
+        place when the card is presented.</p>\\n<p>The card is not a cheque guarantee,
+        credit, store or charge card.</p>\\n<p>The card cannot be exchanged for cash.</p>\\n<p>We
+        reserve the right to amend the terms and conditions or discontinue the card
+        at any time. This does not affect your statutory rights.</p>\\n<p>Issuer:
+        DSG Retail Ltd, Maylands Ave, Hemel Hempstead, HP2 7TG Registered in England
+        No. 504877</p>\\n<ul>\\n<li>Cards issued, as part of an insurance claim or
+        through a benefits scheme cannot be used in Dixons Tax Free.</li>\\n</ul>\",
+        \n      \"terms_and_conditions_pdf_url\": \"https://gift-sandbox.wegift.io/public/terms/DIX-IM-GB.pdf\",
+        \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/DIX-IM-GB.pdf\"\n
         \   }, \n    {\n      \"availability\": \"realtime\", \n      \"available_denominations\":
         null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/DEB/DEB-card.png\",
         \n      \"code\": \"DEB-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
@@ -1188,7 +1493,7 @@ http_interactions:
         possible car la cha\\u00eene d'approvisionnement de Decathlon comprend la
         cr\\u00e9ation de produits, la recherche et le d\\u00e9veloppement, la logistique
         et bien s\\u00fbr la vente au d\\u00e9tail.\", \n      \"e_code_usage_type\":
-        \"url-recommended\", \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\":
+        \"url-only\", \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\":
         \"5000.00\", \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Decathlon
         BE\", \n      \"redeem_instructions_html\": \"<p><strong>En magasin</strong>\\nPr\\u00e9sentez
         votre carte cadeau pour r\\u00e9gler vos achats</p>\\n<p><strong>Sur internet</strong>\\n\\u00c0
@@ -1489,20 +1794,20 @@ http_interactions:
         in 30 L\\u00e4ndern verkauft werden. Das alles mit einem niedrigen Preis und
         hoher Qualit\\u00e4t. Dies ist m\\u00f6glich, da die Lieferkette von Decathlon
         Produktentwicklung, Forschung und Entwicklung, Logistik und nat\\u00fcrlich
-        Einzelhandel umfasst.\", \n      \"e_code_usage_type\": \"url-recommended\",
-        \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\": \"5000.00\",
-        \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Decathlon DE\", \n
-        \     \"redeem_instructions_html\": \"<p><strong>In der Fililale</strong>\\nZeige
-        deinen Gutschein an der Kasse vor</p>\\n<p><strong>Online</strong>\\nGib bei
-        der Bezahlung die Nummer des Gutscheins sowie die vierstellige Internet PIN-Nummer
-        ein</p>\\n<p><strong>Vorteile</strong>\\nAlle Geschenkgutscheine sind drei
-        Jahre g\\u00fcltig und einl\\u00f6sbar f\\u00fcr alle Produkte und Dienstleistungen,
-        online und in deiner DECATHLON Filiale</p>\", \n      \"terms_and_conditions_html\":
-        \"<p>F\\u00fcr den Erwerb und die Einl\\u00f6sung von DECATHLON-Geschenkgutscheinen
-        gelten ausschlie\\u00dflich diese besonderen Gesch\\u00e4ftsbedingungen der</p>\\n<p>DECATHLON
-        Sportspezialvertriebs GmbH, Filsallee 19, 73207 Plochingen, Umsatzsteuer-Identifikationsnummer:
-        DE811349731,  HRB 720660, Gesch\\u00e4ftsf\\u00fchrer: St\\u00e9phane Montini,
-        Mathieu Georges</p>\\n<p>(nachfolgend: \\u201eDECATHLON\\u201c)</p>\\n<p>Abweichende
+        Einzelhandel umfasst.\", \n      \"e_code_usage_type\": \"url-only\", \n      \"expiry_date_policy\":
+        \"2 Years\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
+        \"0.01\", \n      \"name\": \"Decathlon DE\", \n      \"redeem_instructions_html\":
+        \"<p><strong>In der Fililale</strong>\\nZeige deinen Gutschein an der Kasse
+        vor</p>\\n<p><strong>Online</strong>\\nGib bei der Bezahlung die Nummer des
+        Gutscheins sowie die vierstellige Internet PIN-Nummer ein</p>\\n<p><strong>Vorteile</strong>\\nAlle
+        Geschenkgutscheine sind drei Jahre g\\u00fcltig und einl\\u00f6sbar f\\u00fcr
+        alle Produkte und Dienstleistungen, online und in deiner DECATHLON Filiale</p>\",
+        \n      \"terms_and_conditions_html\": \"<p>F\\u00fcr den Erwerb und die Einl\\u00f6sung
+        von DECATHLON-Geschenkgutscheinen gelten ausschlie\\u00dflich diese besonderen
+        Gesch\\u00e4ftsbedingungen der</p>\\n<p>DECATHLON Sportspezialvertriebs GmbH,
+        Filsallee 19, 73207 Plochingen, Umsatzsteuer-Identifikationsnummer: DE811349731,
+        \ HRB 720660, Gesch\\u00e4ftsf\\u00fchrer: St\\u00e9phane Montini, Mathieu
+        Georges</p>\\n<p>(nachfolgend: \\u201eDECATHLON\\u201c)</p>\\n<p>Abweichende
         Bedingungen des Kunden gelten nur, soweit sie von DECATHLON im Einzelfall
         ausdr\\u00fccklich und schriftlich anerkannt worden sind.</p>\\n<p>Die Bezeichnung
         \\u201eGeschenkgutschein\\u201c bezieht sich im Folgenden auf alle auf geschenkgutschein.decathlon.de
@@ -1674,7 +1979,7 @@ http_interactions:
         calidad. Esto es posible ya que la cadena de suministro de Decathlon incluye
         la creaci\\u00f3n de productos, la investigaci\\u00f3n y el desarrollo, la
         log\\u00edstica y, por supuesto, la venta minorista.\", \n      \"e_code_usage_type\":
-        \"url-recommended\", \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\":
+        \"url-only\", \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\":
         \"5000.00\", \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Decathlon
         ES\", \n      \"redeem_instructions_html\": \"<p><strong>En tienda:</strong>\\nUtilice
         su Tarjeta Regalo para pagar su compra en tienda</p>\\n<p><strong>En internet:
@@ -2010,7 +2315,7 @@ http_interactions:
         possible car la cha\\u00eene d'approvisionnement de Decathlon comprend la
         cr\\u00e9ation de produits, la recherche et le d\\u00e9veloppement, la logistique
         et bien s\\u00fbr la vente au d\\u00e9tail.\", \n      \"e_code_usage_type\":
-        \"url-recommended\", \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\":
+        \"url-only\", \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\":
         \"5000.00\", \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Decathlon
         FR\", \n      \"redeem_instructions_html\": \"<p><strong>En magasin</strong>\\nPr\\u00e9sentez
         votre carte cadeau pour r\\u00e9gler vos achats</p>\\n<p><strong>Sur internet</strong>\\n\\u00c0
@@ -2641,8 +2946,8 @@ http_interactions:
         Tutto ci\\u00f2 con un prezzo basso e un'alta qualit\\u00e0. Ci\\u00f2 \\u00e8
         possibile in quanto la catena di approvvigionamento di Decathlon comprende
         la creazione di prodotti, la ricerca e lo sviluppo, la logistica e naturalmente
-        la vendita al dettaglio.\", \n      \"e_code_usage_type\": \"url-recommended\",
-        \n      \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\": \"5000.00\",
+        la vendita al dettaglio.\", \n      \"e_code_usage_type\": \"url-only\", \n
+        \     \"expiry_date_policy\": \"2 Years\", \n      \"maximum_value\": \"5000.00\",
         \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Decathlon IT\", \n
         \     \"redeem_instructions_html\": \"<p><strong>In negozio</strong>\\nUsa
         la tua carta regalo per fare acquisti in tutti i punti vendita Decathlon in
@@ -2889,7 +3194,7 @@ http_interactions:
         verschillende producten verkocht door meer dan 1000 winkels in 30 landen.
         Al dat met een lage prijs en hoge kwaliteit. Dit is mogelijk omdat Decathlon's
         supply chain product creatie, onderzoek en ontwikkeling, logistiek en natuurlijk
-        retail omvat.\", \n      \"e_code_usage_type\": \"url-recommended\", \n      \"expiry_date_policy\":
+        retail omvat.\", \n      \"e_code_usage_type\": \"url-only\", \n      \"expiry_date_policy\":
         \"2 Years\", \n      \"maximum_value\": \"5000.00\", \n      \"minimum_value\":
         \"0.01\", \n      \"name\": \"Decathlon NL\", \n      \"redeem_instructions_html\":
         \"<p><strong>In de winkel:</strong>\\nGebruik je Giftcard om aankopen te doen
@@ -2991,7 +3296,7 @@ http_interactions:
         cen\\u0105 i wysok\\u0105 jako\\u015bci\\u0105. Jest to mo\\u017cliwe, poniewa\\u017c
         \\u0142a\\u0144cuch dostaw firmy Decathlon obejmuje tworzenie produkt\\u00f3w,
         badania i rozw\\u00f3j, logistyk\\u0119 i oczywi\\u015bcie handel detaliczny.\",
-        \n      \"e_code_usage_type\": \"url-recommended\", \n      \"expiry_date_policy\":
+        \n      \"e_code_usage_type\": \"url-only\", \n      \"expiry_date_policy\":
         \"2 Years\", \n      \"maximum_value\": \"1000.00\", \n      \"minimum_value\":
         \"20.00\", \n      \"name\": \"Decathlon PL\", \n      \"redeem_instructions_html\":
         \"<p><strong>W sklepie:</strong>\\nU\\u017cyj swojej karty aby dokona\\u0107
@@ -3483,8 +3788,8 @@ http_interactions:
         kwietnia 2016 roku.</p>\", \n      \"terms_and_conditions_pdf_url\": \"https://gift-sandbox.wegift.io/public/terms/DECA-PL.pdf\",
         \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/DECA-PL.pdf\"\n
         \   }, \n    {\n      \"availability\": \"realtime\", \n      \"available_denominations\":
-        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/DPAR/DPAR-card.png\",
-        \n      \"code\": \"DPAR-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/DPARBI/DPARBI-card.png\",
+        \n      \"code\": \"DPARBI-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
         \"open\", \n      \"description\": \"Disneyland Paris is much more than just
         a theme park. The magic comes to life in seven amazing themed hotels with
         over 50 attractions for you to explore. Exciting adventures await you and
@@ -3526,8 +3831,8 @@ http_interactions:
         and conditions of booking</li>\\n<li>Please note that once you\\u2019ve booked
         your holiday we will also provide the terms and conditions of booking with
         your holiday confirmation.</li>\\n</ul>\", \n      \"terms_and_conditions_pdf_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/DPAR-GB.pdf\", \n      \"terms_and_conditions_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/DPAR-GB.pdf\"\n    }, \n    {\n
+        \"https://gift-sandbox.wegift.io/public/terms/DPARBI-GB.pdf\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/DPARBI-GB.pdf\"\n    }, \n    {\n
         \     \"availability\": \"stocked\", \n      \"available_denominations\":
         [\n        \"5.00\", \n        \"10.00\", \n        \"15.00\", \n        \"20.00\",
         \n        \"25.00\", \n        \"50.00\", \n        \"75.00\", \n        \"100.00\",
@@ -3639,8 +3944,8 @@ http_interactions:
         \"https://gift-sandbox.wegift.io/public/terms/EINS-GB.pdf\", \n      \"terms_and_conditions_url\":
         \"https://gift-sandbox.wegift.io/public/terms/EINS-GB.pdf\"\n    }, \n    {\n
         \     \"availability\": \"realtime\", \n      \"available_denominations\":
-        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/EMI/EMI-card.png\",
-        \n      \"code\": \"EMI-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/EMIBI/EMIBI-card.png\",
+        \n      \"code\": \"EMIBI-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
         \"open\", \n      \"description\": \"In recent years we\\u2019re proud to
         have been voted one of the world\\u2019s best airlines by our customers. We
         strive to continually offer exceptional service, so you experience a great
@@ -3683,8 +3988,8 @@ http_interactions:
         and conditions of booking</li>\\n<li>Please note that once you\\u2019ve booked
         your holiday we will also provide the terms and conditions of booking with
         your holiday confirmation.</li>\\n</ul>\", \n      \"terms_and_conditions_pdf_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/EMI-GB.pdf\", \n      \"terms_and_conditions_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/EMI-GB.pdf\"\n    }, \n    {\n
+        \"https://gift-sandbox.wegift.io/public/terms/EMIBI-GB.pdf\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/EMIBI-GB.pdf\"\n    }, \n    {\n
         \     \"availability\": \"realtime\", \n      \"available_denominations\":
         null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/ERJO/ERJO-card.png\",
         \n      \"code\": \"ERJO-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
@@ -4040,42 +4345,44 @@ http_interactions:
         \n      \"e_code_usage_type\": null, \n      \"expiry_date_policy\": \"Valid
         indefinitely\", \n      \"maximum_value\": \"500.00\", \n      \"minimum_value\":
         \"50.00\", \n      \"name\": \"Global Hotel Card GB\", \n      \"redeem_instructions_html\":
-        \"<ul>\\n<li>Search and book your hotel on www.GlobalHotelCard.com.</li>\\n<li>Apply
+        \"<ul>\\n<li>\\n<p>Search and book your hotel on <a href=\\\"http://www.GlobalHotelCard.com\\\">http://www.GlobalHotelCard.com</a>.</p>\\n</li>\\n<li>\\n<p>Apply
         the 19-digit Promotion Code (and 4-digit Pin) value as full or partial payment
-        of the hotel reservation. Any balance due may be paid with a credit card.</li>\\n<li>Your
+        of the hotel reservation. Any balance due may be paid with a credit card.</p>\\n</li>\\n<li>\\n<p>Your
         reservations will be confirmed by email directly from Global Hotel Card and
-        the hotel\\u2019s central reservation system.</li>\\n<li>Enjoy your stay!</li>\\n</ul>\",
-        \n      \"terms_and_conditions_html\": \"<h3>Things to Know</h3>\\n<ul>\\n<li>\\n<p>Global
-        Hotel Cards can only be used and redeemed only for hotel reservations made
-        online through the GlobalHotelCard.com website (in currency of gift card issued),
-        not redeemable at Expedia.com.  Hotel availability is not guaranteed.</p>\\n</li>\\n<li>\\n<p>If
-        the hotel reservation price is less than the value of the card(s), the remaining
-        portion will be available for a future reservation. If the reservation price
-        is greater than the value of the card(s), the difference must be paid with
-        a credit card at the time of booking. All reservations require a major credit
-        card to complete the reservation. Must be 18 years of age or older. Up to
-        four (4) cards may be redeemed per reservation.</p>\\n</li>\\n<li>\\n<p>You
-        may cancel your reservation with no penalty IF the cancellation is done online
-        at www.GlobalHotelCard.com and is within the rules of the HOTEL\\u2019s cancellation
-        policy. The value of your Gift Card and payment on your credit card will be
-        reinstated within 5-7 business days of confirmation that the reservation was
-        cancelled within the rules of the hotel\\u2019s policy.</p>\\n</li>\\n<li>\\n<p>If
-        you need assistance regarding using Global Hotel Cards to make a booking or
-        other issues, please email us at\\u00a0help@globalhotelcard.com\\u00a0and
-        provide as much detail as possible to help us better serve you. You may also
-        use the green Help tool at the bottom of the page. You may also check your
-        balance on the website. Please provide as much detail as possible for us to
-        better serve you. If you need help with same day reservations and are already
-        in route please call\\u00a0(888) 284-7125. For customers outside the US, please
-        call\\u00a01-404-728-8787. International calling rates will apply.</p>\\n</li>\\n</ul>\\n<h3>RULES
-        &amp; RESTRICTIONS</h3>\\n<p>The Global Hotel Card may be used toward hotel
-        reservations made online only through www.GlobalHotelCard.com website (in
-        currency of gift card issued), not valid for redemptions at Expedia.com. Reservations
-        made are subject to the terms and conditions of GlobalHotelCard.com. Please
-        note that once your reservation has been made, the details such as hotel,
-        date of stay, length of stay, may not be changed. Gift cards are not credit
-        or debit cards, and have no implied warranties. Hotel Gift Cards are redeemable
-        for room reservations and taxes only. The total price of your reservation
+        the hotel\\u2019s central reservation system.</p>\\n</li>\\n<li>\\n<p>Enjoy
+        your stay!</p>\\n</li>\\n</ul>\", \n      \"terms_and_conditions_html\": \"<h3>Things
+        to Know</h3>\\n<ul>\\n<li>\\n<p>Global Hotel Cards can only be used and redeemed
+        only for hotel reservations made online through the GlobalHotelCard.com website
+        (in currency of gift card issued), not redeemable at Expedia.com.  Hotel availability
+        is not guaranteed.</p>\\n</li>\\n<li>\\n<p>If the hotel reservation price
+        is less than the value of the card(s), the remaining portion will be available
+        for a future reservation. If the reservation price is greater than the value
+        of the card(s), the difference must be paid with a credit card at the time
+        of booking. All reservations require a major credit card to complete the reservation.
+        Must be 18 years of age or older. Up to four (4) cards may be redeemed per
+        reservation.</p>\\n</li>\\n<li>\\n<p>You may cancel your reservation with
+        no penalty IF the cancellation is done online at <a href=\\\"http://www.GlobalHotelCard.com\\\">http://www.GlobalHotelCard.com</a>
+        and is within the rules of the HOTEL\\u2019s cancellation policy. The value
+        of your Gift Card and payment on your credit card will be reinstated within
+        5-7 business days of confirmation that the reservation was cancelled within
+        the rules of the hotel\\u2019s policy.</p>\\n</li>\\n<li>\\n<p>If you need
+        assistance regarding using Global Hotel Cards to make a booking or other issues,
+        please email us at\\u00a0help@globalhotelcard.com\\u00a0and provide as much
+        detail as possible to help us better serve you. You may also use the green
+        Help tool at the bottom of the page. You may also check your balance on the
+        website. Please provide as much detail as possible for us to better serve
+        you. If you need help with same day reservations and are already in route
+        please call\\u00a0(888) 284-7125. For customers outside the US, please call\\u00a01-404-728-8787.
+        International calling rates will apply.</p>\\n</li>\\n</ul>\\n<h3>RULES &amp;
+        RESTRICTIONS</h3>\\n<p>The Global Hotel Card may be used toward hotel reservations
+        made online only through <a href=\\\"http://www.GlobalHotelCard.com\\\">http://www.GlobalHotelCard.com</a>
+        website (in currency of gift card issued), not valid for redemptions at <a
+        href=\\\"http://www.Expedia.com\\\">http://www.Expedia.com</a>. Reservations
+        made are subject to the terms and conditions of <a href=\\\"http://www.GlobalHotelCard.com\\\">http://www.GlobalHotelCard.com</a>.
+        Please note that once your reservation has been made, the details such as
+        hotel, date of stay, length of stay, may not be changed. Gift cards are not
+        credit or debit cards, and have no implied warranties. Hotel Gift Cards are
+        redeemable for room reservations and taxes only. The total price of your reservation
         is not guaranteed until the booking is confirmed. Gift Cards will not be redeemed
         or exchanged for cash, check or credit, except where required by law. Global
         Hotel Card, Inc. does not replace lost, stolen, or damaged Gift Cards. If
@@ -4086,10 +4393,10 @@ http_interactions:
         Gift Cards do not expire. Hotel Reservations may not be changed. You may cancel
         your reservation however there may be a cancellation/penalty fee. Please carefully
         review the terms of the booking before you make the reservation. All cancellations
-        must be made online only at www.GlobalHotelCard.com</p>\", \n      \"terms_and_conditions_pdf_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/GHC-GB.pdf\", \n      \"terms_and_conditions_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/GHC-GB.pdf\"\n    }, \n    {\n
-        \     \"availability\": \"realtime\", \n      \"available_denominations\":
+        must be made online only at <a href=\\\"http://www.GlobalHotelCard.com\\\">http://www.GlobalHotelCard.com</a></p>\",
+        \n      \"terms_and_conditions_pdf_url\": \"https://gift-sandbox.wegift.io/public/terms/GHC-GB.pdf\",
+        \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/GHC-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"available_denominations\":
         null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/GNI/GNI-card.png\",
         \n      \"code\": \"GNI-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
         \"open\", \n      \"description\": \"<p>\\n    Good Night Inns are part of
@@ -4229,8 +4536,8 @@ http_interactions:
         of products in-store\\nWhether there's a birthday coming up or Christmas is
         around the corner, Halfords gift cards are perfect for any occasion!\", \n
         \     \"e_code_usage_type\": \"url-recommended\", \n      \"expiry_date_policy\":
-        \"24 months from date of issue\", \n      \"maximum_value\": \"250.00\", \n
-        \     \"minimum_value\": \"1.00\", \n      \"name\": \"Halfords\", \n      \"redeem_instructions_html\":
+        \"24 months from date of issue\", \n      \"maximum_value\": \"1000.00\",
+        \n      \"minimum_value\": \"1.00\", \n      \"name\": \"Halfords\", \n      \"redeem_instructions_html\":
         \"<p>Present to the cashier upon payment and the egift will be used as a tender
         type.  You can use an e-gift card as part or full payment and in conjunction
         with another payment method such as a debit or credit card or another e-gift
@@ -4286,8 +4593,8 @@ http_interactions:
         \"https://gift-sandbox.wegift.io/public/terms/HARV-GB.pdf\", \n      \"terms_and_conditions_url\":
         \"https://gift-sandbox.wegift.io/public/terms/HARV-GB.pdf\"\n    }, \n    {\n
         \     \"availability\": \"realtime\", \n      \"available_denominations\":
-        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/HERTZ/HERTZ-card.png\",
-        \n      \"code\": \"HERTZ-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/HERTZBI/HERTZBI-card.png\",
+        \n      \"code\": \"HERTZBI-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
         \"open\", \n      \"description\": \"If you're looking for the best selection
         and price on rental cars, look no further than Hertz!\\n\\nPowered by Inspire
         TravelCard, their Best Rates Guarantee assures you receive the best rates
@@ -4330,9 +4637,9 @@ http_interactions:
         and conditions of booking</li>\\n<li>Please note that once you\\u2019ve booked
         your holiday we will also provide the terms and conditions of booking with
         your holiday confirmation.</li>\\n</ul>\", \n      \"terms_and_conditions_pdf_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/HERTZ-GB.pdf\", \n      \"terms_and_conditions_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/HERTZ-GB.pdf\"\n    }, \n    {\n
-        \     \"availability\": \"stocked\", \n      \"available_denominations\":
+        \"https://gift-sandbox.wegift.io/public/terms/HERTZBI-GB.pdf\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/HERTZBI-GB.pdf\"\n    }, \n
+        \   {\n      \"availability\": \"stocked\", \n      \"available_denominations\":
         [\n        \"10.00\", \n        \"20.00\", \n        \"25.00\", \n        \"50.00\",
         \n        \"100.00\", \n        \"150.00\", \n        \"200.00\", \n        \"250.00\",
         \n        \"500.00\"\n      ], \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/HVS/HVS-card.png\",
@@ -4628,8 +4935,8 @@ http_interactions:
         \"https://gift-sandbox.wegift.io/public/terms/ITN-GB.pdf\", \n      \"terms_and_conditions_url\":
         \"https://gift-sandbox.wegift.io/public/terms/ITN-GB.pdf\"\n    }, \n    {\n
         \     \"availability\": \"realtime\", \n      \"available_denominations\":
-        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/JET/JET-card.png\",
-        \n      \"code\": \"JET-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/JETBI/JETBI-card.png\",
+        \n      \"code\": \"JETBI-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
         \"open\", \n      \"description\": \"Jet2holidays powered by the Inspire Travelcard
         allows us to create packages and city breaks around the world to suit any
         traveller. Ranging from two to five star hotels, Jet2 working with Inspire
@@ -4670,12 +4977,11 @@ http_interactions:
         and conditions of booking</li>\\n<li>Please note that once you\\u2019ve booked
         your holiday we will also provide the terms and conditions of booking with
         your holiday confirmation.</li>\\n</ul>\", \n      \"terms_and_conditions_pdf_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/JET-GB.pdf\", \n      \"terms_and_conditions_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/JET-GB.pdf\"\n    }, \n    {\n
+        \"https://gift-sandbox.wegift.io/public/terms/JETBI-GB.pdf\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/JETBI-GB.pdf\"\n    }, \n    {\n
         \     \"availability\": \"stocked\", \n      \"available_denominations\":
-        [\n        \"10.00\", \n        \"20.00\", \n        \"25.00\", \n        \"50.00\",
-        \n        \"100.00\", \n        \"150.00\", \n        \"200.00\", \n        \"250.00\",
-        \n        \"500.00\"\n      ], \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/JLS/JLS-card.png\",
+        [\n        \"1.00\", \n        \"5.00\", \n        \"10.00\", \n        \"25.00\",
+        \n        \"50.00\"\n      ], \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/JLS/JLS-card.png\",
         \n      \"code\": \"JLS-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
         \"fixed\", \n      \"description\": \"The johnlewis.com digital voucher is
         for redemption online with our first class online business stocking more than
@@ -4803,9 +5109,9 @@ http_interactions:
         \"https://gift-sandbox.wegift.io/public/terms/LOFY-GB.pdf\"\n    }, \n    {\n
         \     \"availability\": \"stocked\", \n      \"available_denominations\":
         [\n        \"5.00\", \n        \"10.00\", \n        \"20.00\", \n        \"25.00\",
-        \n        \"50.00\", \n        \"100.00\", \n        \"150.00\", \n        \"200.00\",
-        \n        \"250.00\", \n        \"500.00\"\n      ], \n      \"card_image_url\":
-        \"https://gift-sandbox.wegift.io/static/product_assets/MAS/MAS-card.png\",
+        \n        \"50.00\", \n        \"75.00\", \n        \"100.00\", \n        \"150.00\",
+        \n        \"200.00\", \n        \"250.00\", \n        \"500.00\"\n      ],
+        \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/MAS/MAS-card.png\",
         \n      \"code\": \"MAS-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
         \"fixed\", \n      \"description\": \"Whether you fancy delicious food for
         your weekly shop, some new stylish clothes or something special for the home,
@@ -5430,8 +5736,8 @@ http_interactions:
         \n      \"terms_and_conditions_pdf_url\": \"https://gift-sandbox.wegift.io/public/terms/RLD-GB.pdf\",
         \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/RLD-GB.pdf\"\n
         \   }, \n    {\n      \"availability\": \"realtime\", \n      \"available_denominations\":
-        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/RC/RC-card.png\",
-        \n      \"code\": \"RC-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/RCBI/RCBI-card.png\",
+        \n      \"code\": \"RCBI-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
         \"open\", \n      \"description\": \"Powered by Inspire TravelCard, Royal
         Caribbean International where extraordinary happens.\\nExplore our range of
         fantastic cruise holidays worldwide and book your holiday today.\", \n      \"e_code_usage_type\":
@@ -5471,8 +5777,8 @@ http_interactions:
         and conditions of booking</li>\\n<li>Please note that once you\\u2019ve booked
         your holiday we will also provide the terms and conditions of booking with
         your holiday confirmation.</li>\\n</ul>\", \n      \"terms_and_conditions_pdf_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/RC-GB.pdf\", \n      \"terms_and_conditions_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/RC-GB.pdf\"\n    }, \n    {\n
+        \"https://gift-sandbox.wegift.io/public/terms/RCBI-GB.pdf\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/RCBI-GB.pdf\"\n    }, \n    {\n
         \     \"availability\": \"realtime\", \n      \"available_denominations\":
         null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/SIZP/SIZP-card.png\",
         \n      \"code\": \"SIZP-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
@@ -5512,20 +5818,21 @@ http_interactions:
         special. The perfect present for birthdays, thank yous, or any occasion. Everyone
         likes to receive Starbucks.The Starbucks eGift card is a wonderful way the
         recipient to enjoy anything they want at Starbucks be it their coffee, delicious
-        food or a moment for themselves.\", \n      \"e_code_usage_type\": null, \n
-        \     \"expiry_date_policy\": \"indefinite\", \n      \"maximum_value\": \"100.00\",
-        \n      \"minimum_value\": \"5.00\", \n      \"name\": \"Starbucks GB\", \n
-        \     \"redeem_instructions_html\": \"<p>Once received, a Starbucks eGift
-        Card can be spent on anything at Starbucks or even transferred to a registered
-        Starbucks Card. It\\u2019s the smarter way to give a gift.</p>\", \n      \"terms_and_conditions_html\":
-        \"<p>There are a small number of stores which are not wholly company owned
-        and are not able to accept Starbucks Cards. These include concessions located
-        within leisure facilities such as Centre Parcs, Village Hotels, Bourne Leisure
-        and a number of our university stores. Please refer to our store locator (using
-        the \\u2018Accept Starbucks Cards\\u2019 filter) for further information.</p>\",
-        \n      \"terms_and_conditions_pdf_url\": \"https://gift-sandbox.wegift.io/public/terms/SBUX-GB.pdf\",
-        \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/SBUX-GB.pdf\"\n
-        \   }, \n    {\n      \"availability\": \"stocked\", \n      \"available_denominations\":
+        food or a moment for themselves.\", \n      \"e_code_usage_type\": \"url-only\",
+        \n      \"expiry_date_policy\": \"indefinite\", \n      \"maximum_value\":
+        \"100.00\", \n      \"minimum_value\": \"5.00\", \n      \"name\": \"Starbucks
+        GB\", \n      \"redeem_instructions_html\": \"<p>Once received, a Starbucks
+        eGift Card can be spent on anything at Starbucks or even transferred to a
+        registered Starbucks Card. It\\u2019s the smarter way to give a gift.</p>\",
+        \n      \"terms_and_conditions_html\": \"<p>There are a small number of stores
+        which are not wholly company owned and are not able to accept Starbucks Cards.
+        These include concessions located within leisure facilities such as Centre
+        Parcs, Village Hotels, Bourne Leisure and a number of our university stores.
+        Please refer to our store locator (using the \\u2018Accept Starbucks Cards\\u2019
+        filter) for further information.</p>\", \n      \"terms_and_conditions_pdf_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/SBUX-GB.pdf\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/SBUX-GB.pdf\"\n    }, \n    {\n
+        \     \"availability\": \"stocked\", \n      \"available_denominations\":
         [\n        \"25.00\", \n        \"50.00\", \n        \"100.00\", \n        \"150.00\",
         \n        \"200.00\", \n        \"250.00\", \n        \"500.00\"\n      ],
         \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/SWAR/SWAR-card.png\",
@@ -5878,7 +6185,7 @@ http_interactions:
         plus de 6,2 milliards de dollars, 7,0 milliards de dollars et 8,3 milliards
         de dollars, respectivement. Ticketmaster s'attend \\u00e0 ce que le nombre
         et la valeur des billets qu'elle vend se poursuivent.\", \n      \"e_code_usage_type\":
-        null, \n      \"expiry_date_policy\": \"1 year from activation\", \n      \"maximum_value\":
+        null, \n      \"expiry_date_policy\": \"10 months from activation\", \n      \"maximum_value\":
         \"5000.00\", \n      \"minimum_value\": \"0.01\", \n      \"name\": \"Ticketmaster
         BE\", \n      \"redeem_instructions_html\": null, \n      \"terms_and_conditions_html\":
         \"<p>Ces conditions g\\u00e9n\\u00e9rales s'appliquent \\u00e0 toute la gamme
@@ -6918,8 +7225,8 @@ http_interactions:
         \"https://gift-sandbox.wegift.io/public/terms/TOYS-DE.pdf\", \n      \"terms_and_conditions_url\":
         \"https://gift-sandbox.wegift.io/public/terms/TOYS-DE.pdf\"\n    }, \n    {\n
         \     \"availability\": \"realtime\", \n      \"available_denominations\":
-        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/TUI/TUI-card.png\",
-        \n      \"code\": \"TUI-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/TUIBI/TUIBI-card.png\",
+        \n      \"code\": \"TUIBI-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
         \"open\", \n      \"description\": \"Born in 1965, TUI (formerly Thomson)
         has grown into a leading brand with handpicked holidays, short breaks, cruises
         and flights all at incredible prices.\\nPowered by the Inspire Travelcard,
@@ -6961,8 +7268,8 @@ http_interactions:
         and conditions of booking</li>\\n<li>Please note that once you\\u2019ve booked
         your holiday we will also provide the terms and conditions of booking with
         your holiday confirmation.</li>\\n</ul>\", \n      \"terms_and_conditions_pdf_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/TUI-GB.pdf\", \n      \"terms_and_conditions_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/TUI-GB.pdf\"\n    }, \n    {\n
+        \"https://gift-sandbox.wegift.io/public/terms/TUIBI-GB.pdf\", \n      \"terms_and_conditions_url\":
+        \"https://gift-sandbox.wegift.io/public/terms/TUIBI-GB.pdf\"\n    }, \n    {\n
         \     \"availability\": \"realtime\", \n      \"available_denominations\":
         null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/UBER/UBER-card.png\",
         \n      \"code\": \"UBER-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
@@ -6990,6 +7297,32 @@ http_interactions:
         conditions, and customer service, visit <a href=\\\"https://www.uber.com/legal/gift/\\\">uber.com/legal/gift</a>.</p>\",
         \n      \"terms_and_conditions_pdf_url\": \"https://gift-sandbox.wegift.io/public/terms/UBER-GB.pdf\",
         \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/UBER-GB.pdf\"\n
+        \   }, \n    {\n      \"availability\": \"realtime\", \n      \"available_denominations\":
+        null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/UEATS-GB/UEATS-GB-card.png\",
+        \n      \"code\": \"UEATS-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
+        \"open\", \n      \"description\": \"Gift Uber Eats to the people you care
+        about, or add value to your Uber Eats account.\\n\\nThe Uber Eats app is the
+        easy and reliable way to get the food you want, delivered fast and fresh.
+        Tap the app and pick from hundreds of full menus from local restaurants and
+        have your order delivered to you at Uber speed. Plus, payment is automatic\\u2014no
+        cash, no card, no hassle.\", \n      \"e_code_usage_type\": null, \n      \"expiry_date_policy\":
+        \"None\", \n      \"maximum_value\": \"150.00\", \n      \"minimum_value\":
+        \"15.00\", \n      \"name\": \"Uber Eats\", \n      \"redeem_instructions_html\":
+        \"<ol>\\n<li>\\n<p>Go to the profile icon in your Uber Eats app</p>\\n</li>\\n<li>\\n<p>Tap
+        Promotions</p>\\n</li>\\n<li>\\n<p>Enter Gift Code</p>\\n</li>\\n</ol>\",
+        \n      \"terms_and_conditions_html\": \"<p>By using this gift card, you accept
+        the following terms and conditions: This gift card can be used to credit your
+        Uber\\u00ae stored value account accessible via the Uber\\u00ae or Uber Eats
+        app within the UK in cities where Uber or Uber Eats is available. The card
+        cannot be refunded or returned except where required by law. You may be required
+        to add a secondary payment method to use this gift card with the Uber\\u00ae
+        or Uber Eats app. Limits may apply to amounts able to be loaded into your
+        Uber account, and to the amount of spending from your Uber account. This card
+        is issued by Uber B.V. Keep this gift card safe; issuer is not responsible
+        for lost or stolen cards, or unauthorised use. For balance, full terms and
+        conditions, and customer service, visit <a href=\\\"https://www.uber.com/legal/gift\\\">https://www.uber.com/legal/gift</a>.</p>\",
+        \n      \"terms_and_conditions_pdf_url\": \"https://gift-sandbox.wegift.io/public/terms/UEATS-GB.pdf\",
+        \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/UEATS-GB.pdf\"\n
         \   }, \n    {\n      \"availability\": \"realtime\", \n      \"available_denominations\":
         null, \n      \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/VINS/VINS-card.png\",
         \n      \"code\": \"VINS-GB\", \n      \"currency_code\": \"GBP\", \n      \"denomination_type\":
@@ -7512,6 +7845,6 @@ http_interactions:
         \n      \"terms_and_conditions_pdf_url\": \"https://gift-sandbox.wegift.io/public/terms/ZAL-SE.pdf\",
         \n      \"terms_and_conditions_url\": \"https://gift-sandbox.wegift.io/public/terms/ZAL-SE.pdf\"\n
         \   }\n  ]\n}\n"
-    http_version: 
-  recorded_at: Sun, 21 Jan 2018 12:43:45 GMT
+    http_version:
+  recorded_at: Mon, 26 Feb 2018 14:41:26 GMT
 recorded_with: VCR 3.0.3

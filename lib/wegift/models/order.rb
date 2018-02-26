@@ -36,11 +36,11 @@ class Wegift::Order < Wegift::Response
   # POST /api/b2b-sync/v1/order-digital-card
   def post(ctx)
     response = ctx.request(:post, PATH, self.payload)
-    self.parse(JSON.parse(response.body))
+    self.parse(response)
   end
 
-  def parse(data)
-    super(data)
+  def parse(response)
+    super(response)
 
     # nested status/error object
     # assuming root "status" is always "SUCCESS" if "e_code" is set
@@ -58,23 +58,23 @@ class Wegift::Order < Wegift::Response
     #}
 
     # override root "status" if set
-    if data['e_code'] && data['e_code']['status'].eql?(STATUS[:error])
-      @status = data['e_code']['status']
-      @error_code = data['e_code']['error_code'] unless data['e_code']['error_code'].blank?
-      @error_string = data['e_code']['error_string'] unless data['e_code']['error_string'].blank?
-      @error_details = data['e_code']['error_details'] unless data['e_code']['error_details'].blank?
+    if @payload['e_code'] && @payload['e_code']['status'].eql?(STATUS[:error])
+      @status = @payload['e_code']['status']
+      @error_code = @payload['e_code']['error_code'] unless @payload['e_code']['error_code'].blank?
+      @error_string = @payload['e_code']['error_string'] unless @payload['e_code']['error_string'].blank?
+      @error_details = @payload['e_code']['error_details'] unless @payload['e_code']['error_details'].blank?
     end
 
     # set valid data
-    if data['e_code'] && data['e_code']['status'].eql?(STATUS[:success])
-      @code = data['e_code']['code']
-      @expiry_date = data['e_code']['expiry_date']
-      @pin = data['e_code']['pin']
-      @cvc2 = data['e_code']['cvc2']
-      @delivery_url = data['e_code']['delivery_url']
+    if @payload['e_code'] && @payload['e_code']['status'].eql?(STATUS[:success])
+      @code = @payload['e_code']['code']
+      @expiry_date = @payload['e_code']['expiry_date']
+      @pin = @payload['e_code']['pin']
+      @cvc2 = @payload['e_code']['cvc2']
+      @delivery_url = @payload['e_code']['delivery_url']
     end
 
-    @order_id = data['order_id']
+    @order_id = @payload['order_id']
 
     self
   end

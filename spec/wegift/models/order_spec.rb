@@ -67,7 +67,8 @@ RSpec.describe Wegift::Order do
       client = set_wegift_client
 
       VCR.use_cassette('get_product_catalogue_valid') do
-        product = client.products[1]
+
+        product = client.products.all[1]
 
         VCR.use_cassette('post_order_valid') do
           order = client.order(
@@ -99,7 +100,7 @@ RSpec.describe Wegift::Order do
       client = set_wegift_client
 
       VCR.use_cassette('get_product_catalogue_valid') do
-        product = client.products[1]
+        product = client.products.all[1]
 
         VCR.use_cassette('post_order_for_url_valid') do
           order = client.order(

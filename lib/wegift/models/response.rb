@@ -13,19 +13,29 @@ class Wegift::Response
   # error_details - Details of the particular error, i.e. Field "delivery" missing from request
 
   # global shared body
-  attr_accessor :status, :error_code, :error_string, :error_details
+  attr_accessor :payload, :status, :error_code, :error_string, :error_details
 
   def is_successful?
     @status && @status.eql?(STATUS[:success])
   end
 
-  def parse(data = {})
-    @status = data['status']
-    @error_code = data['error_code']
-    @error_string = data['error_string']
-    @error_details = data['error_details']
+  def parse(response = {})
+    # TODO: JSON responses, when requested?
+    # let's fix that with a simpel catch all
+    if response.success? && response['content-type'].eql?('application/json')
+      @payload = JSON.parse(response.body)
+      # TODO: @payload['status'] is only returned for orders! (products etc are plain objects)
+      @status = @payload['status'] || STATUS[:success]
+      @error_code = @payload['error_code']
+      @error_string = @payload['error_string']
+      @error_details = @payload['error_details']
+    else
+      @payload = {}
+      @status = STATUS[:error]
+      @error_code = response.status
+      @error_string = response.reason_phrase
+      @error_details = response.reason_phrase
+    end
   end
-
-  # TODO
 
 end
