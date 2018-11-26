@@ -2,15 +2,15 @@
 http_interactions:
 - request:
     method: post
-    uri: https://api-sandbox.wegift.io/api/b2b-sync/v1/order-digital-card
+    uri: https://playground.wegift.io/api/b2b-sync/v1/order-digital-card
     body:
       encoding: UTF-8
-      string: '{"product_code":"AMZ-AT","currency_code":"EUR","amount":10,"delivery_method":"direct","delivery_format":"url-instant","notification_email":null,"delivery_email":null,"external_ref":"1519656094"}'
+      string: '{"product_code":"AMZ-AT","currency_code":"EUR","amount":10,"delivery_method":"direct","delivery_format":"url-instant","notification_email":null,"delivery_email":null,"external_ref":"1543244400.3503325"}'
     headers:
       Authorization:
       - Basic REDACTED==
       User-Agent:
-      - Faraday v0.14.0
+      - Faraday v0.12.0.1
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -25,24 +25,39 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 26 Feb 2018 14:41:42 GMT
+      - Mon, 26 Nov 2018 15:00:00 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '233'
+      - '266'
       Connection:
       - keep-alive
       Cache-Control:
       - must-revalidate, no-store, no-cache, private
       Vary:
       - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains
+      Referrer-Policy:
+      - same-origin
     body:
       encoding: ASCII-8BIT
-      string: "{\n  \"e_code\": {\n    \"delivery_url\": \"https://gift-sandbox.wegift.io/public/gifts/instant/cbbedfcd-7842-45db-bc38-1f3ba1fb4e28\",
+      string: "{\n  \"e_code\": {\n    \"delivery_url\": \"https://playground.wegift.io/public/gifts/instant/92f6d085-a98b-4176-84af-0e0430b4e025\",
         \n    \"error_code\": null, \n    \"error_string\": null, \n    \"expiry_date\":
-        \"2020-02-26\", \n    \"status\": \"SUCCESS\"\n  }, \n  \"error_code\": null,
-        \n  \"error_details\": null, \n  \"error_string\": null, \n  \"order_id\":
-        \"O-JKYRX9NV\", \n  \"status\": \"SUCCESS\"\n}\n"
-    http_version:
-  recorded_at: Mon, 26 Feb 2018 14:41:42 GMT
+        \"2019-11-26\", \n    \"status\": \"SUCCESS\"\n  }, \n  \"e_codes\": [\n    {\n
+        \     \"delivery_url\": \"https://playground.wegift.io/public/gifts/instant/92f6d085-a98b-4176-84af-0e0430b4e025\",
+        \n      \"error_code\": null, \n      \"error_string\": null, \n      \"expiry_date\":
+        \"2019-11-26\", \n      \"status\": \"SUCCESS\"\n    }\n  ], \n  \"error_code\":
+        null, \n  \"error_details\": null, \n  \"error_string\": null, \n  \"order_id\":
+        \"O-W24XEPK5\", \n  \"status\": \"SUCCESS\"\n}\n"
+    http_version: 
+  recorded_at: Mon, 26 Nov 2018 15:00:00 GMT
 recorded_with: VCR 3.0.3

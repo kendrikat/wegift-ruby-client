@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: https://api-sandbox.wegift.io/api/b2b-sync/v1/order-digital-card
+    uri: https://playground.wegift.io/api/b2b-sync/v1/order-digital-card
     body:
       encoding: UTF-8
       string: '{"product_code":"NOPE","currency_code":"5","amount":"4","delivery_method":"2","delivery_format":"3","notification_email":null,"delivery_email":null,"external_ref":"6"}'
@@ -10,7 +10,7 @@ http_interactions:
       Authorization:
       - Basic REDACTED==
       User-Agent:
-      - Faraday v0.14.0
+      - Faraday v0.12.0.1
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -25,7 +25,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 26 Feb 2018 14:41:24 GMT
+      - Mon, 26 Nov 2018 14:58:47 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -36,11 +36,23 @@ http_interactions:
       - must-revalidate, no-store, no-cache, private
       Vary:
       - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains
+      Referrer-Policy:
+      - same-origin
     body:
       encoding: ASCII-8BIT
       string: "{\n  \"error_code\": \"SE003\", \n  \"error_details\": \"Invalid delivery
         method: \\\"2\\\". Valid values are: \\\"direct\\\", \\\"email\\\"\", \n  \"error_string\":
         \"Field has invalid value\", \n  \"status\": \"ERROR\"\n}\n"
-    http_version:
-  recorded_at: Mon, 26 Feb 2018 14:41:24 GMT
+    http_version: 
+  recorded_at: Mon, 26 Nov 2018 14:58:47 GMT
 recorded_with: VCR 3.0.3

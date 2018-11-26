@@ -107,7 +107,7 @@ RSpec.describe Wegift::Order do
               :product_code => product.code,
               :currency_code => product.currency_code,
               :amount => 10,
-              :external_ref => Time.now.to_i.to_s, # optional
+              :external_ref => Time.now.to_f.to_s, # optional
               #:delivery_method => 'direct', # default
               :delivery_format => 'url-instant',
           )

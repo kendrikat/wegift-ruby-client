@@ -26,7 +26,7 @@ Simple example for ordering a Digital Card
 ```ruby
 # a simple client
 client = Wegift::Client.new(
-      :api_host => 'http://sandbox.wegift.io',
+      :api_host => 'https://playground.wegift.io',
       :api_path => '/api/b2b-sync/v1',
       :api_key => ENV['AUTH_NAME'],
       :api_secret => ENV['AUTH_PASS'],
@@ -91,13 +91,13 @@ rspec
 
 It will load all tapes found in `spec/tapes`, we are using [VCR][vcr].
 
-To remaster all recordings, you will need a sandbox account.
+To remaster all recordings, you will need a playground account.
 Add an `.env` file to your root:
 
 ```bash
 # .env
-AUTH_NAME='sandbox_username'
-AUTH_PASS='sandbox_password'
+AUTH_NAME='playground_username'
+AUTH_PASS='playground_password'
 PROXY='proxy_uri'
 ```
 

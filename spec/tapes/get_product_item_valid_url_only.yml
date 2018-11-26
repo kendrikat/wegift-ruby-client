@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api-sandbox.wegift.io/api/b2b-sync/v1/products/AGOS-GB
+    uri: https://playground.wegift.io/api/b2b-sync/v1/products/ARGOS-GB
     body:
       encoding: US-ASCII
       string: ''
@@ -10,7 +10,7 @@ http_interactions:
       Authorization:
       - Basic REDACTED==
       User-Agent:
-      - Faraday v0.14.0
+      - Faraday v0.12.0.1
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -25,25 +25,41 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 26 Feb 2018 14:41:43 GMT
+      - Mon, 26 Nov 2018 14:58:51 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1724'
+      - '1831'
       Connection:
       - keep-alive
       Cache-Control:
       - must-revalidate, no-store, no-cache, private
       Vary:
       - Accept-Encoding
+      Set-Cookie:
+      - session=eyJMb2NhbGVTZXNzaW9uIjp7Il9fdl9fIjoxfX0.Dt2bqw.wISinry8AC2qt26ax2XQ5UA_Vqo;
+        Secure; HttpOnly; Path=/
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains
+      Referrer-Policy:
+      - same-origin
     body:
       encoding: ASCII-8BIT
-      string: "{\n  \"availability\": \"stocked\", \n  \"available_denominations\":
-        [\n    \"5.00\", \n    \"10.00\", \n    \"15.00\", \n    \"20.00\", \n    \"25.00\",
-        \n    \"30.00\", \n    \"40.00\", \n    \"50.00\", \n    \"75.00\", \n    \"100.00\"\n
-        \ ], \n  \"card_image_url\": \"https://gift-sandbox.wegift.io/static/product_assets/AGOS/AGOS-card.png\",
-        \n  \"code\": \"AGOS-GB\", \n  \"currency_code\": \"GBP\", \n  \"denomination_type\":
-        \"fixed\", \n  \"description\": \"50,000 products, 1 eGift Card\\n\\nThe new
+      string: "{\n  \"availability\": \"realtime\", \n  \"available_denominations\":
+        null, \n  \"barcode_format\": null, \n  \"card_image_url\": \"https://playground.wegift.io/static/product_assets/ARGOS/ARGOS-card.png\",
+        \n  \"categories\": [\n    \"electricals\", \n    \"entertainment\", \n    \"jewellers\",
+        \n    \"leisure-and-sports\", \n    \"mens-fashion\", \n    \"toys-and-games\",
+        \n    \"womens-fashion\"\n  ], \n  \"code\": \"ARGOS-GB\", \n  \"countries\":
+        [\n    \"GB\"\n  ], \n  \"currency_code\": \"GBP\", \n  \"denomination_type\":
+        \"open\", \n  \"description\": \"50,000 products, 1 eGift Card\\n\\nThe new
         Argos eGift Card is the perfect way to get your hands on shiny new stuff.
         Fast.\\n\\nDelivered to you by email, you can spend your eGift Card online
         at argos.co.uk. Letting you shop from your sofa. Or the\\npub. Or anywhere
@@ -56,11 +72,12 @@ http_interactions:
         items, Argos can deliver to your door the same day! Just\\ncheck for the Fast
         Track badge on your selected product at argos.co.uk.\\n\\nSelect Argos eGift
         Card. Go Argos.\", \n  \"e_code_usage_type\": \"url-only\", \n  \"expiry_date_policy\":
-        \"12 Months\", \n  \"maximum_value\": \"100.00\", \n  \"minimum_value\": \"5.00\",
-        \n  \"name\": \"Argos\", \n  \"redeem_instructions_html\": \"<p>At Argos,
-        you can choose from over 50,000 products, including the latest must have items.
-        From tech to toys, furniture to jewellery, there's bound to be a great gift
-        for you.</p>\\n<p>You can use your Argos eGift Card online <a href=\\\"http://www.argos.co.uk/\\\">argos.co.uk</a>
+        \"Expires 2 years from issue date\", \n  \"expiry_in_months\": 24, \n  \"maximum_value\":
+        \"500.00\", \n  \"minimum_value\": \"5.00\", \n  \"name\": \"Argos\", \n  \"percent_discount\":
+        \"10.0\", \n  \"redeem_instructions_html\": \"<p>At Argos, you can choose
+        from over 50,000 products, including the latest must have items. From tech
+        to toys, furniture to jewellery, there's bound to be a great gift for you.</p>\\n<p>You
+        can use your Argos eGift Card online <a href=\\\"http://www.argos.co.uk/\\\">argos.co.uk</a>
         or in any of our 840 stores nationwide. Want it today? With Argos Fast Track
         Delivery available on many items, Argos can deliver to your door the same
         day! Just check for the Fast Track badge on your selected product online.</p>\\n<p>Let's
@@ -92,8 +109,9 @@ http_interactions:
         or damaged eGift Cards and they will not be replaced. To check your balance
         at any time please sign into your account at <a href=\\\"http://www.argos.co.uk\\\">http://www.argos.co.uk</a>
         and use the balance checker provided.</p>\", \n  \"terms_and_conditions_pdf_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/AGOS-GB.pdf\", \n  \"terms_and_conditions_url\":
-        \"https://gift-sandbox.wegift.io/public/terms/AGOS-GB.pdf\"\n}\n"
-    http_version:
-  recorded_at: Mon, 26 Feb 2018 14:41:43 GMT
+        \"https://playground.wegift.io/public/terms/ARGOS-GB.pdf\", \n  \"terms_and_conditions_url\":
+        \"https://playground.wegift.io/public/terms/ARGOS-GB.pdf\", \n  \"wrap_supported\":
+        true\n}\n"
+    http_version: 
+  recorded_at: Mon, 26 Nov 2018 14:58:51 GMT
 recorded_with: VCR 3.0.3

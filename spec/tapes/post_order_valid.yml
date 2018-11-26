@@ -2,15 +2,15 @@
 http_interactions:
 - request:
     method: post
-    uri: https://api-sandbox.wegift.io/api/b2b-sync/v1/order-digital-card
+    uri: https://playground.wegift.io/api/b2b-sync/v1/order-digital-card
     body:
       encoding: UTF-8
-      string: '{"product_code":"AMZ-AT","currency_code":"EUR","amount":10,"delivery_method":"direct","delivery_format":"raw","notification_email":null,"delivery_email":null,"external_ref":"1519656086"}'
+      string: '{"product_code":"AMZ-AT","currency_code":"EUR","amount":10,"delivery_method":"direct","delivery_format":"raw","notification_email":null,"delivery_email":null,"external_ref":"1543244330"}'
     headers:
       Authorization:
       - Basic REDACTED==
       User-Agent:
-      - Faraday v0.14.0
+      - Faraday v0.12.0.1
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -25,24 +25,41 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 26 Feb 2018 14:41:34 GMT
+      - Mon, 26 Nov 2018 14:58:50 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '176'
+      - '249'
       Connection:
       - keep-alive
       Cache-Control:
       - must-revalidate, no-store, no-cache, private
       Vary:
       - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains
+      Referrer-Policy:
+      - same-origin
     body:
       encoding: ASCII-8BIT
-      string: "{\n  \"e_code\": {\n    \"code\": \"39SF-HNFFSY-2RF2\", \n    \"error_code\":
-        null, \n    \"error_string\": null, \n    \"expiry_date\": \"2020-02-26\",
-        \n    \"pin\": null, \n    \"status\": \"SUCCESS\"\n  }, \n  \"error_code\":
-        null, \n  \"error_details\": null, \n  \"error_string\": null, \n  \"order_id\":
-        \"O-8VAQXJDK\", \n  \"status\": \"SUCCESS\"\n}\n"
-    http_version:
-  recorded_at: Mon, 26 Feb 2018 14:41:34 GMT
+      string: "{\n  \"e_code\": {\n    \"amount\": \"10.00\", \n    \"barcode_format\":
+        null, \n    \"barcode_string\": null, \n    \"code\": \"4324433046945145\",
+        \n    \"error_code\": null, \n    \"error_string\": null, \n    \"expiry_date\":
+        \"2019-11-26\", \n    \"pin\": \"867105\", \n    \"status\": \"SUCCESS\"\n
+        \ }, \n  \"e_codes\": [\n    {\n      \"amount\": \"10.00\", \n      \"barcode_format\":
+        null, \n      \"barcode_string\": null, \n      \"code\": \"4324433046945145\",
+        \n      \"error_code\": null, \n      \"error_string\": null, \n      \"expiry_date\":
+        \"2019-11-26\", \n      \"pin\": \"867105\", \n      \"status\": \"SUCCESS\"\n
+        \   }\n  ], \n  \"error_code\": null, \n  \"error_details\": null, \n  \"error_string\":
+        null, \n  \"order_id\": \"O-5RV35A4L\", \n  \"status\": \"SUCCESS\"\n}\n"
+    http_version: 
+  recorded_at: Mon, 26 Nov 2018 14:58:50 GMT
 recorded_with: VCR 3.0.3

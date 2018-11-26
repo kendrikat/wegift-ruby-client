@@ -9,7 +9,7 @@ RSpec.describe Wegift::Product do
       it 'should return error if unauthed' do
         client = set_wegift_client_unauthed
 
-        VCR.use_cassette('get_product_catalogue_invalid_403') do
+        VCR.use_cassette('get_product_catalogue_invalid_401') do
           products = client.products
 
           expect(products.class).to eq(Wegift::Products)
@@ -52,7 +52,7 @@ RSpec.describe Wegift::Product do
         client = set_wegift_client
         VCR.use_cassette('get_product_item_valid_with_instructions') do
           # picked manually since it could be nil for others
-          code = 'AGOS-GB'
+          code = 'ARGOS-GB'
           product = client.product(code)
 
           expect(product.class).to eq(Wegift::Product)
@@ -66,10 +66,10 @@ RSpec.describe Wegift::Product do
       it 'should have usage type' do
         client = set_wegift_client
         VCR.use_cassette('get_product_item_valid_url_only') do
-          code = 'AGOS-GB'
+          code = 'ARGOS-GB'
           product = client.product(code)
 
-          # this should exist, can be null, "url-only/url-recommended" (AGOS-GB / DECA-BE)
+          # this should exist, can be null, "url-only/url-recommended" (ARGOS-GB / DECA-BE)
           expect(product.e_code_usage_type).to eq('url-only')
           # ...
 

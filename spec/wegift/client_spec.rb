@@ -22,7 +22,7 @@ RSpec.describe Wegift do
   it 'should provide a default setup' do
     client = Wegift::Client.new()
 
-    expect(client.api_host).to eq 'https://api-sandbox.wegift.io'
+    expect(client.api_host).to eq 'https://playground.wegift.io'
     expect(client.api_path).to eq '/api/b2b-sync/v1'
   end
 
