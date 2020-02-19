@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'bundler/setup'
 require 'dotenv/load'
 require 'wegift/client'
@@ -6,16 +8,16 @@ require 'vcr'
 
 def set_wegift_client
   Wegift::Client.new(
-      :api_key      => ENV['AUTH_NAME'],
-      :api_secret   => ENV['AUTH_PASS'],
-      :proxy        => ENV['PROXY'],
-      :test_mode    => true
+    api_key: ENV['AUTH_NAME'],
+    api_secret: ENV['AUTH_PASS'],
+    proxy: ENV['PROXY'],
+    test_mode: true
   )
 end
 
 def set_wegift_client_unauthed
   Wegift::Client.new(
-      :test_mode    => true
+    test_mode: true
   )
 end
 

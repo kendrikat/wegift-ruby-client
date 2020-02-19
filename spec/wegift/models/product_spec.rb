@@ -1,11 +1,10 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 
 RSpec.describe Wegift::Product do
-
   describe 'GET' do
-
     describe 'all' do
-
       it 'should return error if unauthed' do
         client = set_wegift_client_unauthed
 
@@ -28,7 +27,6 @@ RSpec.describe Wegift::Product do
           expect(products.all.first.class).to eq(Wegift::Product)
           expect(products.status).to eq(Wegift::Response::STATUS[:success])
         end
-
       end
 
       it 'should return a single product' do
@@ -45,7 +43,6 @@ RSpec.describe Wegift::Product do
             expect(product.code).to eq(p.code)
           end
         end
-
       end
 
       it 'should have instructions' do
@@ -59,7 +56,6 @@ RSpec.describe Wegift::Product do
           expect(product.code).to eq(code)
           expect(product.redeem_instructions_html).not_to eq(nil)
           # ...
-
         end
       end
 
@@ -72,12 +68,8 @@ RSpec.describe Wegift::Product do
           # this should exist, can be null, "url-only/url-recommended" (ARGOS-GB / DECA-BE)
           expect(product.e_code_usage_type).to eq('url-only')
           # ...
-
         end
       end
-
     end
-
   end
-
 end

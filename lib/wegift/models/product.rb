@@ -1,5 +1,6 @@
-class Wegift::Product < Wegift::Response
+# frozen_string_literal: true
 
+class Wegift::Product < Wegift::Response
   PATH = '/products'
 
   # request/payload
@@ -27,12 +28,11 @@ class Wegift::Product < Wegift::Response
   # GET /api/b2b-sync/v1/products/ID
   def get(ctx)
     response = ctx.request(:get, path)
-    self.parse(response)
+    parse(response)
   end
 
   def parse(response)
     super(response)
     Wegift::Product.new(@payload)
   end
-
 end

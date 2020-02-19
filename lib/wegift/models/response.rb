@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 require_relative 'initializable'
 
 class Wegift::Response
   include Initializable
 
-  STATUS = {:success => 'SUCCESS', :error => 'ERROR'}
+  STATUS = { success: 'SUCCESS', error: 'ERROR' }.freeze
 
   # Field Name Contents
   #
@@ -16,7 +18,7 @@ class Wegift::Response
   attr_accessor :payload, :status, :error_code, :error_string, :error_details
 
   def is_successful?
-    @status && @status.eql?(STATUS[:success])
+    @status&.eql?(STATUS[:success])
   end
 
   def parse(response = {})
@@ -37,5 +39,4 @@ class Wegift::Response
       @error_details = response.reason_phrase
     end
   end
-
 end
