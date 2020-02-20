@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://playground.wegift.io/api/b2b-sync/v1/order-digital-card
+    body:
+      encoding: UTF-8
+      string: '{"product_code":"BBQG-AU","currency_code":"AUD","amount":"20.00","delivery_method":"direct","delivery_format":"raw","notification_email":null,"delivery_email":null,"external_ref":"1582190341"}'
+    headers:
+      Authorization:
+      - Basic REDACTED==
+      User-Agent:
+      - Faraday v0.17.3
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Thu, 20 Feb 2020 09:19:02 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '206'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - must-revalidate, no-store, no-cache, private
+      Vary:
+      - Accept-Encoding, Cookie
+      Set-Cookie:
+      - session=eyJMb2NhbGVTZXNzaW9uIjp7Il9fdl9fIjoxfSwiX3Blcm1hbmVudCI6dHJ1ZX0.Xk5PBg.vE2AHbBiO_XfKCX9W-GGj5a_Geo;
+        Expires=Sun, 22-Mar-2020 09:19:02 GMT; Secure; HttpOnly; Path=/
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      X-Content-Type-Options:
+      - nosniff
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains
+      Referrer-Policy:
+      - same-origin
+    body:
+      encoding: ASCII-8BIT
+      string: '{"e_code":{"amount":"20.00","barcode_format":"code-128","barcode_string":"8219034140705340","code":"8219034140705340","error_code":null,"error_string":null,"expiry_date":"2023-02-20","pin":"590072","status":"SUCCESS"},"e_codes":[{"amount":"20.00","barcode_format":"code-128","barcode_string":"8219034140705340","code":"8219034140705340","error_code":null,"error_string":null,"expiry_date":"2023-02-20","pin":"590072","status":"SUCCESS"}],"error_code":null,"error_details":null,"error_string":null,"order_id":"O-DV7JJW6K","status":"SUCCESS"}
+
+'
+    http_version: 
+  recorded_at: Thu, 20 Feb 2020 09:19:02 GMT
+recorded_with: VCR 3.0.3

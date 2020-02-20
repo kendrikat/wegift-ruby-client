@@ -7,11 +7,13 @@ class Wegift::Order < Wegift::Response
   DELIVERY_FORMATS = { code: 'raw', url: 'url-instant' }.freeze
 
   # request/payload
-  attr_accessor :product_code, :currency_code, :amount, :delivery_method, :delivery_format,
-                :notification_email, :delivery_email, :external_ref
+  attr_accessor :product_code, :currency_code, :amount, :delivery_method,
+                :delivery_format, :notification_email, :delivery_email,
+                :external_ref
 
   # response/success
-  attr_accessor :code, :expiry_date, :pin, :order_id, :cvc2, :delivery_url
+  attr_accessor :code, :expiry_date, :pin, :order_id, :cvc2, :delivery_url,
+                :barcode_format, :barcode_string
 
   def initialize(params = {})
     super(params)
@@ -79,6 +81,8 @@ class Wegift::Order < Wegift::Response
       @pin = @payload['e_code']['pin']
       @cvc2 = @payload['e_code']['cvc2']
       @delivery_url = @payload['e_code']['delivery_url']
+      @barcode_string = @payload['e_code']['barcode_string']
+      @barcode_format = @payload['e_code']['barcode_format']
     end
 
     @order_id = @payload['order_id']

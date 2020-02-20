@@ -12,6 +12,11 @@ class Wegift::Products < Wegift::Response
     parse(response)
   end
 
+  # Find a product by fieldname.
+  def find(name, value)
+    all.find { |p| p.send(name).eql?(value) }
+  end
+
   def parse(response)
     super(response)
 

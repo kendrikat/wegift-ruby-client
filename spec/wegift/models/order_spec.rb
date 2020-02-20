@@ -17,6 +17,8 @@ RSpec.describe Wegift::Order do
     )
   end
 
+  let(:client) { set_wegift_client }
+
   it 'should set payload' do
     order = set_order('1', 'direct', 'raw', '3', '4', '5')
     expect(order.product_code).to eq('1')
@@ -117,6 +119,32 @@ RSpec.describe Wegift::Order do
           expect(order.amount).to eq(10)
           expect(order.delivery_url).not_to eq(nil)
           expect(order.order_id).not_to eq(nil)
+        end
+      end
+    end
+
+    describe 'barcode' do
+      context 'with code-128' do
+        let(:barcode_format) { 'code-128' }
+
+        it 'creates a barcode' do
+          VCR.use_cassette('get_product_catalogue_valid') do
+            product = client.products.find(:barcode_format, barcode_format)
+
+            VCR.use_cassette('post_order_for_barcode_valid') do
+              order = client.order(
+                product_code: product.code,
+                currency_code: product.currency_code,
+                amount: product.minimum_value,
+                external_ref: Time.now.to_i.to_s
+              )
+
+              expect(order.is_successful?).to eq(true)
+
+              expect(order.barcode_string.to_s).not_to eq('')
+              expect(order.barcode_format.to_s).to eq(barcode_format)
+            end
+          end
         end
       end
     end

@@ -14,7 +14,8 @@ class Wegift::Product < Wegift::Response
                 :terms_and_conditions_html,
                 :terms_and_conditions_url,
                 :terms_and_conditions_pdf_url,
-                :e_code_usage_type
+                :e_code_usage_type,
+                :barcode_format
 
   def initialize(params = {})
     super
@@ -33,6 +34,7 @@ class Wegift::Product < Wegift::Response
 
   def parse(response)
     super(response)
+
     Wegift::Product.new(@payload)
   end
 end

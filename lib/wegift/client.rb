@@ -32,7 +32,7 @@ module Wegift
 
     def request(method, path, payload = {})
       @connection.send(method) do |req|
-        req.url [@api_path, path].join('')
+        req.url [@api_path, path].join
         req.headers['Content-Type'] = 'application/json'
         req.body = payload.to_json if method.to_sym.eql?(:post)
         req.params = payload if method.to_sym.eql?(:get)

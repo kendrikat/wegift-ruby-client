@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'bundler/setup'
+require 'byebug'
 require 'dotenv/load'
 require 'wegift/client'
 require 'webmock/rspec'

@@ -70,6 +70,8 @@ if order.is_successful?
   order.code
   order.order_id
   order.pin
+  order.barcode_format
+  order.barcode_string
   order.expiry_date
   order.delivery_url
 
