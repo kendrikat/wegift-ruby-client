@@ -1,5 +1,6 @@
-class Wegift::Product < Wegift::Response
+# frozen_string_literal: true
 
+class Wegift::Product < Wegift::Response
   PATH = '/products'
 
   # request/payload
@@ -13,7 +14,8 @@ class Wegift::Product < Wegift::Response
                 :terms_and_conditions_html,
                 :terms_and_conditions_url,
                 :terms_and_conditions_pdf_url,
-                :e_code_usage_type
+                :e_code_usage_type,
+                :barcode_format
 
   def initialize(params = {})
     super
@@ -27,12 +29,12 @@ class Wegift::Product < Wegift::Response
   # GET /api/b2b-sync/v1/products/ID
   def get(ctx)
     response = ctx.request(:get, path)
-    self.parse(response)
+    parse(response)
   end
 
   def parse(response)
     super(response)
+
     Wegift::Product.new(@payload)
   end
-
 end

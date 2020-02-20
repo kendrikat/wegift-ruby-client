@@ -1,4 +1,5 @@
-# encoding: utf-8
+# frozen_string_literal: true
+
 require 'faraday'
 
 require_relative 'models/response'
@@ -7,7 +8,6 @@ require_relative 'models/products'
 require_relative 'models/order'
 
 module Wegift
-
   class Client
     attr_accessor :api_host, :api_path, :api_key, :api_secret, :connection
 
@@ -19,18 +19,20 @@ module Wegift
       @api_key = options[:api_key].to_s
       @api_secret = options[:api_secret]
 
-      @connection = Faraday.new(:url => @api_host) do |c|
+      @connection = Faraday.new(url: @api_host) do |c|
         c.basic_auth(@api_key, @api_secret)
         c.adapter Faraday.default_adapter
-        c.options[:proxy] = {
-            :uri => URI(options[:proxy])
-        } unless options[:proxy].nil?
+        unless options[:proxy].nil?
+          c.options[:proxy] = {
+            uri: URI(options[:proxy])
+          }
+        end
       end
     end
 
     def request(method, path, payload = {})
       @connection.send(method) do |req|
-        req.url [@api_path, path].join('')
+        req.url [@api_path, path].join
         req.headers['Content-Type'] = 'application/json'
         req.body = payload.to_json if method.to_sym.eql?(:post)
         req.params = payload if method.to_sym.eql?(:get)
@@ -42,13 +44,13 @@ module Wegift
 
     # global methods
 
-    def products()
-      products = Wegift::Products.new()
+    def products
+      products = Wegift::Products.new
       products.get(self)
     end
 
     def product(id = nil)
-      products = Wegift::Product.new(:product_code => id)
+      products = Wegift::Product.new(product_code: id)
       products.get(self)
     end
 
@@ -56,7 +58,5 @@ module Wegift
       order = Wegift::Order.new(options)
       order.post(self)
     end
-
   end
-
 end

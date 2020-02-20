@@ -5,7 +5,7 @@ http_interactions:
     uri: https://playground.wegift.io/api/b2b-sync/v1/order-digital-card
     body:
       encoding: UTF-8
-      string: '{"product_code":"1800BAS-US","currency_code":"USD","amount":10,"delivery_method":"direct","delivery_format":"url-instant","notification_email":null,"delivery_email":null,"external_ref":"1582191718.8117144"}'
+      string: '{"product_code":"ATHLTA-US","currency_code":"USD","amount":"10.00","delivery_method":"direct","delivery_format":"raw","notification_email":null,"delivery_email":null,"external_ref":"1582191719"}'
     headers:
       Authorization:
       - Basic REDACTED==
@@ -25,11 +25,11 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Thu, 20 Feb 2020 09:41:59 GMT
+      - Thu, 20 Feb 2020 09:42:00 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '221'
+      - '214'
       Connection:
       - keep-alive
       Cache-Control:
@@ -37,8 +37,8 @@ http_interactions:
       Vary:
       - Accept-Encoding, Cookie
       Set-Cookie:
-      - session=eyJMb2NhbGVTZXNzaW9uIjp7Il9fdl9fIjoxfSwiX3Blcm1hbmVudCI6dHJ1ZX0.Xk5UZw.YLFEckG29mPjXY4DIuU9GalZ6uo;
-        Expires=Sun, 22-Mar-2020 09:41:59 GMT; Secure; HttpOnly; Path=/
+      - session=eyJMb2NhbGVTZXNzaW9uIjp7Il9fdl9fIjoxfSwiX3Blcm1hbmVudCI6dHJ1ZX0.Xk5UaA.CBY3ecKaFOi4YAIV_GknJNaTwzU;
+        Expires=Sun, 22-Mar-2020 09:42:00 GMT; Secure; HttpOnly; Path=/
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
@@ -53,9 +53,9 @@ http_interactions:
       - same-origin
     body:
       encoding: ASCII-8BIT
-      string: '{"e_code":{"delivery_url":"https://playground.wegift.io/public/gifts/instant/0d4d0d33-7336-4209-a11c-d1d67dfa61b7","error_code":null,"error_string":null,"expiry_date":"3000-01-01","status":"SUCCESS"},"e_codes":[{"delivery_url":"https://playground.wegift.io/public/gifts/instant/0d4d0d33-7336-4209-a11c-d1d67dfa61b7","error_code":null,"error_string":null,"expiry_date":"3000-01-01","status":"SUCCESS"}],"error_code":null,"error_details":null,"error_string":null,"order_id":"O-24WBBDR4","status":"SUCCESS"}
+      string: '{"e_code":{"amount":"10","barcode_format":"code-128","barcode_string":"b31b19fe976844f4bd39d0ebe2819e7d","code":"b31b19fe976844f4bd39d0ebe2819e7d","error_code":null,"error_string":null,"expiry_date":"2018-10-16","pin":"1422","status":"SUCCESS"},"e_codes":[{"amount":"10","barcode_format":"code-128","barcode_string":"b31b19fe976844f4bd39d0ebe2819e7d","code":"b31b19fe976844f4bd39d0ebe2819e7d","error_code":null,"error_string":null,"expiry_date":"2018-10-16","pin":"1422","status":"SUCCESS"}],"error_code":null,"error_details":null,"error_string":null,"order_id":"O-XKRDDR84","status":"SUCCESS"}
 
 '
     http_version: 
-  recorded_at: Thu, 20 Feb 2020 09:41:59 GMT
+  recorded_at: Thu, 20 Feb 2020 09:42:00 GMT
 recorded_with: VCR 3.0.3

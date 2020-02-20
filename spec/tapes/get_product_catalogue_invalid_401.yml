@@ -10,7 +10,7 @@ http_interactions:
       Authorization:
       - Basic Og==
       User-Agent:
-      - Faraday v0.12.0.1
+      - Faraday v0.17.3
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -25,17 +25,22 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 26 Nov 2018 14:58:51 GMT
+      - Thu, 20 Feb 2020 09:42:00 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '137'
+      - '117'
       Connection:
       - keep-alive
       Www-Authenticate:
       - Basic realm="Login Required"
       Cache-Control:
       - must-revalidate, no-store, no-cache, private
+      Vary:
+      - Cookie
+      Set-Cookie:
+      - session=eyJfcGVybWFuZW50Ijp0cnVlfQ.Xk5UaA.CrrIjZlIt8JwfaAgqb63Nm0u-s4; Expires=Sun,
+        22-Mar-2020 09:42:00 GMT; Secure; HttpOnly; Path=/
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
@@ -48,8 +53,10 @@ http_interactions:
       - same-origin
     body:
       encoding: UTF-8
-      string: "{\n  \"error_code\": \"SE001\", \n  \"error_details\": \"Invalid credentials\",
-        \n  \"error_string\": \"Authentication failed\", \n  \"status\": \"ERROR\"\n}\n"
+      string: '{"error_code":"SE001","error_details":"Invalid credentials","error_string":"Authentication
+        failed","status":"ERROR"}
+
+'
     http_version: 
-  recorded_at: Mon, 26 Nov 2018 14:58:51 GMT
+  recorded_at: Thu, 20 Feb 2020 09:42:00 GMT
 recorded_with: VCR 3.0.3

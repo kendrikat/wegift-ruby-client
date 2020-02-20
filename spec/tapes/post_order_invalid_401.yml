@@ -10,7 +10,7 @@ http_interactions:
       Authorization:
       - Basic REDACTED==
       User-Agent:
-      - Faraday v0.12.0.1
+      - Faraday v0.17.3
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -25,17 +25,20 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 26 Nov 2018 14:58:47 GMT
+      - Thu, 20 Feb 2020 09:41:54 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '139'
+      - '146'
       Connection:
       - keep-alive
       Cache-Control:
       - must-revalidate, no-store, no-cache, private
       Vary:
-      - Accept-Encoding
+      - Cookie
+      Set-Cookie:
+      - session=eyJfcGVybWFuZW50Ijp0cnVlfQ.Xk5UYg.gpijxwiB6RE8RpFJL-nrapStEdo; Expires=Sun,
+        22-Mar-2020 09:41:54 GMT; Secure; HttpOnly; Path=/
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
@@ -49,10 +52,11 @@ http_interactions:
       Referrer-Policy:
       - same-origin
     body:
-      encoding: ASCII-8BIT
-      string: "{\n  \"error_code\": \"SE003\", \n  \"error_details\": \"Invalid amount
-        \\\"0\\\" - amount must be positive\", \n  \"error_string\": \"Field has invalid
-        value\", \n  \"status\": \"ERROR\"\n}\n"
+      encoding: UTF-8
+      string: '{"error_code":"SE003","error_details":"Invalid amount \"0\" - amount
+        must be positive","error_string":"Field has invalid value","status":"ERROR"}
+
+'
     http_version: 
-  recorded_at: Mon, 26 Nov 2018 14:58:47 GMT
+  recorded_at: Thu, 20 Feb 2020 09:41:54 GMT
 recorded_with: VCR 3.0.3

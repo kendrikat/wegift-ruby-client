@@ -1,5 +1,6 @@
-class Wegift::Products < Wegift::Response
+# frozen_string_literal: true
 
+class Wegift::Products < Wegift::Response
   PATH = '/products'
 
   attr_accessor :all
@@ -8,16 +9,21 @@ class Wegift::Products < Wegift::Response
   # GET /api/b2b-sync/v1/products/
   def get(ctx)
     response = ctx.request(:get, PATH)
-    self.parse(response)
+    parse(response)
+  end
+
+  # Find all products by fieldname.
+  def find(name, value)
+    Wegift::Products.new(all: all.select! { |p| p.send(name).eql?(value) })
   end
 
   def parse(response)
     super(response)
 
-    if self.is_successful?
-      # TODO separate?
+    if is_successful?
+      # TODO: separate?
       if @payload['products']
-        @all = @payload['products'].map{|p| Wegift::Product.new(p)}
+        @all = @payload['products'].map { |p| Wegift::Product.new(p) }
       end
     else
       @all = []
@@ -25,5 +31,4 @@ class Wegift::Products < Wegift::Response
 
     self
   end
-
 end

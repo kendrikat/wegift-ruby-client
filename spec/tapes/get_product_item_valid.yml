@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://playground.wegift.io/api/b2b-sync/v1/products/ABO-GB
+    uri: https://playground.wegift.io/api/b2b-sync/v1/products/BLUMEN-DE
     body:
       encoding: US-ASCII
       string: ''
@@ -10,7 +10,7 @@ http_interactions:
       Authorization:
       - Basic REDACTED==
       User-Agent:
-      - Faraday v0.12.0.1
+      - Faraday v0.17.3
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -25,20 +25,20 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 26 Nov 2018 14:58:51 GMT
+      - Thu, 20 Feb 2020 09:42:01 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1046'
+      - '889'
       Connection:
       - keep-alive
       Cache-Control:
       - must-revalidate, no-store, no-cache, private
       Vary:
-      - Accept-Encoding
+      - Accept-Encoding, Cookie
       Set-Cookie:
-      - session=;
-        Secure; HttpOnly; Path=/
+      - session=eyJMb2NhbGVTZXNzaW9uIjp7Il9fdl9fIjoxfSwiX3Blcm1hbmVudCI6dHJ1ZX0.Xk5UaQ.ymV4VvEGW1tfIc9e6j_Bs9HeOfI;
+        Expires=Sun, 22-Mar-2020 09:42:01 GMT; Secure; HttpOnly; Path=/
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
@@ -53,36 +53,21 @@ http_interactions:
       - same-origin
     body:
       encoding: ASCII-8BIT
-      string: "{\n  \"availability\": \"realtime\", \n  \"available_denominations\":
-        null, \n  \"barcode_format\": \"QR\", \n  \"card_image_url\": \"https://playground.wegift.io/static/product_assets/ABO/ABO-card.png\",
-        \n  \"categories\": [\n    \"food-and-drink\"\n  ], \n  \"code\": \"ABO-GB\",
-        \n  \"countries\": [\n    \"GB\"\n  ], \n  \"currency_code\": \"GBP\", \n
-        \ \"denomination_type\": \"open\", \n  \"description\": \"Amongst the hustle
-        and bustle of city life, All Bar One offers the perfect location to meet up
-        with friends, and unwind from work.\\u00a0 Whether you want to catch up over
-        cocktails, share a bottle of our lovingly chosen wine, or enjoy an excellent
-        meal out, you\\u2019ll find something to suit you in All Bar One.\", \n  \"e_code_usage_type\":
-        null, \n  \"expiry_date_policy\": \"Expires 1 year from issue date\", \n  \"expiry_in_months\":
-        12, \n  \"maximum_value\": \"250.00\", \n  \"minimum_value\": \"5.00\", \n
-        \ \"name\": \"All Bar One\", \n  \"percent_discount\": \"10.0\", \n  \"redeem_instructions_html\":
-        null, \n  \"terms_and_conditions_html\": \"<ul>\\n<li>\\n<p>This card may
-        not be exchanged for cash.</p>\\n</li>\\n<li>\\n<p>This card is not a cheque
-        guarantee, credit, debit or charge card.</p>\\n</li>\\n<li>\\n<p>No change
-        will be given but the balance can be used for future purchases.</p>\\n</li>\\n<li>\\n<p>We
-        will not be held liable for lost or stolen cards - protect this as you would
-        cash.</p>\\n</li>\\n<li>\\n<p>To check the balance of your giftcard please
-        visit <a href=\\\"https://www.mbdiningout.co.uk/gift-cards/\\\">www.mbdiningout.co.uk/gift-cards/</a></p>\\n</li>\\n<li>\\n<p>A
-        gift card is valid for 12 months from the date of purchase.</p>\\n</li>\\n<li>\\n<p>Gift
-        cards can be purchased with a minimum value of \\u00a35, up to a maximum of
-        \\u00a3250.</p>\\n</li>\\n<li>\\n<p>SMS and email gift cards should be treated
-        as cash. If deleted they will not be resent.</p>\\n</li>\\n<li>\\n<p>SMS gift
-        cards will be free to receive for the guest.</p>\\n</li>\\n<li>\\n<p>Email
-        gifts are valid either presented on a smart phone or printed out.</p>\\n</li>\\n<li>\\n<p>We
-        reserve the right to amend the terms and conditions.</p>\\n</li>\\n<li>\\n<p>Further
-        terms and conditions are available on request.</p>\\n</li>\\n</ul>\", \n  \"terms_and_conditions_pdf_url\":
-        \"https://playground.wegift.io/public/terms/ABO-GB.pdf\", \n  \"terms_and_conditions_url\":
-        \"https://playground.wegift.io/public/terms/ABO-GB.pdf\", \n  \"wrap_supported\":
-        true\n}\n"
+      string: '{"availability":"stocked","available_denominations":["15.00","25.00","50.00","100.00"],"barcode_format":null,"card_image_url":"https://playground.wegift.io/static/product_assets/BLUMEN-DE/BLUMEN-DE-card.png","categories":["food-and-drink","home-and-diy"],"code":"BLUMEN-DE","countries":["DE"],"currency_code":"EUR","denomination_type":"fixed","description":"Es
+        gibt viele Anl\u00e4sse bei denen ein herrlicher frischer Blumenstrau\u00df
+        die Augen der Beschenkten blitzen l\u00e4sst. Blumen verschicken war noch
+        nie so einfach wie mit 123 Blumenversand. Ob es ein sch\u00f6ner bunter Blumenstrau\u00df
+        zum Geburtstag  oder ein roter Rosenstrau\u00df f\u00fcr die Geliebte sein
+        soll, f\u00fcr Sie versenden wir alle Blumen an Ihre Wunschlieferadresse.\r\nAls
+        online Blumenversand verstehen wir es Ihre Zimmerpflanzen, Gestecke oder Blumenstr\u00e4u\u00dfe
+        so zu versenden, dass wir die Frische Ihrer Blumen  garantieren k\u00f6nnen.","e_code_usage_type":null,"expiry_date_policy":"Expires
+        2 years from issue date","expiry_in_months":24,"expiry_mode":"from-issue-date","maximum_value":"100.00","minimum_value":"15.00","name":"123
+        Blumenversand DE","percent_discount":"10.0","redeem_instructions_html":"<p>Der
+        gutschein kann auf der Seite \"Zahlung\" eingel\u00f6st werden. Der code eintragen
+        und auf \"Gutschein einl\u00f6sen\" klicken.</p>","state":"LIVE","terms_and_conditions_html":"<p>F\u00fcr
+        vollst\u00e4ndige Gesch\u00e4ftsbedingungen besuchen Sie bitte https://www.123blumenversand.de/de/content/2225_agb-und-info.html</p>","terms_and_conditions_pdf_url":"https://playground.wegift.io/public/terms/BLUMEN-DE.pdf","terms_and_conditions_url":"https://playground.wegift.io/public/terms/BLUMEN-DE.pdf","wrap_supported":false}
+
+'
     http_version: 
-  recorded_at: Mon, 26 Nov 2018 14:58:51 GMT
+  recorded_at: Thu, 20 Feb 2020 09:42:01 GMT
 recorded_with: VCR 3.0.3

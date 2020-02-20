@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Initializable
   def initialize(params = {})
     params.each do |key, value|
