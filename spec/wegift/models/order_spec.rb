@@ -129,7 +129,9 @@ RSpec.describe Wegift::Order do
 
         it 'creates a barcode' do
           VCR.use_cassette('get_product_catalogue_valid') do
-            product = client.products.find(:barcode_format, barcode_format)
+            product = client.products
+                            .find(:barcode_format, barcode_format)
+                            .find(:e_code_usage_type, nil).all.first
 
             VCR.use_cassette('post_order_for_barcode_valid') do
               order = client.order(

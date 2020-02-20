@@ -10,7 +10,7 @@ http_interactions:
       Authorization:
       - Basic REDACTED==
       User-Agent:
-      - Faraday v0.12.0.1
+      - Faraday v0.17.3
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -25,20 +25,20 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Mon, 26 Nov 2018 14:58:51 GMT
+      - Thu, 20 Feb 2020 09:42:01 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1831'
+      - '1833'
       Connection:
       - keep-alive
       Cache-Control:
       - must-revalidate, no-store, no-cache, private
       Vary:
-      - Accept-Encoding
+      - Accept-Encoding, Cookie
       Set-Cookie:
-      - session=eyJMb2NhbGVTZXNzaW9uIjp7Il9fdl9fIjoxfX0.Dt2bqw.wISinry8AC2qt26ax2XQ5UA_Vqo;
-        Secure; HttpOnly; Path=/
+      - session=eyJMb2NhbGVTZXNzaW9uIjp7Il9fdl9fIjoxfSwiX3Blcm1hbmVudCI6dHJ1ZX0.Xk5UaQ.ymV4VvEGW1tfIc9e6j_Bs9HeOfI;
+        Expires=Sun, 22-Mar-2020 09:42:01 GMT; Secure; HttpOnly; Path=/
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
@@ -53,65 +53,56 @@ http_interactions:
       - same-origin
     body:
       encoding: ASCII-8BIT
-      string: "{\n  \"availability\": \"realtime\", \n  \"available_denominations\":
-        null, \n  \"barcode_format\": null, \n  \"card_image_url\": \"https://playground.wegift.io/static/product_assets/ARGOS/ARGOS-card.png\",
-        \n  \"categories\": [\n    \"electricals\", \n    \"entertainment\", \n    \"jewellers\",
-        \n    \"leisure-and-sports\", \n    \"mens-fashion\", \n    \"toys-and-games\",
-        \n    \"womens-fashion\"\n  ], \n  \"code\": \"ARGOS-GB\", \n  \"countries\":
-        [\n    \"GB\"\n  ], \n  \"currency_code\": \"GBP\", \n  \"denomination_type\":
-        \"open\", \n  \"description\": \"50,000 products, 1 eGift Card\\n\\nThe new
-        Argos eGift Card is the perfect way to get your hands on shiny new stuff.
-        Fast.\\n\\nDelivered to you by email, you can spend your eGift Card online
-        at argos.co.uk. Letting you shop from your sofa. Or the\\npub. Or anywhere
-        you like really. We don't mind. Or you can use it in any of our 840 stores.
-        Perfect if you fancy a bit of\\nfresh air and a stroll. Either way, just enjoy
-        spending it.\\n\\nWith over 50,000 products to choose from at Argos, you've
-        got some decisions to make. We have all the latest must have\\nitems. From
-        tech to toys, furniture to jewellery, there\\u2018s bound to be a great gift
-        for you.\\n\\nWant it today? With Argos Fast Track Delivery available on many
-        items, Argos can deliver to your door the same day! Just\\ncheck for the Fast
-        Track badge on your selected product at argos.co.uk.\\n\\nSelect Argos eGift
-        Card. Go Argos.\", \n  \"e_code_usage_type\": \"url-only\", \n  \"expiry_date_policy\":
-        \"Expires 2 years from issue date\", \n  \"expiry_in_months\": 24, \n  \"maximum_value\":
-        \"500.00\", \n  \"minimum_value\": \"5.00\", \n  \"name\": \"Argos\", \n  \"percent_discount\":
-        \"10.0\", \n  \"redeem_instructions_html\": \"<p>At Argos, you can choose
-        from over 50,000 products, including the latest must have items. From tech
-        to toys, furniture to jewellery, there's bound to be a great gift for you.</p>\\n<p>You
-        can use your Argos eGift Card online <a href=\\\"http://www.argos.co.uk/\\\">argos.co.uk</a>
-        or in any of our 840 stores nationwide. Want it today? With Argos Fast Track
-        Delivery available on many items, Argos can deliver to your door the same
-        day! Just check for the Fast Track badge on your selected product online.</p>\\n<p>Let's
-        get started</p>\\n<p><strong>Spending online</strong> \\u2014 Click the link
-        below to download your unique eGift Card number and PIN. Then simply visit
-        <a href=\\\"http://www.argos.co.uk/\\\">argos.co.uk</a> and add your selected
-        item(s) to the online basket. Proceed through to checkout, select your chosen
-        method of delivery/collection and then input your eGift Card and PIN as payment.
-        You can use the eGift Card as full or part payment, but please note only three
-        eGift Cards can be used per transaction.</p>\\n<p><strong>Spending ln-Store</strong>
-        \\u2014 Click the link below to download your unique eGift Card. Present this
-        at the till point in your local Argos store either on your mobile device or
-        as a print-out, Find your local store here: <a href=\\\"http://www.argos.co.uk/stores/\\\">argos.co.uk/stores/</a>.
-        Then simply head to your chosen store to spend your award.</p>\\n<p>Remember
+      string: '{"availability":"realtime","available_denominations":null,"barcode_format":null,"card_image_url":"https://playground.wegift.io/static/product_assets/ARGOS-GB/ARGOS-GB-card.png","categories":["electricals","entertainment","jewellers","leisure-and-sports","mens-fashion","toys-and-games","womens-fashion"],"code":"ARGOS-GB","countries":["GB"],"currency_code":"GBP","denomination_type":"open","description":"50,000
+        products, 1 eGift Card.\r\n\r\nThe new Argos eGift Card is the perfect way
+        to get your hands on shiny new stuff. Fast.\r\n\r\nDelivered to you by email,
+        you can spend your eGift Card online at argos.co.uk. Letting you shop from
+        your sofa. Or the\r\npub. Or anywhere you like really. We don''t mind. Or
+        you can use it in any of our 840 stores. Perfect if you fancy a bit of\r\nfresh
+        air and a stroll. Either way, just enjoy spending it.\r\n\r\nWith over 50,000
+        products to choose from at Argos, you''ve got some decisions to make. We have
+        all the latest must have\r\nitems. From tech to toys, furniture to jewellery,
+        there\u2018s bound to be a great gift for you.\r\n\r\nWant it today? With
+        Argos Fast Track Delivery available on many items, Argos can deliver to your
+        door the same day! Just\r\ncheck for the Fast Track badge on your selected
+        product at argos.co.uk.\r\n\r\nSelect Argos eGift Card. Go Argos.","e_code_usage_type":"url-only","expiry_date_policy":"Expires
+        2 years from issue date","expiry_in_months":24,"expiry_mode":"from-issue-date","maximum_value":"500.00","minimum_value":"5.00","name":"Argos","percent_discount":"10.0","redeem_instructions_html":"<p>At
+        Argos, you can choose from over 50,000 products, including the latest must
+        have items. From tech to toys, furniture to jewellery, there''s bound to be
+        a great gift for you.</p>\n<p>You can use your Argos eGift Card online <a
+        href=\"http://www.argos.co.uk/\">argos.co.uk</a> or in any of our 840 stores
+        nationwide. Want it today? With Argos Fast Track Delivery available on many
+        items, Argos can deliver to your door the same day! Just check for the Fast
+        Track badge on your selected product online.</p>\n<p>Let''s get started</p>\n<p><strong>Spending
+        online</strong> \u2014 Click the link below to download your unique eGift
+        Card number and PIN. Then simply visit <a href=\"http://www.argos.co.uk/\">argos.co.uk</a>
+        and add your selected item(s) to the online basket. Proceed through to checkout,
+        select your chosen method of delivery/collection and then input your eGift
+        Card and PIN as payment. You can use the eGift Card as full or part payment,
+        but please note only three eGift Cards can be used per transaction.</p>\n<p><strong>Spending
+        ln-Store</strong> \u2014 Click the link below to download your unique eGift
+        Card. Present this at the till point in your local Argos store either on your
+        mobile device or as a print-out, Find your local store here: <a href=\"http://www.argos.co.uk/stores/\">argos.co.uk/stores/</a>.
+        Then simply head to your chosen store to spend your award.</p>\n<p>Remember
         you can use the Fast Track Collection or Check &amp; Reserve service to ensure
         the item is available when you visit the store. These services are available
-        on the Argos website \\u2013 <a href=\\\"http://www.argos.co.uk/\\\">argos.co.uk</a>.</p>\",
-        \n  \"terms_and_conditions_html\": \"<p>eGift Cards may be redeemed in full
-        or part payment for goods in any UK Argos store or online at <a href=\\\"http://www.argos.co.uk\\\">http://www.argos.co.uk</a>,
-        including current promotional offers, at the prevailing prices listed. eGift
-        Cards cannot be used for purchases made over the phone. eGift Cards cannot
-        be used for the purchase of other gift cards or vouchers. GBP \\u00a3 eGift
-        Cards cannot be redeemed in ROI. This eGift Card is not a credit, debit or
-        cheque guarantee card, cannot be redeemed for cash or returned under the Argos
-        30 Day Guarantee and cannot be re-sold or re-tendered. This will not affect
-        your statutory rights. Please see expiry date on the eGift Card. Argos Ltd
-        reserve the right to decline or withdraw the eGift Card at any time. Treat
-        this eGift Card like cash, Argos Ltd cannot be held liable for lost, stolen
-        or damaged eGift Cards and they will not be replaced. To check your balance
-        at any time please sign into your account at <a href=\\\"http://www.argos.co.uk\\\">http://www.argos.co.uk</a>
-        and use the balance checker provided.</p>\", \n  \"terms_and_conditions_pdf_url\":
-        \"https://playground.wegift.io/public/terms/ARGOS-GB.pdf\", \n  \"terms_and_conditions_url\":
-        \"https://playground.wegift.io/public/terms/ARGOS-GB.pdf\", \n  \"wrap_supported\":
-        true\n}\n"
+        on the Argos website \u2013 <a href=\"http://www.argos.co.uk/\">argos.co.uk</a>.</p>","state":"LIVE","terms_and_conditions_html":"<p>eGift
+        Cards may be redeemed in full or part payment for goods in any UK Argos store
+        or online at <a href=\"http://www.argos.co.uk/\">argos.co.uk</a>, including
+        current promotional offers, at the prevailing prices listed. eGift Cards cannot
+        be used for purchases made over the phone. eGift Cards cannot be used for
+        the purchase of other gift cards or vouchers. GBP \u00a3 eGift Cards cannot
+        be redeemed in ROI. This eGift Card is not a credit, debit or cheque guarantee
+        card, cannot be redeemed for cash or returned under the Argos 30 Day Guarantee
+        and cannot be re-sold or re-tendered. This will not affect your statutory
+        rights. Please see expiry date on the eGift Card. Argos Ltd reserve the right
+        to decline or withdraw the eGift Card at any time. Treat this eGift Card like
+        cash, Argos Ltd cannot be held liable for lost, stolen or damaged eGift Cards
+        and they will not be replaced. To check your balance at any time please sign
+        into your account at <a href=\"http://www.argos.co.uk/\">argos.co.uk</a> and
+        use the balance checker provided.</p>","terms_and_conditions_pdf_url":"https://playground.wegift.io/public/terms/ARGOS-GB.pdf","terms_and_conditions_url":"https://playground.wegift.io/public/terms/ARGOS-GB.pdf","wrap_supported":true}
+
+'
     http_version: 
-  recorded_at: Mon, 26 Nov 2018 14:58:51 GMT
+  recorded_at: Thu, 20 Feb 2020 09:42:01 GMT
 recorded_with: VCR 3.0.3

@@ -12,9 +12,9 @@ class Wegift::Products < Wegift::Response
     parse(response)
   end
 
-  # Find a product by fieldname.
+  # Find all products by fieldname.
   def find(name, value)
-    all.find { |p| p.send(name).eql?(value) }
+    Wegift::Products.new(all: all.select! { |p| p.send(name).eql?(value) })
   end
 
   def parse(response)
