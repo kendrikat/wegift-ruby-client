@@ -92,6 +92,16 @@ RSpec.describe Wegift::Product do
           # ...
         end
       end
+      it 'should product state' do
+        client = set_wegift_client
+        VCR.use_cassette('get_product_item_valid_url_only') do
+          code = 'ARGOS-GB'
+          product = client.product(code)
+
+          expect(product.state).to eq('LIVE')
+          # ...
+        end
+      end
     end
   end
 end
