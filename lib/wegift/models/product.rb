@@ -16,8 +16,9 @@ class Wegift::Product < Wegift::Response
                 :terms_and_conditions_pdf_url,
                 :e_code_usage_type,
                 :barcode_format,
-                :countries, 
-                :categories
+                :countries,
+                :categories,
+                :state
 
   def initialize(params = {})
     super
