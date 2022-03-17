@@ -8,6 +8,7 @@ require 'wegift/models/response'
 require 'wegift/models/product'
 require 'wegift/models/products'
 require 'wegift/models/order'
+require 'wegift/models/stock'
 
 module Wegift
 end
