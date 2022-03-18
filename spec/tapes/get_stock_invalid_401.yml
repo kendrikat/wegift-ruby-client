@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://playground.wegift.io/api/b2b-sync/v1/stock/BLUMEN-DE
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic Og==
+      User-Agent:
+      - Faraday v0.17.5
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Thu, 17 Mar 2022 22:42:30 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '117'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - must-revalidate, no-store, no-cache, private
+      Referrer-Policy:
+      - same-origin
+      Set-Cookie:
+      - session=eyJfcGVybWFuZW50Ijp0cnVlfQ.YjO5Vg.UgMgt-4VYd349hSDy9_nQ36P9rE; Expires=Sun,
+        17-Apr-2022 22:42:30 GMT; Secure; HttpOnly; Path=/
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Vary:
+      - Cookie
+      Www-Authenticate:
+      - Basic realm="Login Required"
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      X-Xss-Protection:
+      - 1; mode=block
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ESnAAEswoU7PgEZ5G9RAFHuecuPcbXtUuHb1WJd6%2BENatYMfvxTQ2I1JKbXgduldZp9o6NBHachh1Ro9GvU%2FAtk%2Fga0Q4lTJ6DT1z0zey0BIDoOJ4u%2B2VK8S9EN2dp8lmGeGCrBX"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ed93dfa183cf3e3-LHR
+    body:
+      encoding: UTF-8
+      string: '{"error_code":"SE001","error_details":"Invalid credentials","error_string":"Authentication
+        failed","status":"ERROR"}
+
+        '
+    http_version:
+  recorded_at: Thu, 17 Mar 2022 22:42:42 GMT
+recorded_with: VCR 3.0.3

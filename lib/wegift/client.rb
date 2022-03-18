@@ -6,6 +6,7 @@ require_relative 'models/response'
 require_relative 'models/product'
 require_relative 'models/products'
 require_relative 'models/order'
+require_relative 'models/stock'
 
 module Wegift
   class Client
@@ -57,6 +58,11 @@ module Wegift
     def order(options)
       order = Wegift::Order.new(options)
       order.post(self)
+    end
+
+    def stock(id)
+      stock = Wegift::Stock.new(product_code: id)
+      stock.get(self)
     end
   end
 end
