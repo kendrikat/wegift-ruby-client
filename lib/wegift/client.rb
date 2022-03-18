@@ -61,7 +61,7 @@ module Wegift
     end
 
     def stock(id)
-      stock = Wegift::Stock.new(product_code: id)
+      stock = Wegift::Stock.new(id: id)
       stock.get(self)
     end
   end

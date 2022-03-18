@@ -33,25 +33,31 @@ RSpec.describe Wegift::Stock do
 
       it 'returns the quantity for each denomination' do
         VCR.use_cassette('get_stock_valid') do
-          expect(stock.payload['available_stock'].count).to_not eq(0)
+          expect(stock.available_stock.count).to_not eq(0)
+        end
+      end
+
+      it 'has a quantity and denomination key for each available_stock item' do
+        VCR.use_cassette('get_stock_valid') do
+          expect(stock.available_stock.map { |s| s.keys.sort }.all?(['denomination', 'quantity'])).to be_truthy
         end
       end
 
       it 'returns the product code' do
         VCR.use_cassette('get_stock_valid') do
-          expect(stock.payload['product_code']).to eq('BLUMEN-DE')
+          expect(stock.product_code).to eq('BLUMEN-DE')
         end
       end
 
       it 'returns the product name' do
         VCR.use_cassette('get_stock_valid') do
-          expect(stock.payload['product_name']).to eq('123 Blumenversand DE')
+          expect(stock.product_name).to eq('123 Blumenversand DE')
         end
       end
 
       it 'returns the currency code' do
         VCR.use_cassette('get_stock_valid') do
-          expect(stock.payload['currency_code']).to eq('EUR')
+          expect(stock.currency_code).to eq('EUR')
         end
       end
     end
