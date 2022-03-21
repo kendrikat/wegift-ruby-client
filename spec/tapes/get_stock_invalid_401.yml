@@ -7,8 +7,6 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      Authorization:
-      - Basic Og==
       User-Agent:
       - Faraday v0.17.5
       Content-Type:
@@ -23,7 +21,7 @@ http_interactions:
       message: Unauthorized
     headers:
       Date:
-      - Thu, 17 Mar 2022 22:42:30 GMT
+      - Fri, 18 Mar 2022 21:39:55 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -34,9 +32,6 @@ http_interactions:
       - must-revalidate, no-store, no-cache, private
       Referrer-Policy:
       - same-origin
-      Set-Cookie:
-      - session=eyJfcGVybWFuZW50Ijp0cnVlfQ.YjO5Vg.UgMgt-4VYd349hSDy9_nQ36P9rE; Expires=Sun,
-        17-Apr-2022 22:42:30 GMT; Secure; HttpOnly; Path=/
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains
       Vary:
@@ -56,13 +51,13 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ESnAAEswoU7PgEZ5G9RAFHuecuPcbXtUuHb1WJd6%2BENatYMfvxTQ2I1JKbXgduldZp9o6NBHachh1Ro9GvU%2FAtk%2Fga0Q4lTJ6DT1z0zey0BIDoOJ4u%2B2VK8S9EN2dp8lmGeGCrBX"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VVD5kOjywdBBYbNjznXYHTzrEdnXxnu7sM3nOZ54wp6nt8I%2Be7PByHJbthrBqchf7zWzhMMDZsjxHXShNQ9EDxUch6OPG4r9RNX7ZhoF%2B9Yv8ZS8%2F30HcaRbg3yIAHMkwSjvrpH%2F"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6ed93dfa183cf3e3-LHR
+      - 6ee11fb1be5f7737-LHR
     body:
       encoding: UTF-8
       string: '{"error_code":"SE001","error_details":"Invalid credentials","error_string":"Authentication
@@ -70,5 +65,5 @@ http_interactions:
 
         '
     http_version:
-  recorded_at: Thu, 17 Mar 2022 22:42:42 GMT
+  recorded_at: Fri, 18 Mar 2022 21:40:08 GMT
 recorded_with: VCR 3.0.3

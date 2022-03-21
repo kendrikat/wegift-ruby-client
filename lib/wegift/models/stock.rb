@@ -4,17 +4,13 @@ class Wegift::Stock < Wegift::Response
   PATH = '/stock'
 
   # request/payload
-  attr_accessor :product_code
+  attr_reader :id
 
   # response/success
   attr_accessor :available_stock, :currency_code, :product_code, :product_name
 
   def initialize(params = {})
-    super
-  end
-
-  def path
-    [PATH, product_code.to_s].join('/')
+    @id = params[:id]
   end
 
   # Product Stock
@@ -22,11 +18,24 @@ class Wegift::Stock < Wegift::Response
   def get(ctx)
     response = ctx.request(:get, path)
     parse(response)
+
+    self
+  end
+
+  private
+
+  def path
+    [PATH, id.to_s].join('/')
   end
 
   def parse(response)
     super
 
-    self
+    if is_successful?
+      self.available_stock = payload['available_stock']
+      self.currency_code = payload['currency_code']
+      self.product_code = payload['product_code']
+      self.product_name = payload['product_name']
+    end
   end
 end
