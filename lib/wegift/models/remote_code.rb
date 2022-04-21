@@ -20,9 +20,7 @@ module Wegift
       end
 
       remote_code = self.new(url: url)
-      remote_code = remote_code.parse(response)
-
-      remote_code
+      remote_code.parse(response)
     end
 
     def parse(response)
