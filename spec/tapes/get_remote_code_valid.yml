@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://playground.wegift.io/public/gifts/instant/c02bd09f-2c17-4bb6-ad5d-38f4143a01d0?format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.17.5
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 08 Apr 2022 16:06:33 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - must-revalidate, no-store, no-cache, private
+      Referrer-Policy:
+      - same-origin
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Vary:
+      - Cookie
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      X-Xss-Protection:
+      - 1; mode=block
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=O99VfSSOtgzKU6YsMOr2qn1zm22QMRDTXunWtAeSKZqXsc9wEiKvThyTxXJjw2JF%2Btw3mo9R76JrES%2BxYPr0xb3sOyk8OuGGarXGj0VfEFMKLyPXQD8ZU5W%2F2pXR3aZarORhB1Bc"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6f8c403a4ee876f0-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"e_code":{"amount":"1.00","barcode_format":"code-128","barcode_string":"4919168309531457","code":"4919168309531457","error_code":null,"error_string":null,"expiry_date":"2025-04-05","pin":"038572","status":"SUCCESS","type":"code","url":"https://playground.wegift.io/public/gifts/instant/c02bd09f-2c17-4bb6-ad5d-38f4143a01d0"},"error_code":null,"error_details":null,"error_string":null,"order_id":"O-74PXWGBK","status":"SUCCESS"}
+
+'
+    http_version: 
+  recorded_at: Fri, 08 Apr 2022 16:06:33 GMT
+recorded_with: VCR 3.0.3
