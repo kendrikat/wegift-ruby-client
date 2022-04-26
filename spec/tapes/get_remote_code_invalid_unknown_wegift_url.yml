@@ -9,17 +9,17 @@ http_interactions:
     headers:
       User-Agent:
       - Faraday v0.17.5
+      Accept:
+      - application/json
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
   response:
     status:
       code: 404
       message: Not Found
     headers:
       Date:
-      - Tue, 26 Apr 2022 07:39:52 GMT
+      - Tue, 26 Apr 2022 08:31:34 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -49,13 +49,13 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5uSL%2BpY8IS9i3NFOFxLIGFKJ8uFc0mYr6zT7sVbakPZt3X%2BspYIlFWUbEQj2mybQRpbeqnErOkQXpS4aXhKAasgf%2FLVMKNypIHZxdXo2DnnkodRLhMhXRUVkCipyL7uh2%2BKmwY6jM%2BAyNmiyo2CsbPkr"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KJli%2BoQjZK6Jd%2FUZMKPbMPeLwyZGNkKYxzX8O%2B%2FfIaHpY%2BaC3bFeflL6ClJ7rzGCj%2BnJdX3mxKky2yLrK90Is4rp43vb5cUhQtA%2Fu2KWqEt1E7DuRPp6sBWiteIS5DiNiZITTcLzV3YfwX1fz3Pp1v1P"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 701daac359467270-HAM
+      - 701df67daea2727f-HAM
     body:
       encoding: ASCII-8BIT
       string: '{"error_code":"RE001","error_details":"The e-code was not found. Please
@@ -63,5 +63,5 @@ http_interactions:
 
         '
     http_version: 
-  recorded_at: Tue, 26 Apr 2022 07:39:52 GMT
+  recorded_at: Tue, 26 Apr 2022 08:31:34 GMT
 recorded_with: VCR 3.0.3

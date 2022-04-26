@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 26 Apr 2022 07:39:51 GMT
+      - Tue, 26 Apr 2022 08:31:33 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -51,13 +51,13 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=beagL1grH9vtWXfoHvAvt2ku524RrQK9X01SPk6ZIXv5ac5Knrds1r7oXAzcKVlIPNHMszN7A3ScuX1A4WzYGd7n8NHhoI0cfLIMJc8EOXJu7rIDmW4DfQH61P4Y%2F%2FRqiN7O4gOmCvpBdOn%2FvReoX0ee"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0vynTg6Zy2qbLQz1L%2BMxF5QV6mN%2Fwd2bWn%2BJ7VAnVTKDB8hJU826JK0w4B%2Blc2v2ryoOvY6cD2rLibw47TenTMuNTD%2FBKcsXFXhcEuxVAEkC1WsIGjvw4x85WYL0bLW4%2BInpGdYkZOOP3UvqZW3SiA0%2B"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 701daabc3ae94163-HAM
+      - 701df676386bd463-HAM
     body:
       encoding: ASCII-8BIT
       string: '{"availability":"stocked","available_denominations":["15.00","20.00","25.00","50.00","100.00"],"available_in_days":3,"barcode_format":null,"card_image_url":"https://playground.wegift.io/static/product_assets/BLUMEN-DE/BLUMEN-DE-card.png","categories":["food-and-drink","home-and-diy"],"code":"BLUMEN-DE","countries":["DE"],"currency_code":"EUR","denomination_type":"fixed","description":"Es
@@ -76,5 +76,5 @@ http_interactions:
 
         '
     http_version: 
-  recorded_at: Tue, 26 Apr 2022 07:39:51 GMT
+  recorded_at: Tue, 26 Apr 2022 08:31:33 GMT
 recorded_with: VCR 3.0.3

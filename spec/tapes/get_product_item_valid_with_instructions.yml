@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 26 Apr 2022 07:39:51 GMT
+      - Tue, 26 Apr 2022 08:31:33 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -51,13 +51,13 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qcDokU%2FswEigiEsvaq623lbTFubFCRcTTZRFLUvJnliFC6%2BCaz4WzDds2M%2FAQ0XtTE8uovd1d16CW7ZMCJ2k%2BcM7IJrQrGwU%2BkFMptBqaBG4bD2t%2FflosH8muSHRQEtySb0dxpzYZ5TsGyjGr9ZB5ZXu"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jrx9wPkj0DDzCGggk%2Bg96MrCZ0HtKQqv02wbY%2BA0kmjwOeYbn4aIeq0XqmLjdsNJ263JqrYB3Uo%2Bi2X%2FJW7ih8ORYqNJ88FSIQFC2PhNjzBfAea1RD7%2BUK%2Bby8pWzCUpgKUX0Ab8H%2F02EJ9or1iLnyCk"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 701daabd8c0b414a-HAM
+      - 701df677fd8f4150-HAM
     body:
       encoding: ASCII-8BIT
       string: '{"availability":"realtime","available_denominations":null,"available_in_days":1,"barcode_format":null,"card_image_url":"https://playground.wegift.io/static/product_assets/ARGOS-GB/ARGOS-GB-card.png","categories":["electricals","entertainment","fashion","jewellers","leisure-and-sports","toys-and-games"],"code":"ARGOS-GB","countries":["GB"],"currency_code":"GBP","denomination_type":"open","description":"50,000
@@ -115,5 +115,5 @@ http_interactions:
 
         '
     http_version: 
-  recorded_at: Tue, 26 Apr 2022 07:39:51 GMT
+  recorded_at: Tue, 26 Apr 2022 08:31:33 GMT
 recorded_with: VCR 3.0.3

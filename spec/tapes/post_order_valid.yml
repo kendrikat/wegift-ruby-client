@@ -5,7 +5,7 @@ http_interactions:
     uri: https://playground.wegift.io/api/b2b-sync/v1/order-digital-card
     body:
       encoding: UTF-8
-      string: '{"product_code":"1800BAS-US","currency_code":"USD","amount":10,"delivery_method":"direct","delivery_format":"raw","notification_email":null,"delivery_email":null,"external_ref":"1650958788"}'
+      string: '{"product_code":"1800BAS-US","currency_code":"USD","amount":10,"delivery_method":"direct","delivery_format":"raw","notification_email":null,"delivery_email":null,"external_ref":"1650961888"}'
     headers:
       User-Agent:
       - Faraday v0.17.5
@@ -21,11 +21,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 26 Apr 2022 07:39:49 GMT
+      - Tue, 26 Apr 2022 08:31:30 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '211'
+      - '210'
       Connection:
       - keep-alive
       Cache-Control:
@@ -49,18 +49,18 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=a%2BfqhqDBgoWffniGO1G7CE%2BEXgSUtSrlIhwcKeuJYUvBaOVYdJ6DK1viwQrsGwuBW4HfR6XtHLGy%2FNAwCfkBruuk42i8Pf29egeq4utZKbSRA%2Fpa5iqbo6oEZRkNRYvG8nznp4yde3WopnArvMgy%2Bx4d"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tKRV9YTaExXUKaz7a1de0q%2Fxgqex4RjoAKgHm%2B6iD3inc2OEpt9gz3xx%2FYyd437VgpRmmKtDxdtz3XS%2F3zidm8nkS5BACZollCTrKnvRLncJ97sGTS6hZ2Bo%2BlwuJO7a9nv%2FLMsir1RiKMYi%2FTLodiA7"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 701daaab7946d447-HAM
+      - 701df65c9d604162-HAM
     body:
       encoding: ASCII-8BIT
-      string: '{"e_code":{"amount":"10.00","barcode_format":null,"barcode_string":null,"code":"5095878863029187","error_code":null,"error_string":null,"expiry_date":"3000-01-01","pin":"685194","status":"SUCCESS","type":"code"},"e_codes":[{"amount":"10.00","barcode_format":null,"barcode_string":null,"code":"5095878863029187","error_code":null,"error_string":null,"expiry_date":"3000-01-01","pin":"685194","status":"SUCCESS","type":"code"}],"error_code":null,"error_details":null,"error_string":null,"order_id":"O-EVNXEXLK","status":"SUCCESS"}
+      string: '{"e_code":{"amount":"10.00","barcode_format":null,"barcode_string":null,"code":"5096188913671685","error_code":null,"error_string":null,"expiry_date":"3000-01-01","pin":"895438","status":"SUCCESS","type":"code"},"e_codes":[{"amount":"10.00","barcode_format":null,"barcode_string":null,"code":"5096188913671685","error_code":null,"error_string":null,"expiry_date":"3000-01-01","pin":"895438","status":"SUCCESS","type":"code"}],"error_code":null,"error_details":null,"error_string":null,"order_id":"O-9V6J8LN4","status":"SUCCESS"}
 
         '
     http_version: 
-  recorded_at: Tue, 26 Apr 2022 07:39:49 GMT
+  recorded_at: Tue, 26 Apr 2022 08:31:30 GMT
 recorded_with: VCR 3.0.3

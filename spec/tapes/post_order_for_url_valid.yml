@@ -5,7 +5,7 @@ http_interactions:
     uri: https://playground.wegift.io/api/b2b-sync/v1/order-digital-card
     body:
       encoding: UTF-8
-      string: '{"product_code":"1800BAS-US","currency_code":"USD","amount":10,"delivery_method":"direct","delivery_format":"url-instant","notification_email":null,"delivery_email":null,"external_ref":"1650958789.297738"}'
+      string: '{"product_code":"1800BAS-US","currency_code":"USD","amount":10,"delivery_method":"direct","delivery_format":"url-instant","notification_email":null,"delivery_email":null,"external_ref":"1650961890.3513324"}'
     headers:
       User-Agent:
       - Faraday v0.17.5
@@ -21,11 +21,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 26 Apr 2022 07:39:50 GMT
+      - Tue, 26 Apr 2022 08:31:31 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '223'
+      - '225'
       Connection:
       - keep-alive
       Cache-Control:
@@ -49,18 +49,18 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cqRCpN5ZoKR2DDkKSj110Sk0JXD9M15H4%2FD5PVaHoaoi%2F7HsqBjFeIcQh11mEsPFB%2FPNzZtWyOSp%2FHTYNS37imeTP7ZM6DTfxy%2Blo7BvnFBGNQTCPmdzbl7UF3LFUyxOqZe50aCZUX0TSieKnh%2BAVebW"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JDTHVGopaLMpbREaZi4KpiLWgs9SUJ3qo1ilpDPuimadc0oPGjX6%2Bz%2F%2BmZTqsCaigCsWAwvo0Ufev3Vn%2FHi5WVePTKf1mA9segyUOsgyhPa0EBKEy9GyGTZwroHxHMi8NKW%2BsLu9Jb0XTip65Zu5x2IA"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 701daab12bfb727e-HAM
+      - 701df666cdad4174-HAM
     body:
       encoding: ASCII-8BIT
-      string: '{"e_code":{"delivery_url":"https://playground.wegift.io/public/gifts/instant/5b70bbb7-34ae-40ba-8dd0-5f885bf4141c","error_code":null,"error_string":null,"expiry_date":"3000-01-01","status":"SUCCESS"},"e_codes":[{"delivery_url":"https://playground.wegift.io/public/gifts/instant/5b70bbb7-34ae-40ba-8dd0-5f885bf4141c","error_code":null,"error_string":null,"expiry_date":"3000-01-01","status":"SUCCESS"}],"error_code":null,"error_details":null,"error_string":null,"order_id":"O-3V5JAJDV","status":"SUCCESS"}
+      string: '{"e_code":{"delivery_url":"https://playground.wegift.io/public/gifts/instant/2e2d51af-5a06-4ed8-9cfc-34d862f85f40","error_code":null,"error_string":null,"expiry_date":"3000-01-01","status":"SUCCESS"},"e_codes":[{"delivery_url":"https://playground.wegift.io/public/gifts/instant/2e2d51af-5a06-4ed8-9cfc-34d862f85f40","error_code":null,"error_string":null,"expiry_date":"3000-01-01","status":"SUCCESS"}],"error_code":null,"error_details":null,"error_string":null,"order_id":"O-7VJA8GJV","status":"SUCCESS"}
 
         '
     http_version: 
-  recorded_at: Tue, 26 Apr 2022 07:39:50 GMT
+  recorded_at: Tue, 26 Apr 2022 08:31:31 GMT
 recorded_with: VCR 3.0.3

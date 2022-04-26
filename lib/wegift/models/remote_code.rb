@@ -12,7 +12,7 @@ module Wegift
       :pin, :type
 
     def get(ctx)
-      parse(Faraday.get("#{url}?format=json"))
+      parse(Faraday.get("#{url}?format=json") { |r| r.headers['Accept'] = 'application/json' })
     end
 
     def parse(response)
