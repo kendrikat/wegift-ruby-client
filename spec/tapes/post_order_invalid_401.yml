@@ -7,10 +7,8 @@ http_interactions:
       encoding: UTF-8
       string: '{"product_code":"tTV","currency_code":"GBP","amount":"0","delivery_method":"direct","delivery_format":"raw","notification_email":null,"delivery_email":null,"external_ref":null}'
     headers:
-      Authorization:
-      - Basic REDACTED==
       User-Agent:
-      - Faraday v0.17.3
+      - Faraday v0.17.5
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -22,41 +20,48 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Server:
-      - nginx
       Date:
-      - Thu, 20 Feb 2020 09:41:54 GMT
+      - Tue, 26 Apr 2022 07:39:44 GMT
       Content-Type:
       - application/json
-      Content-Length:
-      - '146'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
       Cache-Control:
       - must-revalidate, no-store, no-cache, private
-      Vary:
-      - Cookie
-      Set-Cookie:
-      - session=eyJfcGVybWFuZW50Ijp0cnVlfQ.Xk5UYg.gpijxwiB6RE8RpFJL-nrapStEdo; Expires=Sun,
-        22-Mar-2020 09:41:54 GMT; Secure; HttpOnly; Path=/
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Permitted-Cross-Domain-Policies:
-      - master-only
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubdomains
       Referrer-Policy:
       - same-origin
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Vary:
+      - Cookie
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      X-Xss-Protection:
+      - 1; mode=block
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QFRoFXSbdgOSUSLR190ttjb8mJvu0JhKIqJedGDJemoOjSav0VuOElFjVzQyyubXKybACHXjIze4Ymb79tQ7cOeBVukoL0FPb8wadWYNcnxVhcqzhckV5AhGUt0eIVPp%2FMBqMXg8DK1O9chx3H%2FDbjCQ"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 701daa94d89d727e-HAM
     body:
-      encoding: UTF-8
+      encoding: ASCII-8BIT
       string: '{"error_code":"SE003","error_details":"Invalid amount \"0\" - amount
         must be positive","error_string":"Field has invalid value","status":"ERROR"}
 
-'
+        '
     http_version: 
-  recorded_at: Thu, 20 Feb 2020 09:41:54 GMT
+  recorded_at: Tue, 26 Apr 2022 07:39:44 GMT
 recorded_with: VCR 3.0.3

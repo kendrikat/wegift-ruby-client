@@ -7,10 +7,8 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      Authorization:
-      - Basic REDACTED==
       User-Agent:
-      - Faraday v0.17.3
+      - Faraday v0.17.5
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -22,38 +20,47 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Server:
-      - nginx
       Date:
-      - Thu, 20 Feb 2020 09:42:01 GMT
+      - Tue, 26 Apr 2022 07:39:51 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '889'
+      - '919'
       Connection:
       - keep-alive
       Cache-Control:
       - must-revalidate, no-store, no-cache, private
-      Vary:
-      - Accept-Encoding, Cookie
-      Set-Cookie:
-      - session=eyJMb2NhbGVTZXNzaW9uIjp7Il9fdl9fIjoxfSwiX3Blcm1hbmVudCI6dHJ1ZX0.Xk5UaQ.ymV4VvEGW1tfIc9e6j_Bs9HeOfI;
-        Expires=Sun, 22-Mar-2020 09:42:01 GMT; Secure; HttpOnly; Path=/
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Permitted-Cross-Domain-Policies:
-      - master-only
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubdomains
       Referrer-Policy:
       - same-origin
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Vary:
+      - Accept-Encoding, Cookie
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      X-Xss-Protection:
+      - 1; mode=block
+      Cf-Cache-Status:
+      - BYPASS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=beagL1grH9vtWXfoHvAvt2ku524RrQK9X01SPk6ZIXv5ac5Knrds1r7oXAzcKVlIPNHMszN7A3ScuX1A4WzYGd7n8NHhoI0cfLIMJc8EOXJu7rIDmW4DfQH61P4Y%2F%2FRqiN7O4gOmCvpBdOn%2FvReoX0ee"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 701daabc3ae94163-HAM
     body:
       encoding: ASCII-8BIT
-      string: '{"availability":"stocked","available_denominations":["15.00","25.00","50.00","100.00"],"barcode_format":null,"card_image_url":"https://playground.wegift.io/static/product_assets/BLUMEN-DE/BLUMEN-DE-card.png","categories":["food-and-drink","home-and-diy"],"code":"BLUMEN-DE","countries":["DE"],"currency_code":"EUR","denomination_type":"fixed","description":"Es
+      string: '{"availability":"stocked","available_denominations":["15.00","20.00","25.00","50.00","100.00"],"available_in_days":3,"barcode_format":null,"card_image_url":"https://playground.wegift.io/static/product_assets/BLUMEN-DE/BLUMEN-DE-card.png","categories":["food-and-drink","home-and-diy"],"code":"BLUMEN-DE","countries":["DE"],"currency_code":"EUR","denomination_type":"fixed","description":"Es
         gibt viele Anl\u00e4sse bei denen ein herrlicher frischer Blumenstrau\u00df
         die Augen der Beschenkten blitzen l\u00e4sst. Blumen verschicken war noch
         nie so einfach wie mit 123 Blumenversand. Ob es ein sch\u00f6ner bunter Blumenstrau\u00df
@@ -61,13 +68,13 @@ http_interactions:
         soll, f\u00fcr Sie versenden wir alle Blumen an Ihre Wunschlieferadresse.\r\nAls
         online Blumenversand verstehen wir es Ihre Zimmerpflanzen, Gestecke oder Blumenstr\u00e4u\u00dfe
         so zu versenden, dass wir die Frische Ihrer Blumen  garantieren k\u00f6nnen.","e_code_usage_type":null,"expiry_date_policy":"Expires
-        2 years from issue date","expiry_in_months":24,"expiry_mode":"from-issue-date","maximum_value":"100.00","minimum_value":"15.00","name":"123
-        Blumenversand DE","percent_discount":"10.0","redeem_instructions_html":"<p>Der
+        2 years from issue date","expiry_in_months":24,"expiry_mode":"from-issue-date","logo_image_url":"https://playground.wegift.io/static/product_assets/BLUMEN-DE/BLUMEN-DE-logo.png","maximum_value":"100.00","minimum_value":"15.00","name":"123
+        Blumenversand DE","percent_discount":"10.0000","redeem_instructions_html":"<p>Der
         gutschein kann auf der Seite \"Zahlung\" eingel\u00f6st werden. Der code eintragen
-        und auf \"Gutschein einl\u00f6sen\" klicken.</p>","state":"LIVE","terms_and_conditions_html":"<p>F\u00fcr
+        und auf \"Gutschein einl\u00f6sen\" klicken.</p>","redeemable_at":"online","state":"LIVE","terms_and_conditions_html":"<p>F\u00fcr
         vollst\u00e4ndige Gesch\u00e4ftsbedingungen besuchen Sie bitte https://www.123blumenversand.de/de/content/2225_agb-und-info.html</p>","terms_and_conditions_pdf_url":"https://playground.wegift.io/public/terms/BLUMEN-DE.pdf","terms_and_conditions_url":"https://playground.wegift.io/public/terms/BLUMEN-DE.pdf","wrap_supported":false}
 
-'
+        '
     http_version: 
-  recorded_at: Thu, 20 Feb 2020 09:42:01 GMT
+  recorded_at: Tue, 26 Apr 2022 07:39:51 GMT
 recorded_with: VCR 3.0.3

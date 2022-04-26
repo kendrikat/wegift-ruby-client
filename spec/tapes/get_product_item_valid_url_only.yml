@@ -7,10 +7,8 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      Authorization:
-      - Basic REDACTED==
       User-Agent:
-      - Faraday v0.17.3
+      - Faraday v0.17.5
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -22,38 +20,47 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Server:
-      - nginx
       Date:
-      - Thu, 20 Feb 2020 09:42:01 GMT
+      - Tue, 26 Apr 2022 07:39:51 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '1833'
+      - '1922'
       Connection:
       - keep-alive
       Cache-Control:
       - must-revalidate, no-store, no-cache, private
-      Vary:
-      - Accept-Encoding, Cookie
-      Set-Cookie:
-      - session=eyJMb2NhbGVTZXNzaW9uIjp7Il9fdl9fIjoxfSwiX3Blcm1hbmVudCI6dHJ1ZX0.Xk5UaQ.ymV4VvEGW1tfIc9e6j_Bs9HeOfI;
-        Expires=Sun, 22-Mar-2020 09:42:01 GMT; Secure; HttpOnly; Path=/
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Permitted-Cross-Domain-Policies:
-      - master-only
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubdomains
       Referrer-Policy:
       - same-origin
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Vary:
+      - Accept-Encoding, Cookie
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      X-Xss-Protection:
+      - 1; mode=block
+      Cf-Cache-Status:
+      - BYPASS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fEHoDtdh8X3YlTbAvQegUdlKunv2DI8fTmLvmyKbFKoNzG6VjkCEPyIVjHkBTsVCxd%2BEbqbNd5De7yMasJGDU677rkcZrVkLyaifSZgXN7Bv6byv6xVNphnKUkqPIOV9hlWdKLNx05EqcxF%2Fw4%2BCDtIc"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 701daabeeb84d463-HAM
     body:
       encoding: ASCII-8BIT
-      string: '{"availability":"realtime","available_denominations":null,"barcode_format":null,"card_image_url":"https://playground.wegift.io/static/product_assets/ARGOS-GB/ARGOS-GB-card.png","categories":["electricals","entertainment","jewellers","leisure-and-sports","mens-fashion","toys-and-games","womens-fashion"],"code":"ARGOS-GB","countries":["GB"],"currency_code":"GBP","denomination_type":"open","description":"50,000
+      string: '{"availability":"realtime","available_denominations":null,"available_in_days":1,"barcode_format":null,"card_image_url":"https://playground.wegift.io/static/product_assets/ARGOS-GB/ARGOS-GB-card.png","categories":["electricals","entertainment","fashion","jewellers","leisure-and-sports","toys-and-games"],"code":"ARGOS-GB","countries":["GB"],"currency_code":"GBP","denomination_type":"open","description":"50,000
         products, 1 eGift Card.\r\n\r\nThe new Argos eGift Card is the perfect way
         to get your hands on shiny new stuff. Fast.\r\n\r\nDelivered to you by email,
         you can spend your eGift Card online at argos.co.uk. Letting you shop from
@@ -66,29 +73,33 @@ http_interactions:
         Argos Fast Track Delivery available on many items, Argos can deliver to your
         door the same day! Just\r\ncheck for the Fast Track badge on your selected
         product at argos.co.uk.\r\n\r\nSelect Argos eGift Card. Go Argos.","e_code_usage_type":"url-only","expiry_date_policy":"Expires
-        2 years from issue date","expiry_in_months":24,"expiry_mode":"from-issue-date","maximum_value":"500.00","minimum_value":"5.00","name":"Argos","percent_discount":"10.0","redeem_instructions_html":"<p>At
-        Argos, you can choose from over 50,000 products, including the latest must
-        have items. From tech to toys, furniture to jewellery, there''s bound to be
-        a great gift for you.</p>\n<p>You can use your Argos eGift Card online <a
-        href=\"http://www.argos.co.uk/\">argos.co.uk</a> or in any of our 840 stores
-        nationwide. Want it today? With Argos Fast Track Delivery available on many
-        items, Argos can deliver to your door the same day! Just check for the Fast
-        Track badge on your selected product online.</p>\n<p>Let''s get started</p>\n<p><strong>Spending
-        online</strong> \u2014 Click the link below to download your unique eGift
-        Card number and PIN. Then simply visit <a href=\"http://www.argos.co.uk/\">argos.co.uk</a>
-        and add your selected item(s) to the online basket. Proceed through to checkout,
-        select your chosen method of delivery/collection and then input your eGift
-        Card and PIN as payment. You can use the eGift Card as full or part payment,
-        but please note only three eGift Cards can be used per transaction.</p>\n<p><strong>Spending
-        ln-Store</strong> \u2014 Click the link below to download your unique eGift
-        Card. Present this at the till point in your local Argos store either on your
-        mobile device or as a print-out, Find your local store here: <a href=\"http://www.argos.co.uk/stores/\">argos.co.uk/stores/</a>.
+        2 years from issue date","expiry_in_months":24,"expiry_mode":"from-issue-date","logo_image_url":"https://playground.wegift.io/static/product_assets/ARGOS-GB/ARGOS-GB-logo.png","maximum_value":"500.00","minimum_value":"5.00","name":"Argos","percent_discount":"10.0000","redeem_instructions_html":"<p>Please
+        check <a href=\"https://www.argos.co.uk/features/service-disruptions\">www.argos.co.uk/features/service-disruptions</a>
+        for any disruptions in service during the Covid-19 outbreak. </p>\n<p>At Argos,
+        you can choose from over 50,000 products, including the latest must have items.
+        From tech to toys, furniture to jewellery, there''s bound to be a great gift
+        for you.</p>\n<p>You can use your Argos eGift Card online <a href=\"http://www.argos.co.uk/\">argos.co.uk</a>
+        or in any of our 840 stores nationwide. Want it today? With Argos Fast Track
+        Delivery available on many items, Argos can deliver to your door the same
+        day! Just check for the Fast Track badge on your selected product online.</p>\n<p>Let''s
+        get started</p>\n<p><strong>Spending online</strong> \u2014 Click the link
+        below to download your unique eGift Card number and PIN. Then simply visit
+        <a href=\"http://www.argos.co.uk/\">argos.co.uk</a> and add your selected
+        item(s) to the online basket. Proceed through to checkout, select your chosen
+        method of delivery/collection and then input your eGift Card and PIN as payment.
+        You can use the eGift Card as full or part payment, but please note only three
+        eGift Cards can be used per transaction.</p>\n<p><strong>Spending ln-Store</strong>
+        \u2014 Click the link below to download your unique eGift Card. Present this
+        at the till point in your local Argos store either on your mobile device or
+        as a print-out, Find your local store here: <a href=\"http://www.argos.co.uk/stores/\">argos.co.uk/stores/</a>.
         Then simply head to your chosen store to spend your award.</p>\n<p>Remember
         you can use the Fast Track Collection or Check &amp; Reserve service to ensure
         the item is available when you visit the store. These services are available
-        on the Argos website \u2013 <a href=\"http://www.argos.co.uk/\">argos.co.uk</a>.</p>","state":"LIVE","terms_and_conditions_html":"<p>eGift
+        on the Argos website \u2013 <a href=\"http://www.argos.co.uk/\">argos.co.uk</a>.</p>","redeemable_at":"all","state":"LIVE","terms_and_conditions_html":"<p>Please
+        check <a href=\"https://www.argos.co.uk/features/service-disruptions\">www.argos.co.uk/features/service-disruptions</a>
+        for any disruptions in service during the Covid-19 outbreak. </p>\n<p>eGift
         Cards may be redeemed in full or part payment for goods in any UK Argos store
-        or online at <a href=\"http://www.argos.co.uk/\">argos.co.uk</a>, including
+        or online at <a href=\"http://www.argos.co.uk/\">www.argos.co.uk</a>, including
         current promotional offers, at the prevailing prices listed. eGift Cards cannot
         be used for purchases made over the phone. eGift Cards cannot be used for
         the purchase of other gift cards or vouchers. GBP \u00a3 eGift Cards cannot
@@ -102,7 +113,7 @@ http_interactions:
         into your account at <a href=\"http://www.argos.co.uk/\">argos.co.uk</a> and
         use the balance checker provided.</p>","terms_and_conditions_pdf_url":"https://playground.wegift.io/public/terms/ARGOS-GB.pdf","terms_and_conditions_url":"https://playground.wegift.io/public/terms/ARGOS-GB.pdf","wrap_supported":true}
 
-'
+        '
     http_version: 
-  recorded_at: Thu, 20 Feb 2020 09:42:01 GMT
+  recorded_at: Tue, 26 Apr 2022 07:39:51 GMT
 recorded_with: VCR 3.0.3

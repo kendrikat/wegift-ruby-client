@@ -21,7 +21,7 @@ http_interactions:
       message: Unauthorized
     headers:
       Date:
-      - Fri, 18 Mar 2022 21:39:55 GMT
+      - Tue, 26 Apr 2022 07:39:52 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -51,19 +51,19 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VVD5kOjywdBBYbNjznXYHTzrEdnXxnu7sM3nOZ54wp6nt8I%2Be7PByHJbthrBqchf7zWzhMMDZsjxHXShNQ9EDxUch6OPG4r9RNX7ZhoF%2B9Yv8ZS8%2F30HcaRbg3yIAHMkwSjvrpH%2F"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Go0c5Grq9aNTYgPP0PXz2F889la61r6F53u8n%2B8rSJzM9vnl40LMV22VUFprDbzRv8ZjNiz7Z2ZI5EC8oqFKlj6ikP80ricnJEZ9i1KbgZGu0gaNHQmpmHwZmpOHEwhLjwN%2BSmhPZPVFhYyAZijE9Qzg"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6ee11fb1be5f7737-LHR
+      - 701daac3fbbe417b-HAM
     body:
       encoding: UTF-8
       string: '{"error_code":"SE001","error_details":"Invalid credentials","error_string":"Authentication
         failed","status":"ERROR"}
 
         '
-    http_version:
-  recorded_at: Fri, 18 Mar 2022 21:40:08 GMT
+    http_version: 
+  recorded_at: Tue, 26 Apr 2022 07:39:52 GMT
 recorded_with: VCR 3.0.3

@@ -11,16 +11,8 @@ module Wegift
     attr_accessor :amount, :barcode_format, :barcode_string, :code, :expiry_date,
       :pin, :type
 
-    def self.get(url)
-      uri = URI(url)
-      conn = Faraday.new(url: "#{uri.scheme}://#{uri.host}")
-
-      response =  conn.get("#{uri.path}?format=json") do |req|
-        req.headers['Content-Type'] = 'application/json'
-      end
-
-      remote_code = self.new(url: url)
-      remote_code.parse(response)
+    def get(ctx)
+      parse(Faraday.get("#{url}?format=json"))
     end
 
     def parse(response)
