@@ -7,6 +7,7 @@ require_relative 'models/product'
 require_relative 'models/products'
 require_relative 'models/order'
 require_relative 'models/stock'
+require_relative 'models/remote_code'
 
 module Wegift
   class Client
@@ -63,6 +64,10 @@ module Wegift
     def stock(id)
       stock = Wegift::Stock.new(id: id)
       stock.get(self)
+    end
+
+    def remote_code(url)
+      Wegift::RemoteCode.get(url)
     end
   end
 end
