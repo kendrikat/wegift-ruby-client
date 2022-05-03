@@ -67,7 +67,8 @@ module Wegift
     end
 
     def remote_code(url)
-      Wegift::RemoteCode.get(url)
+      code = Wegift::RemoteCode.new(url: url)
+      code.get(self)
     end
   end
 end

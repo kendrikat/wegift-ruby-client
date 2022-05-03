@@ -1,33 +1,33 @@
 ---
 http_interactions:
 - request:
-    method: post
-    uri: https://playground.wegift.io/api/b2b-sync/v1/order-digital-card
+    method: get
+    uri: https://playground.wegift.io/public/gifts/instant/c02bd09f-0000-0000-0000-38f4143a01d1?format=json
     body:
-      encoding: UTF-8
-      string: '{"product_code":"NOPE","currency_code":"5","amount":"4","delivery_method":"2","delivery_format":"3","notification_email":null,"delivery_email":null,"external_ref":"6"}'
+      encoding: US-ASCII
+      string: ''
     headers:
       User-Agent:
       - Faraday v0.17.5
-      Content-Type:
+      Accept:
       - application/json
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
   response:
     status:
-      code: 200
-      message: OK
+      code: 404
+      message: Not Found
     headers:
       Date:
-      - Tue, 26 Apr 2022 08:31:24 GMT
+      - Tue, 26 Apr 2022 08:31:34 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
       - chunked
       Connection:
       - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
       Cache-Control:
       - must-revalidate, no-store, no-cache, private
       Referrer-Policy:
@@ -49,20 +49,19 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lW3XFEtK%2Bm53p1qn0uhg9wqlLiez3qFdTAXJePpEVGB%2BlLTHenGpOLkW%2BNuVFF9LDlB3h0a7wGdh0GddAm796S8coBOlUhFnCPoa5tCyfWq8AB2PxwtjqllkakusAOewQAoemMoKsakfhjT2YG%2BGeKMm"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KJli%2BoQjZK6Jd%2FUZMKPbMPeLwyZGNkKYxzX8O%2B%2FfIaHpY%2BaC3bFeflL6ClJ7rzGCj%2BnJdX3mxKky2yLrK90Is4rp43vb5cUhQtA%2Fu2KWqEt1E7DuRPp6sBWiteIS5DiNiZITTcLzV3YfwX1fz3Pp1v1P"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 701df6424d2e7272-HAM
+      - 701df67daea2727f-HAM
     body:
       encoding: ASCII-8BIT
-      string: '{"error_code":"SE003","error_details":"Invalid delivery method: \"2\".
-        Valid values are: \"direct\", \"email\"","error_string":"Field has invalid
-        value","status":"ERROR"}
+      string: '{"error_code":"RE001","error_details":"The e-code was not found. Please
+        check the link.","error_string":"E-code not found","status":"ERROR"}
 
         '
     http_version: 
-  recorded_at: Tue, 26 Apr 2022 08:31:24 GMT
+  recorded_at: Tue, 26 Apr 2022 08:31:34 GMT
 recorded_with: VCR 3.0.3

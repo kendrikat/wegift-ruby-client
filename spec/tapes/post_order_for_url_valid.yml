@@ -5,12 +5,10 @@ http_interactions:
     uri: https://playground.wegift.io/api/b2b-sync/v1/order-digital-card
     body:
       encoding: UTF-8
-      string: '{"product_code":"1800BAS-US","currency_code":"USD","amount":10,"delivery_method":"direct","delivery_format":"url-instant","notification_email":null,"delivery_email":null,"external_ref":"1582191718.8117144"}'
+      string: '{"product_code":"1800BAS-US","currency_code":"USD","amount":10,"delivery_method":"direct","delivery_format":"url-instant","notification_email":null,"delivery_email":null,"external_ref":"1650961890.3513324"}'
     headers:
-      Authorization:
-      - Basic REDACTED==
       User-Agent:
-      - Faraday v0.17.3
+      - Faraday v0.17.5
       Content-Type:
       - application/json
       Accept-Encoding:
@@ -22,40 +20,47 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Server:
-      - nginx
       Date:
-      - Thu, 20 Feb 2020 09:41:59 GMT
+      - Tue, 26 Apr 2022 08:31:31 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '221'
+      - '225'
       Connection:
       - keep-alive
       Cache-Control:
       - must-revalidate, no-store, no-cache, private
-      Vary:
-      - Accept-Encoding, Cookie
-      Set-Cookie:
-      - session=eyJMb2NhbGVTZXNzaW9uIjp7Il9fdl9fIjoxfSwiX3Blcm1hbmVudCI6dHJ1ZX0.Xk5UZw.YLFEckG29mPjXY4DIuU9GalZ6uo;
-        Expires=Sun, 22-Mar-2020 09:41:59 GMT; Secure; HttpOnly; Path=/
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Xss-Protection:
-      - 1; mode=block
-      X-Permitted-Cross-Domain-Policies:
-      - master-only
-      X-Content-Type-Options:
-      - nosniff
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubdomains
       Referrer-Policy:
       - same-origin
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Vary:
+      - Accept-Encoding, Cookie
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      X-Xss-Protection:
+      - 1; mode=block
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JDTHVGopaLMpbREaZi4KpiLWgs9SUJ3qo1ilpDPuimadc0oPGjX6%2Bz%2F%2BmZTqsCaigCsWAwvo0Ufev3Vn%2FHi5WVePTKf1mA9segyUOsgyhPa0EBKEy9GyGTZwroHxHMi8NKW%2BsLu9Jb0XTip65Zu5x2IA"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 701df666cdad4174-HAM
     body:
       encoding: ASCII-8BIT
-      string: '{"e_code":{"delivery_url":"https://playground.wegift.io/public/gifts/instant/0d4d0d33-7336-4209-a11c-d1d67dfa61b7","error_code":null,"error_string":null,"expiry_date":"3000-01-01","status":"SUCCESS"},"e_codes":[{"delivery_url":"https://playground.wegift.io/public/gifts/instant/0d4d0d33-7336-4209-a11c-d1d67dfa61b7","error_code":null,"error_string":null,"expiry_date":"3000-01-01","status":"SUCCESS"}],"error_code":null,"error_details":null,"error_string":null,"order_id":"O-24WBBDR4","status":"SUCCESS"}
+      string: '{"e_code":{"delivery_url":"https://playground.wegift.io/public/gifts/instant/2e2d51af-5a06-4ed8-9cfc-34d862f85f40","error_code":null,"error_string":null,"expiry_date":"3000-01-01","status":"SUCCESS"},"e_codes":[{"delivery_url":"https://playground.wegift.io/public/gifts/instant/2e2d51af-5a06-4ed8-9cfc-34d862f85f40","error_code":null,"error_string":null,"expiry_date":"3000-01-01","status":"SUCCESS"}],"error_code":null,"error_details":null,"error_string":null,"order_id":"O-7VJA8GJV","status":"SUCCESS"}
 
-'
+        '
     http_version: 
-  recorded_at: Thu, 20 Feb 2020 09:41:59 GMT
+  recorded_at: Tue, 26 Apr 2022 08:31:31 GMT
 recorded_with: VCR 3.0.3
