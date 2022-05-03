@@ -13,7 +13,11 @@ module Wegift
       :pin, :type
 
     def get(ctx)
-      parse(Faraday.get("#{url}?format=json") { |r| r.headers['Accept'] = 'application/json' })
+      conn = Faraday.new(url: url) do |c|
+        c.adapter :net_http
+        c.use FaradayMiddleware::FollowRedirects, limit: 5
+      end
+      parse(conn.get("#{url}?format=json") { |r| r.headers['Accept'] = 'application/json' })
     end
 
     def parse(response)

@@ -10,17 +10,17 @@ RSpec.describe Wegift::RemoteCode do
 
     context 'when URL is invalid' do
       let(:url) { 'https://thisnotworking.yo' }
-      
+
       it 'raises error' do
         VCR.use_cassette('get_remote_code_invalid_url_does_not_exist') do
-          expect { remote_code }.to raise_error(Faraday::ClientError)
+          expect { remote_code }.to raise_error(Faraday::ConnectionFailed)
         end
       end
     end
 
     context 'when URL is valid but not known' do
       let(:url) { 'https://example.com' }
-      
+
       it 'is not successful' do
         VCR.use_cassette('get_remote_code_invalid_wrong_url_exists') do
           expect(remote_code.is_successful?).to be false
@@ -35,7 +35,7 @@ RSpec.describe Wegift::RemoteCode do
 
     context 'when URL is valid but not known to wegift' do
       let(:url) { 'https://playground.wegift.io/public/gifts/instant/c02bd09f-0000-0000-0000-38f4143a01d1' }
-      
+
       it 'is not successful' do
         VCR.use_cassette('get_remote_code_invalid_unknown_wegift_url') do
           expect(remote_code.is_successful?).to be false
