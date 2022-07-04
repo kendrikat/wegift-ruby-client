@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://playground.wegift.io/api/b2b-sync/v1/products/800PET-US
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.10.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 04 Jul 2022 14:34:53 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1209'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - must-revalidate, no-store, no-cache, private
+      Referrer-Policy:
+      - same-origin
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Vary:
+      - Accept-Encoding, Cookie
+      X-Content-Type-Options:
+      - nosniff
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      X-Xss-Protection:
+      - 1; mode=block
+      Cf-Cache-Status:
+      - BYPASS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3TFU4kZFDQ50fxzZxjLaIM%2Bbc0Tmh9TLn5pk%2FRjRI8Sl%2FGQCRj7jYnLnbnmu%2BXXWaOEwDJ%2BEkcQYiNRdR8SIf17VODzrm20DxzxG9i3qQMyvnw01HZCw%2FS%2FnL%2FrgJwtSOcISMPB5"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 725895942df0070e-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"availability":"realtime","available_denominations":["25.00","50.00"],"available_in_days":1,"barcode_format":null,"card_image_url":"https://playground.wegift.io/static/product_assets_static/PLACEHOLDER/PLACEHOLDER-card.png","categories":["department-stores"],"code":"800PET-US","countries":["US"],"currency_code":"USD","denomination_type":"fixed","description":"The
+        1-800-PetSupplies.com staff features some of the leading authorities in the
+        pet world. We are dedicated to you and your pets, creating the best place
+        online to meet others, learn the new and exciting, blog, shop and easily find
+        anything and everything pet related.","e_code_usage_type":null,"expiry_date_policy":"Does
+        not expire","expiry_in_months":null,"expiry_mode":"indefinite","logo_image_url":null,"maximum_value":"50.00","minimum_value":"25.00","name":"1-800-PetSupplies-US","percent_discount":"10.0000","public_name":"1-800-PetSupplies","redeem_instructions_html":null,"redeemable_at":"online","state":"LIVE","terms_and_conditions_html":"<p>Terms
+        and Conditions Your acceptance of this eCertificate constitutes your agreement
+        to these terms and conditions. This card is redeemable in U.S. only for merchandise
+        on www.1-800-petsupplies.com. Only two eCertificates are redeemable per order.
+        eCertificates cannot be redeemed for cash, except as required by law. Void
+        if altered or reproduced. This gift card is issued in U.S. funds by Tabcom,
+        LLC.When Redeeming online please be sure to enter the entire gift card number
+        including preceding zeros. The maximum number of eCertificates that can be
+        used for phone is nine.By accepting these Terms and Conditions through your
+        use of this Site, you certify that you reside in the United States and are
+        18 years of age or older. If you are under the age of 18 but at least 14 years
+        of age you may use this Site only under the supervision of a parent or legal
+        guardian who agrees to be bound by these Terms and Conditions. TABcom does
+        not knowingly collect personal information about children under the age of
+        14 without prior parental consent. If you are a parent or legal guardian agreeing
+        to these Terms and Conditions for the benefit of a child between the ages
+        of 14 and 18, please be advised that you are fully responsible for his or
+        her use of this site, including all financial charges and legal liability
+        that he or she may incur.</p>","terms_and_conditions_pdf_url":"https://playground.wegift.io/public/terms/800PET-US.pdf","terms_and_conditions_url":"https://playground.wegift.io/public/terms/800PET-US.pdf","wrap_supported":false}
+
+'
+    http_version: 
+  recorded_at: Mon, 04 Jul 2022 14:34:53 GMT
+recorded_with: VCR 3.0.3
