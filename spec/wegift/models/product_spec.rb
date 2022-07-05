@@ -33,13 +33,13 @@ RSpec.describe Wegift::Product do
       it 'should return a single product' do
         VCR.use_cassette('get_product_catalogue_valid') do
           products = client.products.all
-          product_from_catalog = products.first
+          product_from_catalogue = products.first
 
           VCR.use_cassette('get_product_item_valid') do
-            product = client.product(product_from_catalog.code)
+            product = client.product(product_from_catalogue.code)
 
             expect(product.class).to eq(Wegift::Product)
-            expect(product.code).to eq(product_from_catalog.code)
+            expect(product.code).to eq(product_from_catalogue.code)
           end
         end
       end
