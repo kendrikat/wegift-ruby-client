@@ -5,23 +5,24 @@ require 'spec_helper'
 RSpec.describe Wegift::Product do
   describe 'GET' do
     describe 'all' do
-      it 'should return error if unauthed' do
-        client = set_wegift_client_unauthed
+      let(:code) { 'ARGOS-GB' }
+      let(:client) { set_wegift_client }
+      let(:product) { client.product(code) }
+      let(:products) { client.products }
 
-        VCR.use_cassette('get_product_catalogue_invalid_401') do
-          products = client.products
+      context 'when unauthenticated' do
+        let(:client) { set_wegift_client_unauthed }
 
-          expect(products.class).to eq(Wegift::Products)
-          expect(products.status).to eq(Wegift::Response::STATUS[:error])
+        it 'should return an error' do
+          VCR.use_cassette('get_product_catalogue_invalid_401') do
+            expect(products.class).to eq(Wegift::Products)
+            expect(products.status).to eq(Wegift::Response::STATUS[:error])
+          end
         end
       end
 
       it 'should return a set of products' do
-        client = set_wegift_client
-
         VCR.use_cassette('get_product_catalogue_valid') do
-          products = client.products
-
           expect(products.class).to eq(Wegift::Products)
           expect(products.all.is_a?(Array)).to eq(true)
           expect(products.all.first.class).to eq(Wegift::Product)
@@ -30,76 +31,69 @@ RSpec.describe Wegift::Product do
       end
 
       it 'should return a single product' do
-        client = set_wegift_client
-
         VCR.use_cassette('get_product_catalogue_valid') do
           products = client.products.all
-          p = products.first
+          product_from_catalogue = products.first
 
           VCR.use_cassette('get_product_item_valid') do
-            product = client.product(p.code)
+            product = client.product(product_from_catalogue.code)
 
             expect(product.class).to eq(Wegift::Product)
-            expect(product.code).to eq(p.code)
+            expect(product.code).to eq(product_from_catalogue.code)
           end
         end
       end
 
       it 'should have instructions' do
-        client = set_wegift_client
         VCR.use_cassette('get_product_item_valid_with_instructions') do
-          # picked manually since it could be nil for others
-          code = 'ARGOS-GB'
-          product = client.product(code)
-
           expect(product.class).to eq(Wegift::Product)
           expect(product.code).to eq(code)
           expect(product.redeem_instructions_html).not_to eq(nil)
-          # ...
         end
       end
 
       it 'should have usage type' do
-        client = set_wegift_client
         VCR.use_cassette('get_product_item_valid_url_only') do
-          code = 'ARGOS-GB'
-          product = client.product(code)
-
           # this should exist, can be null, "url-only/url-recommended" (ARGOS-GB / DECA-BE)
           expect(product.e_code_usage_type).to eq('url-only')
-          # ...
         end
       end
 
       it 'should have countries' do
-        client = set_wegift_client
         VCR.use_cassette('get_product_item_valid_url_only') do
-          code = 'ARGOS-GB'
-          product = client.product(code)
-
           expect(product.countries).to eq(["GB"])
-          # ...
         end
       end
 
       it 'should have categories' do
-        client = set_wegift_client
         VCR.use_cassette('get_product_item_valid_url_only') do
-          code = 'ARGOS-GB'
-          product = client.product(code)
-
           expect(product.categories).to include('entertainment')
-          # ...
         end
       end
-      it 'should product state' do
-        client = set_wegift_client
-        VCR.use_cassette('get_product_item_valid_url_only') do
-          code = 'ARGOS-GB'
-          product = client.product(code)
 
+      it 'should have a state' do
+        VCR.use_cassette('get_product_item_valid_url_only') do
           expect(product.state).to eq('LIVE')
-          # ...
+        end
+      end
+
+      context 'realtime availability' do
+        context 'fixed denomination type' do
+          let(:code) { '800PET-US' }
+
+          it 'should have available denominations' do
+            VCR.use_cassette('get_product_item_realtime_fixed') do
+              expect(product.available_denominations).to match_array(['25.00', '50.00'])
+            end
+          end
+        end
+
+        context 'open denomination type' do
+          it 'should not have available denominations' do
+            VCR.use_cassette('get_product_item_valid_url_only') do
+              expect(product.available_denominations).to be_nil
+            end
+          end
         end
       end
     end
