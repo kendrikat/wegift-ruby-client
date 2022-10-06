@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://playground.wegift.io/public/gifts/instant/c02bd09f-0000-0000-0000-38f4143a01d1?format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.17.5
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Thu, 06 Oct 2022 07:13:37 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - must-revalidate, no-store, no-cache, private
+      Referrer-Policy:
+      - same-origin
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Vary:
+      - Cookie
+      X-Content-Type-Options:
+      - nosniff
+      X-Permitted-Cross-Domain-Policies:
+      - master-only
+      X-Xss-Protection:
+      - 1; mode=block
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vtE96VBaOOssKhiYG79H%2B9JLegQpu17TmIvch9ClJhDuFNDdmdP2wezTgmcy%2FCmBVflB4MxRaM4bNvr6%2Fbq9Fx2S1NFmy1MJgilLA%2FAYkR4KFavHRz7k5hFT27SvJLk%2Bi1lUK%2FTKwqBLKa0k26YhPXXV"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 755c986f5ca7ca89-HAM
+    body:
+      encoding: ASCII-8BIT
+      string: '{"error_code":"RE001","error_details":"The e-code was not found. Please
+        check the link.","error_string":"E-code not found","status":"ERROR"}
+
+        '
+    http_version: 
+  recorded_at: Thu, 06 Oct 2022 07:13:37 GMT
+recorded_with: VCR 3.0.3

@@ -8,6 +8,26 @@ RSpec.describe Wegift::RemoteCode do
     let(:remote_code) { client.remote_code(url) }
     let(:client) { set_wegift_client }
 
+    context 'when URL is valid but not known' do
+      let(:url) { 'https://example.com' }
+      
+      it 'is not successful' do
+        VCR.use_cassette('get_remote_code_invalid_wrong_url_exists') do
+          expect(remote_code.is_successful?).to eq false
+        end
+      end
+    end
+
+    context 'when URL is valid but not known to wegift' do
+      let(:url) { 'https://playground.wegift.io/public/gifts/instant/c02bd09f-0000-0000-0000-38f4143a01d1' }
+      
+      it 'is not successful' do
+        VCR.use_cassette('get_remote_code_invalid_unknown_wegift_url') do
+          expect(remote_code.is_successful?).to eq false
+        end
+      end
+    end
+
     it 'is successful' do
       VCR.use_cassette('get_remote_code_valid') do
         expect(remote_code.is_successful?).to be_truthy
